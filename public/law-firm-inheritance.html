@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>قسمة التركات | محامي تركات ومواريث في جدة</title>
+    <meta name="description" content="محامي تركات ومواريث في جدة لقسمة التركات وفق الأحكام الشرعية والأنظمة. متابعة حصر الورثة والأصول، والقسمة الرضائية أو القضائية، وتوثيق القسمة ونقل الملكيات.">
+    <meta name="theme-color" content="#182338">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Readex+Pro:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <script>
+        tailwind.config = { theme: { extend: { colors: { navy: { DEFAULT: '#182338', dark: '#111929', light: '#23324f' }, gold: { DEFAULT: '#8B6528', light: '#C5A978', sand: '#EAE3D5' }, surface: { topbar: '#F3F1EC' } }, fontFamily: { readex: ['"Readex Pro"', 'sans-serif'], montserrat: ['Montserrat', 'sans-serif'] }, boxShadow: { nav: '0 10px 35px -5px rgba(24,35,56,.08)', card: '0 4px 20px -2px rgba(24,35,56,.05)' } } } };
+    </script>
+    <style>
+        :root { color-scheme: light; }
+        * { box-sizing: border-box; }
+        body { margin: 0; background: #fbfbfc; color: #182338; font-family: 'Readex Pro', sans-serif; -webkit-font-smoothing: antialiased; }
+        html[lang="en"] body, html[lang="en"] .font-readex { font-family: 'Montserrat', sans-serif; }
+        html[lang="en"] .text-right { text-align: left; }
+        html[lang="en"] [dir="rtl"] { direction: ltr !important; }
+        .hero-banner { background-image: linear-gradient(90deg,rgba(24,35,56,.83),rgba(24,35,56,.78)),url('/saudi-courtroom.png'); background-position: center 45%; background-size: cover; }
+        .inheritance-table th, .inheritance-table td { border-bottom: 1px solid #e7dfd3; border-inline-end: 1px solid #e7dfd3; vertical-align: top; }
+        .inheritance-table tbody tr:nth-child(even) { background: #f7f5f0; }
+        .inheritance-table tbody tr:nth-child(odd) { background: #fff; }
+        .inheritance-table tbody tr:last-child th, .inheritance-table tbody tr:last-child td { border-bottom: 0; }
+        .inheritance-table tbody th { width: 23%; }
+        .inheritance-table tbody td:nth-child(2) { width: 57%; }
+        .inheritance-table tbody td:last-child { width: 20%; }
+        .faq-item { border-bottom: 1px solid #d9dce1; }
+        .faq-item summary { list-style: none; cursor: pointer; justify-content: flex-start; }
+        .faq-item summary::-webkit-details-marker { display: none; }
+        .faq-item summary:focus-visible, a:focus-visible, button:focus-visible { outline: 3px solid #c5a978; outline-offset: 3px; }
+        .faq-item summary > span:first-child { flex: 0 1 auto; text-align: right; }
+        .faq-item[open] summary { color: #8b6528; }
+        .faq-item[open] > div { margin: 0 0 14px; border-inline-start: 2px solid #c5a978; border-radius: 0 8px 8px 0; background: #f7f5f0; padding: 14px 18px; animation: faq-reveal .24s ease-out both; }
+        .faq-chevron { order: -1; transition: transform .2s ease; }
+        .faq-item[open] .faq-chevron { transform: rotate(180deg); }
+        @keyframes faq-reveal { from { opacity: 0; transform: translateY(-5px); } to { opacity: 1; transform: translateY(0); } }
+        @media (prefers-reduced-motion: reduce) { .faq-item[open] > div, .faq-chevron { animation: none; transition: none; } }
+        @media (max-width: 820px) { .intro-layout { grid-template-columns: 1fr !important; } .intro-aside { grid-column: 1 !important; grid-row: 1; } .intro-copy { grid-column: 1 !important; grid-row: 2; } }
+    </style>
+</head>
+<body>
+    <div class="border-b border-stone-200/80 bg-surface-topbar px-4 py-2.5 text-xs sm:px-8 sm:text-sm">
+        <div class="mx-auto flex max-w-7xl flex-wrap items-center justify-between gap-3">
+            <div class="flex items-center gap-2 font-medium text-stone-600"><i class="fa-regular fa-clock text-base text-gold" aria-hidden="true"></i><span>ساعات العمل: 09:00 - 17:00</span></div>
+            <div class="flex flex-wrap items-center gap-4 font-medium text-stone-600 sm:gap-6" dir="ltr">
+                <a href="tel:+966125118682" class="flex items-center gap-2 transition-colors hover:text-gold"><i class="fa-solid fa-phone-volume text-gold" aria-hidden="true"></i><span>+966 12 511 8682</span></a>
+                <a href="https://wa.me/966560047407" target="_blank" rel="noopener noreferrer" class="hidden items-center gap-1.5 transition-colors hover:text-gold md:flex"><i class="fa-solid fa-mobile-screen-button text-gold" aria-hidden="true"></i><span>+966 56 004 7407</span></a>
+                <a href="mailto:info@alhakamilaw.com" class="flex items-center gap-2 transition-colors hover:text-gold"><i class="fa-regular fa-envelope text-gold" aria-hidden="true"></i><span>info@alhakamilaw.com</span></a>
+            </div>
+        </div>
+    </div>
+    <header class="sticky top-0 z-40 px-3 py-2.5 transition-all duration-300 sm:px-6 lg:px-12" id="mainHeader">
+        <nav class="mx-auto flex max-w-7xl items-center justify-between rounded-xl border border-stone-100 bg-white px-4 py-2 shadow-nav sm:px-6">
+            <a href="/law-firm.html#home" class="group flex shrink-0 select-none items-center gap-3" aria-label="مكتب نواف بن حسن الحكمي للمحاماة والاستشارات القانونية وأعمال التوثيق">
+                <div class="flex h-[52px] w-[52px] shrink-0 items-center justify-center rounded-lg border border-gold/35 bg-[#FAF8F3] p-1 shadow-sm transition-colors group-hover:border-gold sm:h-[58px] sm:w-[58px]"><img src="/nawaf-emblem.svg" alt="" class="h-full w-full object-contain" aria-hidden="true"></div>
+                <div class="flex flex-col justify-center text-right leading-none">
+                    <span class="font-readex text-[13.5px] font-bold leading-tight tracking-tight text-navy sm:text-[15px]">مكتب نواف بن حسن الحكمي</span>
+                    <span class="mt-0.5 font-montserrat text-[8px] font-semibold uppercase leading-tight tracking-[0.14em] text-navy sm:text-[9.5px]">NAWAF BIN HASSAN AL-HAKAMI LAW FIRM</span>
+                    <span class="mt-0.5 font-readex text-[11px] font-medium leading-tight text-gold sm:text-[12px]">للمحاماة والاستشارات القانونية وأعمال التوثيق</span>
+                    <span class="mt-0.5 font-montserrat text-[7.5px] font-medium leading-tight tracking-[0.06em] text-gold sm:text-[8.5px]">Legal Services, Consultancy &amp; Notarial Services</span>
+                </div>
+            </a>
+            <ul class="hidden items-center gap-1 text-[14px] font-semibold text-navy xl:flex">
+                <li><a href="/law-firm.html#home" class="rounded-md px-4 py-2.5 transition-all hover:bg-gold-sand/60">الرئيسية</a></li>
+                <li><a href="/law-firm.html#about" class="rounded-md px-3.5 py-2.5 transition-all hover:bg-gold-sand/60">من نحن</a></li>
+                <li><a href="/law-firm.html#vision" class="rounded-md px-3.5 py-2.5 transition-all hover:bg-gold-sand/60">الرؤية والرسالة</a></li>
+                <li><a href="/law-firm.html#services" class="rounded-md px-3.5 py-2.5 text-gold">خدماتنا</a></li>
+                <li><a href="/law-firm.html#platform" class="rounded-md px-3.5 py-2.5 transition-all hover:bg-gold-sand/60">منصتنا الذكية</a></li>
+                <li><a href="/law-firm.html#partners" class="rounded-md px-3.5 py-2.5 transition-all hover:bg-gold-sand/60">شركاء النجاح</a></li>
+                <li><button class="language-toggle rounded-md px-3 py-2 font-montserrat text-sm font-semibold text-navy transition-colors hover:text-gold" type="button" aria-label="Switch language to English" dir="ltr">English</button></li>
+            </ul>
+            <div class="flex items-center gap-3">
+                <a href="https://wa.me/966560047407" target="_blank" rel="noopener noreferrer" class="hidden rounded-lg bg-navy px-5 py-3 text-xs font-bold text-white shadow-md transition-all hover:bg-navy-light hover:shadow-lg sm:inline-flex sm:px-7 sm:text-sm">تواصلوا معنا</a>
+                <button id="mobileMenuButton" type="button" class="flex h-10 w-10 items-center justify-center rounded-lg bg-stone-100 text-navy transition-colors hover:bg-gold-sand xl:hidden" aria-label="فتح القائمة" aria-expanded="false" aria-controls="mobileMenu"><i class="fa-solid fa-bars text-lg" aria-hidden="true"></i></button>
+            </div>
+        </nav>
+        <div id="mobileMenu" class="mx-auto mt-2 hidden max-w-7xl space-y-2 rounded-xl border border-stone-200 bg-white p-4 shadow-xl xl:hidden">
+            <a href="/law-firm.html#home" class="block rounded-lg px-4 py-2.5 font-bold text-navy hover:bg-stone-100">الرئيسية</a>
+            <a href="/law-firm.html#about" class="block rounded-lg px-4 py-2.5 font-bold text-navy hover:bg-stone-100">من نحن</a>
+            <a href="/law-firm.html#vision" class="block rounded-lg px-4 py-2.5 font-bold text-navy hover:bg-stone-100">الرؤية والرسالة</a>
+            <a href="/law-firm.html#services" class="block rounded-lg bg-gold-sand px-4 py-2.5 font-bold text-navy">خدماتنا</a>
+            <a href="/law-firm.html#platform" class="block rounded-lg px-4 py-2.5 font-bold text-navy hover:bg-stone-100">منصتنا الذكية</a>
+            <a href="/law-firm.html#partners" class="block rounded-lg px-4 py-2.5 font-bold text-navy hover:bg-stone-100">شركاء النجاح</a>
+            <a href="https://wa.me/966560047407" target="_blank" rel="noopener noreferrer" class="block rounded-lg bg-navy px-4 py-2.5 text-center font-bold text-white">تواصلوا معنا</a>
+            <div class="flex items-center justify-between border-t border-stone-200 px-4 pt-2"><a href="tel:+966125118682" class="text-sm font-bold text-gold" dir="ltr">+966 12 511 8682</a><button class="language-toggle font-montserrat text-sm font-bold text-navy" type="button" aria-label="Switch language to English">English</button></div>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero-banner flex min-h-[190px] items-center justify-center px-5 py-12 text-center sm:min-h-[220px]" aria-labelledby="pageTitle">
+            <h1 id="pageTitle" class="font-readex text-3xl font-bold text-white sm:text-4xl">قسمة التركات</h1>
+        </section>
+        <section class="px-4 py-10 sm:px-7 sm:py-14 lg:px-8 lg:py-16" aria-label="خدمات قسمة التركات">
+            <div class="intro-layout mx-auto grid max-w-6xl grid-cols-[280px_minmax(0,1fr)] items-start gap-8 lg:grid-cols-[300px_minmax(0,1fr)] lg:gap-12">
+                <aside class="intro-aside rounded-sm border border-stone-100 bg-white px-6 py-8 text-center shadow-card sm:px-8" aria-label="خدمات التركات والمواريث">
+                    <span class="mx-auto mb-4 flex h-16 w-16 items-center justify-center rounded-full bg-[#faf8f3]" aria-hidden="true"><svg class="h-14 w-14" viewBox="0 0 64 64" fill="none" stroke="#8B6528" stroke-width="1.8"><rect x="16" y="10" width="32" height="44" rx="2"/><path d="M22 18h20M22 25h14M32 32v10M24 42h16M26 42v6h12v-6"/></svg></span>
+                    <h2 class="font-readex text-xl font-bold text-navy">قسمة التركات</h2>
+                    <p class="mt-2 text-sm leading-7 text-stone-500">متابعة قسمة التركة من حصر الورثة والأصول إلى توثيق القسمة ونقل الملكيات.</p>
+                </aside>
+                <article class="intro-copy min-w-0 text-right">
+                    <h2 class="font-readex text-2xl font-bold text-navy sm:text-[27px]">محامي تركات ومواريث في جدة لقسمة التركات وفق الأحكام الشرعية والأنظمة</h2>
+                    <p class="mt-3 text-[15px] leading-9 text-stone-700 sm:text-base">مع التحوّل الرقمي الذي تقوده وزارة العدل ضمن مستهدفات رؤية 2030، أصبح إصدار وثائق حصر الورثة وتوثيق قسمة التركات أكثر يسراً عبر الخدمات الإلكترونية، ومنها منصة التركات. ومع ذلك يظل الالتزام الدقيق بالأحكام الشرعية والأنظمة ذات الصلة، وسداد الديون، وتنفيذ الوصايا، أمراً بالغ الدقة، ولا سيما حين تتنوّع الأصول ويكثر الورثة. ولأن قسمة التركات من المسائل التي تتطلب عناية خاصة، تبرز الحاجة إلى الاستعانة بمحامٍ متخصص في قضايا الميراث لحماية الحقوق ومتابعة الإجراءات وفق أحكام الشريعة الإسلامية والأنظمة المعمول بها.</p>
+                    <p class="mt-3 text-[15px] leading-9 text-stone-700 sm:text-base">نكرّس في مكتب نواف بن حسن الحكمي خبرة فريقنا في المواريث لنكون شريكك القانوني؛ نرافقك خطوةً بخطوة، من طلب إصدار وثيقة حصر الورثة حتى توثيق القسمة لدى الجهة المختصة ونقل الملكيات وفق الاختصاص.</p>
+
+                    <section class="mt-9 border-t border-stone-200 pt-8" aria-labelledby="estateKnowledgeHeading">
+                        <h2 id="estateKnowledgeHeading" class="font-readex text-2xl font-bold text-navy sm:text-[27px]">معرفة شرعية ونظامية في قضايا التركات والمواريث</h2>
+                        <p class="mt-3 text-[15px] leading-9 text-stone-700 sm:text-base">مع تيسّر إجراءات حصر الورثة وتسوية التركات، تظل دقة الأحكام الشرعية والأنظمة ذات الصلة تستلزم معرفةً فقهية ونظامية تجتمع في محامي مواريث متخصص.</p>
+                        <p class="mt-3 text-[15px] leading-9 text-stone-700 sm:text-base">نجمع بين المعرفة الشرعية والخبرة في المنازعات القضائية، لنقدّم خدمة متكاملة تبدأ بإجراءات حصر الورثة إلكترونياً والتدقيق القانوني، وتمتد إلى إعداد اتفاقيات القسمة بصيغة تحدّ من النزاع، وصولاً إلى المتابعة لدى جهات التنفيذ المختصة.</p>
+                    </section>
+
+                    <section class="mt-9 border-t border-stone-200 pt-8" aria-labelledby="inheritanceProcessHeading">
+                        <h2 id="inheritanceProcessHeading" class="font-readex text-2xl font-bold text-navy sm:text-[27px]">متابعة قسمة التركة من الحصر إلى التوثيق</h2>
+                        <p class="mt-3 text-[15px] leading-9 text-stone-700 sm:text-base">قسمة التركات ليست مجرد إصدار وثيقة، بل منظومة إجراءات تشمل حصر الأصول والديون، وسداد الالتزامات، وصياغة اتفاق رضائي أو رفع دعوى قسمة عند الخلاف. ويحتاج ذلك إلى تخطيط موحّد ينقلكم من مرحلة الحصر إلى مرحلة التوثيق دون ثغرات.</p>
+                        <p class="mt-3 text-[15px] leading-9 text-stone-700 sm:text-base">نعمل ذراعاً قانونية لكم: نُجري جرد الأصول والالتزامات، ونصوغ محاضر الصلح واتفاقيات القسمة الرضائية بعناية، ونتابع الإجراءات القضائية والتنفيذ إلكترونياً عبر منصة «ناجز» ومنصة التركات، بما يُسهم في حصول كل وارث على نصيبه وفق الإجراءات النظامية.</p>
+                    </section>
+
+                    <section class="mt-9 border-t border-stone-200 pt-8" aria-labelledby="digitalDivisionHeading">
+                        <h2 id="digitalDivisionHeading" class="font-readex text-2xl font-bold text-navy sm:text-[27px]">إجراءات قسمة التركات إلكترونياً</h2>
+                        <p class="mt-3 text-[15px] leading-9 text-stone-700 sm:text-base">تماشياً مع مستهدفات رؤية 2030 في التحوّل الرقمي وتيسير الإجراءات العدلية، أصبح من الممكن إنجاز كثير من إجراءات قسمة التركات إلكترونياً، دون إخلال بأحكام الشريعة أو الأنظمة.</p>
+                        <p class="mt-3 text-[15px] leading-9 text-stone-700 sm:text-base">نبدأ بتقديم طلب إصدار وثيقة حصر الورثة عبر منصة التركات، ونعالج حصر الأصول والديون وفق الأحكام الشرعية، ثم نُعدّ اتفاقية القسمة ونتابع توثيقها لدى الجهة المختصة، أو نتابع إجراءات القسمة القضائية عند الخلاف، مع متابعة التنفيذ والتوثيق النهائي.</p>
+                    </section>
+
+                    <section class="mt-9 border-t border-stone-200 pt-8" aria-labelledby="whyInheritanceLawyerHeading">
+                        <h2 id="whyInheritanceLawyerHeading" class="font-readex text-2xl font-bold text-navy sm:text-[27px]">لماذا تحتاج إلى محامي تركات في جدة؟</h2>
+                        <ul class="mt-4 space-y-3 text-[15px] leading-8 text-stone-700">
+                            <li class="border-r-2 border-gold-light pr-4"><strong class="text-navy">إصدار وثيقة حصر الورثة:</strong> إعداد طلب الإصدار إلكترونياً عبر منصة التركات التابعة لوزارة العدل، متضمناً بيانات مقدم الطلب والمتوفى والورثة والشهود.</li>
+                            <li class="border-r-2 border-gold-light pr-4"><strong class="text-navy">حصر أصول التركة والالتزامات:</strong> مخاطبة الجهات المختصة لجمع بيانات حقوق المورث وأمواله؛ إذ توجب المادة (40) من لائحة نظام الأحوال الشخصية على الجهات المختصة والمشرفة على تسجيل الأموال إفادة أي من الورثة عند طلبه بحقوق مورثه وأمواله الثابتة والمنقولة.</li>
+                            <li class="border-r-2 border-gold-light pr-4"><strong class="text-navy">حماية حقوق الورثة القُصّر:</strong> طلب تعيين ولي على مال القاصر من المحكمة إذا لم يكن له وصي، ومتابعة ما يلزم من إذن المحكمة في الحالات التي يشترطها النظام.</li>
+                            <li class="border-r-2 border-gold-light pr-4"><strong class="text-navy">قسمة التركة:</strong> حساب الأنصبة الشرعية، وإعداد اتفاقية القسمة ومتابعة توثيقها، أو تمثيل الورثة في القسمة القضائية عند الخلاف.</li>
+                            <li class="border-r-2 border-gold-light pr-4"><strong class="text-navy">حل الخلافات ودياً قبل القسمة القضائية:</strong> صياغة اتفاق قسمة رضائية وتقديمه للجهة المختصة لتوثيقه، توفيراً للوقت والتكاليف وحفاظاً على الروابط الأسرية.</li>
+                        </ul>
+                    </section>
+
+                    <section class="mt-9 border-t border-stone-200 pt-8" aria-labelledby="inheritanceStepsHeading">
+                        <h2 id="inheritanceStepsHeading" class="font-readex text-2xl font-bold text-navy sm:text-[27px]">خطوات قسمة التركة في السعودية</h2>
+                        <p class="mt-3 text-[15px] leading-9 text-stone-700 sm:text-base">نتابع مراحل قسمة التركة بالتنسيق مع الجهات المختصة في جدة وسائر مدن المملكة.</p>
+                        <ol class="mt-5 space-y-4">
+                            <li class="rounded-lg border border-stone-200 bg-white p-4 sm:p-5"><h3 class="font-readex text-lg font-bold text-navy">1. إصدار وثيقة حصر الورثة</h3><p class="mt-2 text-sm leading-8 text-stone-700"><strong class="text-navy">الإجراء النظامي:</strong> تقديم طلب «إصدار حصر الورثة» إلكترونياً عبر منصة التركات التابعة لوزارة العدل، متضمناً بيانات مقدم الطلب والمتوفى والورثة والشهود.</p><p class="mt-2 text-sm leading-8 text-stone-600"><strong class="text-navy">دورنا:</strong> تدقيق البيانات والمستندات قبل تقديم الطلب ومتابعته.</p></li>
+                            <li class="rounded-lg border border-stone-200 bg-white p-4 sm:p-5"><h3 class="font-readex text-lg font-bold text-navy">2. حصر أصول التركة</h3><p class="mt-2 text-sm leading-8 text-stone-700"><strong class="text-navy">الإجراء النظامي:</strong> للوارث أن يطلب من الجهات المختصة إفادته بحقوق مورثه وأمواله الثابتة والمنقولة وفق المادة (40) من لائحة نظام الأحوال الشخصية.</p><p class="mt-2 text-sm leading-8 text-stone-600"><strong class="text-navy">دورنا:</strong> إعداد الطلبات والمخاطبات ومتابعتها، وإعداد جرد للأصول والالتزامات.</p></li>
+                            <li class="rounded-lg border border-stone-200 bg-white p-4 sm:p-5"><h3 class="font-readex text-lg font-bold text-navy">3. سداد الديون وتنفيذ الوصايا</h3><p class="mt-2 text-sm leading-8 text-stone-700"><strong class="text-navy">الإجراء النظامي:</strong> تُنفَّذ الوصية من التركة بعد إخراج نفقات تجهيز الميت وأداء ديونه وفق المادة (171) من نظام الأحوال الشخصية، في حدود ثلث التركة، وما زاد على الثلث يتوقف على إجازة الورثة وفق المادة (190).</p><p class="mt-2 text-sm leading-8 text-stone-600"><strong class="text-navy">دورنا:</strong> حصر المطالبات وتوثيق المخالصات، ومتابعة تنفيذ ا��وصايا وفق النظام.</p></li>
+                            <li class="rounded-lg border border-stone-200 bg-white p-4 sm:p-5"><h3 class="font-readex text-lg font-bold text-navy">4. القسمة الرضائية</h3><p class="mt-2 text-sm leading-8 text-stone-700"><strong class="text-navy">الإجراء النظامي:</strong> للشركاء كاملي الأهلية أن يقتسموا المال المشترك بالطريقة التي يتفقون عليها بما لا يخالف الشريعة والأنظمة، ثم يُقدَّم الاتفاق للجهة المختصة لتوثيقه وفق المادة (3) من لائحة قسمة الأموال المشتركة، كما تتيح وزارة العدل خدمة «قسمة تركة اتفاقية» عبر منصة التركات.</p><p class="mt-2 text-sm leading-8 text-stone-600"><strong class="text-navy">دورنا:</strong> إعداد اتفاقية القسمة، والتأكد من توقيع جميع الورثة أو من يمثلهم نظاماً، ومتابعة توثيقها ونقل الملكيات.</p></li>
+                            <li class="rounded-lg border border-stone-200 bg-white p-4 sm:p-5"><h3 class="font-readex text-lg font-bold text-navy">5. القسمة القضائية عند الخلاف</h3><p class="mt-2 text-sm leading-8 text-stone-700"><strong class="text-navy">الإجراء النظامي:</strong> رفع دعوى القسمة أمام المحكمة المختصة، وتحكم الدائرة ببيع ما لا يمكن قسمته قسمة إجبار وتسليم كل شريك نصيبه من ثمنه ما لم يتفق الشركاء على خلاف ذلك، ويُقدَّم الحكم بالبيع بعد اكتسابه الصفة النهائية إلى دائرة التنفيذ المختصة وفق المادة (18) من لائحة قسمة الأموال المشتركة.</p><p class="mt-2 text-sm leading-8 text-stone-600"><strong class="text-navy">دورنا:</strong> إعداد صحيفة الدعوى، وتمثيل الورثة في الجلسات، ومتابعة إجراءات التصفية والبيع والتنفيذ.</p></li>
+                        </ol>
+                        <p class="mt-4 text-sm leading-8 text-stone-500">ملاحظة: قد تختلف بعض المتطلبات بحسب حجم التركة وتنوّع أصولها، ووجود قاصر أو غائب أو وقف أو وصية، ونحرص على مواءمة الإجراءات لكل حالة.</p>
+                    </section>
+
+                    <section class="mt-10 border-t border-stone-200 pt-8" aria-labelledby="disputesHeading">
+                        <h2 id="disputesHeading" class="font-readex text-2xl font-bold text-navy sm:text-[27px]">نزاعات الورثة ومسار معالجتها نظاماً</h2>
+                        <p class="mt-3 text-[15px] leading-9 text-stone-700 sm:text-base">قد ينشأ بين الورثة خلاف في قسمة التركة أو في إدارتها قبل القسمة. يبيّن الجدول الآتي أبرز صور هذه النزاعات ومسار معالجتها في الأنظمة، وتختلف معالجة كل حالة بحسب وقائعها ومستنداتها.</p>
+                        <p class="mt-4 text-xs text-stone-500 sm:hidden">مرّر الجدول أفقياً للاطلاع على بقية الأعمدة.</p>
+                        <div class="mt-2 overflow-x-auto rounded-lg border border-stone-200 shadow-card" tabindex="0" aria-label="جدول نزاعات الورثة ومعالجتها النظامية">
+                            <table class="inheritance-table w-full min-w-[760px] border-collapse text-right text-[13px] leading-7 sm:text-sm">
+                                <thead class="bg-navy text-white"><tr><th scope="col" class="px-4 py-3 font-bold">صورة النزاع</th><th scope="col" class="px-4 py-3 font-bold">المعالجة النظامية</th><th scope="col" class="px-4 py-3 font-bold">السند</th></tr></thead>
+                                <tbody>
+                                    <tr><th scope="row" class="px-4 py-3 font-bold text-navy">امتناع أحد الورثة عن القسمة بالتراضي</th><td class="px-4 py-3 text-stone-700">يرفع أي من الشركاء دعوى قسمة بطلب فرز المال المشترك وقسمته عيناً، فإن تعذرت قسمة ما يقبل القسمة، حكمت المحكمة ببيع ما لا يمكن قسمته قسمة إجبار، وتسليم كل شريك نصيبه من ثمنه، ما لم يتفق الشركاء على خلاف ذلك.</td><td class="px-4 py-3 text-sm text-stone-500">لائحة قسمة الأموال المشتركة: المواد (16، 18).</td></tr>
+                                    <tr><th scope="row" class="px-4 py-3 font-bold text-navy">الخلاف على ملكية بعض أموال التركة، أو على دين على المتوفى، أو وصية، أو وقف</th><td class="px-4 py-3 text-stone-700">تُعد من «منازعات القسمة»، ولا توقف نظر دعوى القسمة؛ فتفصل المحكمة في المال غير المتنازع عليه المنتمي للقسمة، ولها وقف الدعوى إلى حين الفصل في المنازعات إذا تعذر ذلك، أو ظهر لها أنها قد تستغرق المال المشترك.</td><td class="px-4 py-3 text-sm text-stone-500">لائحة قسمة الأموال المشتركة: المادتان (5، 12).</td></tr>
+                                    <tr><th scope="row" class="px-4 py-3 font-bold text-navy">انفراد أحد الورثة بوضع يده على عقار من التركة بغير حق</th><td class="px-4 py-3 text-stone-700">لأي شريك رفع دعوى بطلب إخلاء العقار المشترك. وعلى المصفي أو الحارس القضائي المحافظة على المال المشترك وإدارته لمصلحة الشركاء، ومن استولى بطريق غير مشروع على شيء من المال المشترك أو عطّل الانتفاع به، جاز طلب اتخاذ الإجراءات النظامية بحقه.</td><td class="px-4 py-3 text-sm text-stone-500">لائحة قسمة الأموال المشتركة: المادتان (5، 37).</td></tr>
+                                    <tr><th scope="row" class="px-4 py-3 font-bold text-navy">إخفاء بعض أعيان التركة أو وثائقها</th><td class="px-4 py-3 text-stone-700">تنظر المحكمة دعوى الإفصاح عن أعيان المال المشترك ووثائقه، ولها أن تكتب إلى الجهات المختصة أو المشرفة على تسجيل الأموال للإفصاح عنها.</td><td class="px-4 py-3 text-sm text-stone-500">لائحة قسمة الأموال المشتركة: المادتان (11/1، 13).</td></tr>
+                                    <tr><th scope="row" class="px-4 py-3 font-bold text-navy">الخلاف على الانتفاع بأموال التركة قبل قسمتها</th><td class="px-4 py-3 text-stone-700">للورثة أثناء دعوى القسمة اقتسام منافع المال المشترك مهايأةً بالزمان أو المكان حتى تتم القسمة. فإن تعذر الاتفاق حكمت المحكمة بذلك عند الاقتضاء.</td><td class="px-4 py-3 text-sm text-stone-500">لائحة قسمة الأموال المشتركة: المادتان (6/1، 6).</td></tr>
+                                    <tr><th scope="row" class="px-4 py-3 font-bold text-navy">الخلاف على إدارة التركة وتصفيتها</th><td class="px-4 py-3 text-stone-700">للمحكمة عند الاقتضاء إقامة مصفٍّ تختاره باتفاق ذوي الشأن جميعاً، فإن لم يتفقوا اختارت مصفياً مرخصاً. ولها اتخاذ ما يلزم بصفة مستعجلة لح��ظ الأموال المشتركة، ويمكن أن تعهد إلى الهيئة العامة للولاية على أموال القاصرين ومن في حكمهم بحفظ الأموال المتنازع عليها حتى يُفصل فيها.</td><td class="px-4 py-3 text-sm text-stone-500">لائحة قسمة الأموال المشتركة: المادتان (20، 21).</td></tr>
+                                    <tr><th scope="row" class="px-4 py-3 font-bold text-navy">الاعتراض على قائمة الجرد التي يعدها المصفي</th><td class="px-4 py-3 text-stone-700">تُرفع المنازعة في صحة الجرد، بأدلتها، بصحيفة تودع لدى إدارة المحكمة التي تنظر دعوى القسمة خلال الثلاثين يوماً التالية للإبلاغ بإيداع قائمة الجرد.</td><td class="px-4 py-3 text-sm text-stone-500">لائحة قسمة الأموال المشتركة: المادة (39/1).</td></tr>
+                                    <tr><th scope="row" class="px-4 py-3 font-bold text-navy">الخلاف على وصية لوارث أو بما يزيد على الثلث</th><td class="px-4 py-3 text-stone-700">لا وصية لوارث إلا إذا أجازها باقي الورثة بعد الوفاة، فإن أجازها بعضهم نُفذت في نصيبه. وتنفذ الوصية فيما لا يزيد على ثلث التركة، ويوقف ما زاد على إجازة الورثة، وينفذ منه بقدر نصيب من أجازه.</td><td class="px-4 py-3 text-sm text-stone-500">نظام الأحوال الشخصية: المادتان (179، 190).</td></tr>
+                                    <tr><th scope="row" class="px-4 py-3 font-bold text-navy">الطعن في استحقاق أحد الورثة للإرث</th><td class="px-4 py-3 text-stone-700">لا يرث من قتل مورثه عمداً عدواناً أو شبه عمد، ولا من أمر بقتله أو تسبب في قتله عدواناً أو شبه عمد، ومن قتل مورثه خطأً أو تسبب في قتله خطأً ورث من التركة دون الدية. ولا توارث مع اختلاف الدين، مع مراعاة أحكام الوصية، ولا يرث من ماتا في وقت واحد أو جهل أسبقهما وفاة.</td><td class="px-4 py-3 text-sm text-stone-500">نظام الأحوال الشخصية: المواد (200، 202، 203).</td></tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </section>
+
+                    <section class="mt-10 border-t border-stone-200 pt-8" aria-labelledby="specializedServicesHeading">
+                        <h2 id="specializedServicesHeading" class="font-readex text-2xl font-bold text-navy sm:text-[27px]">خدماتنا المتخصصة في التركات</h2>
+                        <ul class="mt-4 grid gap-3 sm:grid-cols-2">
+                            <li class="flex items-start gap-3 rounded-lg border border-stone-200 bg-white p-4"><i class="fa-solid fa-scale-balanced mt-1 text-gold" aria-hidden="true"></i><span class="text-sm leading-7 text-stone-700">الاستشارات الشرعية والنظامية في المواريث والوصايا.</span></li>
+                            <li class="flex items-start gap-3 rounded-lg border border-stone-200 bg-white p-4"><i class="fa-solid fa-landmark mt-1 text-gold" aria-hidden="true"></i><span class="text-sm leading-7 text-stone-700">تمثيل الورثة أمام المحاكم المختصة ومحاكم التنفيذ للمطالبة بحقوقهم.</span></li>
+                            <li class="flex items-start gap-3 rounded-lg border border-stone-200 bg-white p-4"><i class="fa-regular fa-file-lines mt-1 text-gold" aria-hidden="true"></i><span class="text-sm leading-7 text-stone-700">إعداد اتفاقيات القسمة الرضائية ومحاضر الصلح.</span></li>
+                            <li class="flex items-start gap-3 rounded-lg border border-stone-200 bg-white p-4"><i class="fa-solid fa-file-signature mt-1 text-gold" aria-hidden="true"></i><span class="text-sm leading-7 text-stone-700">متابعة توثيق القسمة ونقل الملكيات لدى الجهات المختصة.</span></li>
+                            <li class="flex items-start gap-3 rounded-lg border border-stone-200 bg-white p-4 sm:col-span-2"><i class="fa-solid fa-building-columns mt-1 text-gold" aria-hidden="true"></i><span class="text-sm leading-7 text-stone-700">الدعم بعد القسمة: تسجيل الملكيات وتحديث السجلات العقارية والمصرفية، ومنها تسجيل القسمة والإرث في السجل العقاري للعقارات المسجلة عينياً.</span></li>
+                        </ul>
+                    </section>
+
+                    <section class="mt-10 border-t border-stone-200 pt-8" aria-labelledby="faqHeading">
+                        <h2 id="faqHeading" class="font-readex text-2xl font-bold text-navy sm:text-[27px]">الأسئلة الشائعة</h2>
+                        <div class="mt-2">
+                            <details class="faq-item group py-1"><summary class="flex items-start justify-between gap-4 py-3 text-right font-readex text-sm font-semibold leading-7 text-navy sm:text-[15px]"><span>ما الفرق بين قسمة التراضي وقسمة الإجبار؟</span><i class="faq-chevron fa-solid fa-chevron-down mt-2 shrink-0 text-xs text-gold" aria-hidden="true"></i></summary><div class="text-right text-sm leading-8 text-stone-600 sm:text-[15px] sm:leading-9"><p>عرّفت المادة (الأولى) من لائحة قسمة الأموال المشتركة قسمة التراضي بأنها «ما لا تجوز إلا برضا الشركاء، لحصول ضرر فيها أو رد عوض من أحدهم على الآخر»، وقسمة الإجبار بأنها «ما لا ضرر فيها على الشركاء ولا على أحدهم ولا رد عوض».</p></div></details>
+                            <details class="faq-item group py-1"><summary class="flex items-start justify-between gap-4 py-3 text-right font-readex text-sm font-semibold leading-7 text-navy sm:text-[15px]"><span>ما الالتزامات التي تُستوفى من التركة قبل قسمتها؟</span><i class="faq-chevron fa-solid fa-chevron-down mt-2 shrink-0 text-xs text-gold" aria-hidden="true"></i></summary><div class="text-right text-sm leading-8 text-stone-600 sm:text-[15px] sm:leading-9"><p>تنص المادة (171) من نظام الأحوال الشخصية على أن الوصية تُنفَّذ من تركة الموصي بعد إخراج نفقات تجهيز الميت وأداء ديونه. وفي حال تصفية المال المشترك، يتولى المصفي قسمته بين الشركاء بعد تصفيته من الديون والوصايا ونحو ذلك، وفقاً للمادة (44) من لائحة قسمة الأموال المشتركة.</p></div></details>
+                            <details class="faq-item group py-1"><summary class="flex items-start justify-between gap-4 py-3 text-right font-readex text-sm font-semibold leading-7 text-navy sm:text-[15px]"><span>ما الحد الذي تُنفَّذ فيه الوصية؟ وهل تصح الوصية لأحد الورثة؟</span><i class="faq-chevron fa-solid fa-chevron-down mt-2 shrink-0 text-xs text-gold" aria-hidden="true"></i></summary><div class="text-right text-sm leading-8 text-stone-600 sm:text-[15px] sm:leading-9"><p>تُنفَّذ الوصية إذا لم تزد على ثلث التركة، وما زاد على الثلث يوقف على إجازة الورثة ويُنفَّذ منه بقدر نصيب من أجازه منهم (المادة 190 من نظام الأحوال الشخصية). ولا وصية لوارث إلا إذا أجازها باقي الورثة بعد الوفاة، فإن أجازها بعضهم نُفِّذت في نصيبهم (المادة 179).</p></div></details>
+                            <details class="faq-item group py-1"><summary class="flex items-start justify-between gap-4 py-3 text-right font-readex text-sm font-semibold leading-7 text-navy sm:text-[15px]"><span>كيف تصدر وثيقة حصر الورثة؟</span><i class="faq-chevron fa-solid fa-chevron-down mt-2 shrink-0 text-xs text-gold" aria-hidden="true"></i></summary><div class="text-right text-sm leading-8 text-stone-600 sm:text-[15px] sm:leading-9"><p>تتيح وزارة العدل خدمة «إصدار حصر الورثة» إلكترونياً عبر منصة التركات بالدخول عن طريق النفاذ الوطني الموحد، ويتضمن الطلب بيانات مقدم الطلب والمتوفى والورثة والشهود، وتشتمل الوثيقة على بيانات المورث والورثة وأنصبتهم. أما صكوك حصر الورثة الورقية الصادرة من المحكمة فيجوز طلب رقمنتها عبر الخدمات الإلكترونية لوزارة العدل بعد التحقق والمطابقة من المحكمة المختصة.</p></div></details>
+                            <details class="faq-item group py-1"><summary class="flex items-start justify-between gap-4 py-3 text-right font-readex text-sm font-semibold leading-7 text-navy sm:text-[15px]"><span>هل يمكن قسمة التركة بالتراضي؟ وماذا لو ظهر دين أو وصية بعد القسمة؟</span><i class="faq-chevron fa-solid fa-chevron-down mt-2 shrink-0 text-xs text-gold" aria-hidden="true"></i></summary><div class="text-right text-sm leading-8 text-stone-600 sm:text-[15px] sm:leading-9"><p>للشركاء كاملي الأهلية أن يقتسموا المال المشترك بالطريقة التي يتفقون عليها بما لا يخالف الشريعة والأنظمة، ثم يُقدَّم الاتفاق للجهة المختصة لتوثيقه (المادة 3 من لائحة قسمة الأموال المشتركة)، كما تتيح وزارة العدل خدمة «قسمة تركة اتفاقية» عبر منصة التركات. وإذا قُسم المال المشترك ثم ادعى أحد بدين عليه أو وصية فيه، نُظرت الدعوى وفقاً للأحكام العامة للاختصاص النوعي والمكاني (المادة 46 من اللائحة).</p></div></details>
+                            <details class="faq-item group py-1"><summary class="flex items-start justify-between gap-4 py-3 text-right font-readex text-sm font-semibold leading-7 text-navy sm:text-[15px]"><span>هل يجوز توثيق قسمة التركة لدى كاتب العدل إذا كان بين الورثة قاصر أو غائب؟</span><i class="faq-chevron fa-solid fa-chevron-down mt-2 shrink-0 text-xs text-gold" aria-hidden="true"></i></summary><div class="text-right text-sm leading-8 text-stone-600 sm:text-[15px] sm:leading-9"><p>تنص المادة (12) من نظام التوثيق، بعد تعديلها بالمرسوم الملكي رقم (م/21) وتاريخ 26/1/1447هـ، على أن كاتب العدل لا يختص بتوثيق أي إقرار أو عقد يكون أحد طرفيه عديم الأهلية أو ناقصها أو غائباً أو ناظر وقف أو وصية، إلا في حالات محددة ليس من بينها القسمة. ويُراعى في قسمة المال المشترك المتضمن لنصيب قاصر أو غائب أو مفقود أو وقف أو وصية الأحكامُ الخاصة المنصوص عليها في الأنظمة، وفق المادة (2) من لائحة قسمة الأموال المشتركة.</p></div></details>
+                            <details class="faq-item group py-1"><summary class="flex items-start justify-between gap-4 py-3 text-right font-readex text-sm font-semibold leading-7 text-navy sm:text-[15px]"><span>ماذا يحدث إذا تعذرت قسمة التركة عيناً؟</span><i class="faq-chevron fa-solid fa-chevron-down mt-2 shrink-0 text-xs text-gold" aria-hidden="true"></i></summary><div class="text-right text-sm leading-8 text-stone-600 sm:text-[15px] sm:leading-9"><p>تحكم الدائرة ببيع ما لا يمكن قسمته قسمة إجبار وتسليم كل شريك نصيبه من ثمنه، ما لم يتفق الشركاء على خلاف ذلك، ويُقدَّم الحكم بالبيع بعد اكتسابه الصفة النهائية إلى دائرة التنفيذ المختصة لتنفيذه، وفق المادة (18) من لائحة قسمة الأموال المشتركة.</p></div></details>
+                            <details class="faq-item group py-1"><summary class="flex items-start justify-between gap-4 py-3 text-right font-readex text-sm font-semibold leading-7 text-navy sm:text-[15px]"><span>من يتولى إدارة نصيب الوارث القاصر؟</span><i class="faq-chevron fa-solid fa-chevron-down mt-2 shrink-0 text-xs text-gold" aria-hidden="true"></i></summary><div class="text-right text-sm leading-8 text-stone-600 sm:text-[15px] sm:leading-9"><p>تكون الولاية على مال القاصر للأب، ثم وصي الأب، ثم من تعينه المحكمة (المادة 139 من نظام الأحوال الشخصية). وإذا لم يكن للقاصر وصي أو عُزل، عيّنت المحكمة ولياً على ماله بعد أخذ رأي أمه (المادة 152). ويلتزم الوصي أو الولي المعيّن من المحكمة بإيداع مال القاصر في حسابات مصرفية باسمه (المادة 156)، دون إخلال باختصاصات الهيئة العامة للولاية على أموال القاصرين ومن في حكمهم (المادة 144).</p></div></details>
+                        </div>
+                        <p class="mt-5 text-xs leading-6 text-stone-400">المعلومات الواردة في هذه الصفحة لأغراض تثقيفية عامة، ولا تُعد استشارة قانونية لحالة بعينها.</p>
+                    </section>
+
+                    <section class="mt-10 border-t border-stone-200 pt-7" aria-labelledby="legalReferencesHeading">
+                        <h2 id="legalReferencesHeading" class="font-readex text-xl font-bold text-navy sm:text-2xl">المراجع النظامية</h2>
+                        <p class="mt-2 text-sm leading-7 text-stone-600">المراجع الرسمية للمعلومات النظامية الواردة في هذه الصفحة:</p>
+                        <div class="mt-3 space-y-1 text-sm leading-7 text-stone-600">
+                            <p><a class="text-inherit no-underline hover:text-gold" href="https://uqn.gov.sa/details?p=19139" target="_blank" rel="noopener noreferrer">نظام الأحوال الشخصية</a> — جريدة أم القرى.</p>
+                            <p><a class="text-inherit no-underline hover:text-gold" href="https://uqn.gov.sa/details?p=27013" target="_blank" rel="noopener noreferrer">لائحة نظام الأحوال الشخصية</a> — جريدة أم القرى.</p>
+                            <p><a class="text-inherit no-underline hover:text-gold" href="https://laws.moj.gov.sa/ar/legislation/XxHJGQ-J8UHQHL_lpdKCVw" target="_blank" rel="noopener noreferrer">لائحة قسمة الأموال المشتركة</a> — البوابة القانونية لوزارة العدل.</p>
+                            <p><a class="text-inherit no-underline hover:text-gold" href="https://uqn.gov.sa/details?p=27309" target="_blank" rel="noopener noreferrer">المرسوم الملكي (م/21) وتاريخ 26/1/1447هـ بتعديل نظام التوثيق</a> — جريدة أم القرى.</p>
+                            <p><a class="text-inherit no-underline hover:text-gold" href="https://www.moj.gov.sa/ar/eServices/Pages/17b08d90-809c-45cf-bd41-9eb8d15fabcb.aspx" target="_blank" rel="noopener noreferrer">إصدار حصر الورثة</a> — وزارة العدل.</p>
+                            <p><a class="text-inherit no-underline hover:text-gold" href="https://www.moj.gov.sa/ar/eServices/Pages/f8cc5fe9-1957-41e5-a2d9-7ebad1e25ff3.aspx" target="_blank" rel="noopener noreferrer">طلب رقمنة وثيقة حصر الورثة</a> — وزارة العدل.</p>
+                            <p><a class="text-inherit no-underline hover:text-gold" href="https://www.moj.gov.sa/ar/eServices/Pages/f49aa181-459d-4d5f-b48c-64d092b919e6.aspx" target="_blank" rel="noopener noreferrer">قسمة تركة ات��اقية</a> — وزارة العدل.</p>
+                        </div>
+                        <p class="mt-4 text-xs text-stone-500">آخر تحديث للمحتوى: 22 أكتوبر 2026م.</p>
+                    </section>
+
+                    <section class="mt-9 rounded-lg border border-gold/30 bg-[#faf8f3] p-5 sm:p-7" aria-labelledby="contactInheritanceHeading">
+                        <h2 id="contactInheritanceHeading" class="font-readex text-2xl font-bold text-navy sm:text-[27px]">تواصل الآن مع محامي تركات في جدة</h2>
+                        <p class="mt-2 text-[15px] leading-8 text-stone-700">احجز استشارتك عبر الهاتف أو البريد الإلكتروني أو واتساب. فريقنا متاح للرد على استفساراتكم.</p>
+                        <div class="mt-5 flex flex-wrap gap-3">
+                            <a href="tel:+966125118682" class="inline-flex items-center gap-2 rounded-lg bg-navy px-5 py-3 text-sm font-bold text-white transition hover:bg-navy-light"><i class="fa-solid fa-phone" aria-hidden="true"></i><span>اتصل بنا</span></a>
+                            <a href="mailto:info@alhakamilaw.com" class="inline-flex items-center gap-2 rounded-lg border border-navy/20 bg-white px-5 py-3 text-sm font-bold text-navy transition hover:border-gold hover:text-gold"><i class="fa-regular fa-envelope" aria-hidden="true"></i><span>البريد الإلكتروني</span></a>
+                            <a href="https://wa.me/966560047407" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 rounded-lg border border-[#25D366]/30 bg-white px-5 py-3 text-sm font-bold text-navy transition hover:border-[#25D366]"><i class="fa-brands fa-whatsapp text-[#168c47]" aria-hidden="true"></i><span>واتساب</span></a>
+                        </div>
+                    </section>
+                    <p class="mt-5 text-xs leading-7 text-stone-500">إخلاء المسؤولية: المعلومات الواردة في هذه الصفحة لأغراض تثقيفية عامة، ولا تُعد استشارة قانونية. ولا يُنشئ التواصل معنا عبر الموقع أو الهاتف علاقة تعاقدية ما لم يُبرم عقد مكتوب، ونتعامل مع البيانات المرسلة إلينا بسرية وفق قواعد السلوك المهني للمحامين.</p>
+                </article>
+            </div>
+        </section>
+    </main>
+    <footer class="mt-4 bg-navy px-4 py-7 text-stone-300 sm:px-8">
+        <div class="mx-auto flex max-w-6xl flex-col items-center justify-between gap-4 text-center sm:flex-row sm:text-right">
+            <p class="text-xs leading-6">مكتب نواف بن حسن الحكمي للمحاماة والاستشارات القانونية وأعمال التوثيق – جدة.</p>
+            <div class="flex items-center gap-4 text-sm"><a class="transition hover:text-gold-light" href="tel:+966125118682" aria-label="اتصل بنا"><i class="fa-solid fa-phone" aria-hidden="true"></i></a><a class="transition hover:text-gold-light" href="mailto:info@alhakamilaw.com" aria-label="البريد الإلكتروني"><i class="fa-regular fa-envelope" aria-hidden="true"></i></a><a class="transition hover:text-gold-light" href="https://wa.me/966560047407" target="_blank" rel="noopener noreferrer" aria-label="واتساب"><i class="fa-brands fa-whatsapp" aria-hidden="true"></i></a></div>
+        </div>
+    </footer>
+    <script src="/law-firm-i18n.js"></script>
+    <script>
+        const inheritanceTranslations = {
+            'قسمة التركات': 'Estate Distribution',
+            'خدمات قسمة التركات': 'Estate distribution services',
+            'خدمات التركات والمواريث': 'Inheritance and estate services',
+            'محامي تركات ومواريث في جدة لقسمة التركات وفق الأحكام الشرعية والأنظمة': 'Estate and inheritance lawyer in Jeddah for distribution under Sharia and Saudi law',
+            'متابعة قسمة التركة من حصر الورثة والأصول إلى توثيق القسمة ونقل الملكيات.': 'Guidance from heir and asset identification through documenting the distribution and transferring ownership.',
+            'معرفة شرعية ونظامية في قضايا التركات والمواريث': 'Sharia and legal knowledge in inheritance matters',
+            'متابعة قسمة التركة من الحصر إلى التوثيق': 'Managing estate distribution from inventory to documentation',
+            'إجراءات قسمة التركات إلكترونياً': 'Electronic estate distribution procedures',
+            'لماذا تحتاج إلى محامي تركات في جدة؟': 'Why work with an estate lawyer in Jeddah?',
+            'خطوات قسمة التركة في السعودية': 'Steps for estate distribution in Saudi Arabia',
+            'نزاعات الورثة ومسار معالجتها نظاماً': 'Inheritance disputes and legal resolution',
+            'صورة النزاع': 'Dispute',
+            'المعالجة النظامية': 'Legal process',
+            'السند': 'Legal basis',
+            'خدماتنا المتخصصة في التركات': 'Our specialized estate services',
+            'الأسئلة الشائعة': 'Frequently asked questions',
+            'ما الفرق بين قسمة التراضي وقسمة الإجبار؟': 'What is the difference between consensual and judicial distribution?',
+            'ما الالتزامات التي تُستوفى من التركة قبل قسمتها؟': 'Which obligations are settled before an estate is distributed?',
+            'ما الحد الذي تُنفَّذ فيه الوصية؟ وهل تصح الوصية لأحد الورثة؟': 'What is the limit for a will, and can an heir receive one?',
+            'كيف تصدر وثيقة حصر الورثة؟': 'How is an heirship certificate issued?',
+            'هل يمكن قسمة التركة بالتراضي؟ وماذا لو ظهر دين أو وصية بعد القسمة؟': 'Can an estate be distributed by agreement? What if a debt or will appears later?',
+            'هل يجوز توثيق قسمة التركة لدى كاتب العدل إذا كان بين الورثة قاصر أو غائب؟': 'Can a notary document a distribution if an heir is a minor or absent?',
+            'ماذا يحدث إذا تعذرت قسمة التركة عيناً؟': 'What happens if the estate cannot be divided in kind?',
+            'من يتولى إدارة نصيب الوارث القاصر؟': 'Who manages a minor heir’s share?',
+            'المراجع النظامية': 'Legal references',
+            'المراجع الرسمية للمعلومات النظامية الواردة في هذه الصفحة:': 'Official sources for the legal information on this page:',
+            'آخر تحديث للمحتوى: 22 أكتوبر 2026م.': 'Content last updated: 22 October 2026.',
+            'تواصل الآن مع محامي تركات في جدة': 'Contact an estate lawyer in Jeddah',
+            'احجز استشارتك عبر الهاتف أو البريد الإلكتروني أو واتساب. فريقنا متاح للرد على استفساراتكم.': 'Book a consultation by phone, email, or WhatsApp. Our team is available to answer your questions.',
+            'اتصل بنا': 'Call us',
+            'البريد الإلكتروني': 'Email',
+            'واتساب': 'WhatsApp',
+            'الرئيسية': 'Home',
+            'من نحن': 'About us',
+            'الرؤية والرسالة': 'Vision & mission',
+            'خدماتنا': 'Services',
+            'منصتنا الذكية': 'Our smart platform',
+            'شركاء النجاح': 'Partners',
+            'تواصلوا معنا': 'Contact us',
+            'ساعات العمل: 09:00 - 17:00': 'Business hours: 09:00–17:00',
+            'مكتب نواف بن حسن الحكمي للمحاماة والاستشارات القانونية وأعمال التوثيق – جدة.': 'Nawaf bin Hassan Al-Hakami Law Firm, Legal Consultancy & Notarial Services – Jeddah.'
+        };
+        Object.assign(inheritanceTranslations, {
+            'مع التحوّل الرقمي الذي تقوده وزارة العدل ضمن مستهدفات رؤية 2030، أصبح إصدار وثائق حصر الورثة وتوثيق قسمة التركات أكثر يسراً عبر الخدمات الإلكترونية، ومنها منصة التركات. ومع ذلك يظل الالتزام الدقيق بالأحكام الشرعية والأنظمة ذات الصلة، وسداد الديون، وتنفيذ الوصايا، أمراً بالغ الدقة، ولا سيما حين تتنوّع الأصول ويكثر الورثة. ولأن قسمة التركات من المسائل التي تتطلب عناية خاصة، تبرز الحاجة إلى الاستعانة بمحامٍ متخصص في قضايا الميراث لحماية الحقوق ومتابعة الإجراءات وفق أحكام الشريعة الإسلامية والأنظمة المعمول بها.': 'As the Ministry of Justice advances the digital transformation goals of Vision 2030, heirship certificates and estate distributions can increasingly be processed online, including through the Estates Platform. However, careful compliance with Sharia and applicable laws, payment of debts, and execution of wills remain essential—particularly when an estate includes varied assets or many heirs. A specialist inheritance lawyer can help protect rights and guide the process under Islamic Sharia and Saudi law.',
+            'نكرّس في مكتب نواف بن حسن الحكمي خبرة فريقنا في المواريث لنكون شريكك القانوني؛ نرافقك خطوةً بخطوة، من طلب إصدار وثيقة حصر الورثة حتى توثيق القسمة لدى الجهة المختصة ونقل الملكيات وفق الاختصاص.': 'At Nawaf bin Hassan Al-Hakami Law Firm, our inheritance experience supports you at every stage—from applying for an heirship certificate to documenting the distribution with the competent authority and transferring ownership through the proper channels.',
+            'مع تيسّر إجراءات حصر الورثة وتسوية التركات، تظل دقة الأحكام الشرعية والأنظمة ذات الصلة تستلزم معرفةً فقهية ونظامية تجتمع في محامي مواريث متخصص.': 'Although heirship and estate procedures are increasingly accessible, applying Sharia rules and relevant laws accurately requires a specialist with both legal and jurisprudential knowledge.',
+            'نجمع بين المعرفة الشرعية والخبرة في المنازعات القضائية، لنقدّم خدمة متكاملة تبدأ بإجراءات حصر الورثة إلكترونياً والتدقيق القانوني، وتمتد إلى إعداد اتفاقيات القسمة بصيغة تحدّ من النزاع، وصولاً إلى المتابعة لدى جهات التنفيذ المختصة.': 'We combine Sharia knowledge with litigation experience to provide end-to-end support, from electronic heirship applications and legal review to agreements designed to reduce disputes and follow-up with the competent enforcement authorities.',
+            'قسمة التركات ليست مجرد إصدار وثيقة، بل منظومة إجراءات تشمل حصر الأصول والديون، وسداد الالتزامات، وصياغة اتفاق رضائي أو رفع دعوى قسمة عند الخلاف. ويحتاج ذلك إلى تخطيط موحّد ينقلكم من مرحلة الحصر إلى مرحلة التوثيق دون ثغرات.': 'Estate distribution involves more than issuing a document. It includes identifying assets and debts, settling obligations, preparing an amicable agreement, or filing a partition claim if the heirs disagree. A coordinated plan helps move the process from inventory to documentation without gaps.',
+            'نعمل ذراعاً قانونية لكم: نُجري جرد الأصول والالتزامات، ونصوغ محاضر الصلح واتفاقيات القسمة الرضائية بعناية، ونتابع الإجراءات القضائية والتنفيذ إلكترونياً عبر منصة «ناجز» ومنصة التركات، بما يُسهم في حصول كل وارث على نصيبه وفق الإجراءات النظامية.': 'We act as your legal partner by inventorying assets and obligations, carefully drafting settlement records and consensual distribution agreements, and following court and enforcement procedures online through Najiz and the Estates Platform—helping each heir receive their share through the proper process.',
+            'تماشياً مع مستهدفات رؤية 2030 في التحوّل الرقمي وتيسير الإجراءات العدلية، أصبح من الممكن إنجاز كثير من إجراءات قسمة التركات إلكترونياً، دون إخلال بأحكام الشريعة أو الأنظمة.': 'In line with Vision 2030 goals for digital transformation and more accessible justice, many estate-distribution procedures can now be completed online while remaining subject to Sharia and applicable laws.',
+            'نبدأ بتقديم طلب إصدار وثيقة حصر الورثة عبر منصة التركات، ونعالج حصر الأصول والديون وفق الأحكام الشرعية، ثم نُعدّ اتفاقية القسمة ونتابع توثيقها لدى الجهة المختصة، أو نتابع إجراءات القسمة القضائية عند الخلاف، مع متابعة التنفيذ والتوثيق النهائي.': 'We begin by applying for an heirship certificate through the Estates Platform, identify assets and debts under Sharia rules, then prepare and document a distribution agreement with the competent authority—or pursue judicial partition if the heirs disagree—and follow through on enforcement and final documentation.',
+            'إصدار وثيقة حصر الورثة:': 'Obtaining an heirship certificate:',
+            'إعداد طلب الإصدار إلكترونياً عبر منصة التركات التابعة لوزارة العدل، متضمناً بيانات مقدم الطلب والمتوفى والورثة والشهود.': 'Preparing an online application through the Ministry of Justice Estates Platform with details of the applicant, deceased, heirs, and witnesses.',
+            'حصر أصول التركة وال��لتزامات:': 'Identifying estate assets and obligations:',
+            'مخاطبة الجهات المختصة لجمع بيانات حقوق المورث وأمواله؛ إذ توجب المادة (40) من لائحة نظام الأحوال الشخصية على الجهات المختصة والمشرفة على تسجيل الأموال إفادة أي من الورثة عند طلبه بحقوق مورثه وأمواله الثابتة والمنقولة.': 'Contacting the relevant authorities to obtain information about the deceased’s rights and assets. Article 40 of the Implementing Regulations of the Personal Status Law requires authorities responsible for recording assets to provide heirs, upon request, with information about the deceased’s rights and movable and immovable property.',
+            'حماية حقوق الورثة القُصّر:': 'Protecting minor heirs:',
+            'طلب تعيين ولي على مال القاصر من المحكمة إذا لم يكن له وصي، ومتابعة ما يلزم من إذن المحكمة في الحالات التي يشترطها النظام.': 'Applying to the court to appoint a guardian for a minor’s assets if no guardian has been appointed, and seeking court approval where required by law.',
+            'قسمة التركة:': 'Distributing the estate:',
+            'حساب الأنصبة الشرعية، وإعداد اتفاقية القسمة ومتابعة توثيقها، أو تمثيل الورثة في القسمة القضائية عند الخلاف.': 'Calculating Sharia-based shares, preparing and documenting a distribution agreement, or representing heirs in court partition proceedings if there is a dispute.',
+            'حل الخلافات ودياً قبل القسمة القضائية:': 'Resolving disputes amicably before court partition:',
+            'صياغة اتفاق قسمة رضائية وتقديمه للجهة المختصة لتوثيقه، توفيراً للوقت والتكاليف وحفاظاً على الروابط الأسرية.': 'Drafting a consensual distribution agreement and submitting it to the competent authority for documentation, saving time and expense while preserving family relationships.',
+            'نتابع مراحل قسمة التركة بالتنسيق مع الجهات المختصة في جدة وسائر مدن المملكة.': 'We coordinate each stage of estate distribution with the competent authorities in Jeddah and throughout Saudi Arabia.',
+            'الإجراء النظامي:': 'Legal procedure:',
+            'دورنا:': 'How we help:',
+            'تقديم طلب «إصدار حصر الورثة» إلكترونياً عبر منصة التركات التابعة لوزارة العدل، متضمناً بيانات مقدم الطلب والمتوفى والورثة والشهود.': 'Submit an online “Issue Heirship Certificate” application through the Ministry of Justice Estates Platform, including details of the applicant, deceased, heirs, and witnesses.',
+            'تدقيق البيانات والمستندات قبل تقديم الطلب ومتابعته.': 'Reviewing the information and supporting documents before submission and following up on the application.',
+            'للوارث أن يطلب من الجهات المختصة إفادته بحقوق مورثه وأمواله الثابتة والمنقولة وفق المادة (40) من لائحة نظام الأحوال الشخصية.': 'Under Article 40 of the Implementing Regulations of the Personal Status Law, an heir may request information from the competent authorities about the deceased’s rights and movable and immovable assets.',
+            'إعداد الطلبات والمخاطبات ومتابعتها، وإعداد جرد للأصول والالتزامات.': 'Preparing and following up on requests and correspondence and compiling an inventory of assets and obligations.',
+            'تُنفَّذ الوصية من التركة بعد إخراج نفقات تجهيز الميت وأداء ديونه وفق المادة (171) من نظام الأحوال الشخصية، في حدود ثلث التركة، وما زاد على الثلث يتوقف على إجازة الورثة وفق المادة (190).': 'Under Article 171 of the Personal Status Law, a will is carried out after funeral expenses and debts are paid, up to one-third of the estate. Any amount exceeding one-third requires the heirs’ approval under Article 190.',
+            'حصر المطالبات وتوثيق المخالصات، ومتابعة تنفيذ الوصايا وفق النظام.': 'Identifying claims, documenting settlements, and following the execution of wills under applicable law.',
+            'للشركاء كاملي الأهلية أن يقتسموا المال المشترك بالطريقة التي يتفقون عليها بما لا يخالف الشريعة والأنظمة، ثم يُقدَّم الاتفاق للجهة المختصة لتوثيقه وفق المادة (3) من لائحة قسمة الأموال المشتركة، كما تتيح وزارة العدل خدمة «قسمة تركة اتفاقية» عبر منصة التركات.': 'Partners with full legal capacity may divide jointly owned property by agreement, provided it complies with Sharia and applicable law. The agreement is submitted to the competent authority for documentation under Article 3 of the Joint Property Partition Regulations. The Ministry of Justice also offers an “Agreement-Based Estate Distribution” service through the Estates Platform.',
+            'إعداد اتفاقية القسمة، والتأكد من توقيع جميع الورثة أو من يمثلهم نظاماً، ومتابعة توثيقها ونقل الملكيات.': 'Preparing the distribution agreement, confirming that all heirs or their legal representatives sign it, and following documentation and ownership transfers.',
+            'رفع دعوى القسمة أمام المحكمة المختصة، وتحكم الدائرة ببيع ما لا يمكن قسمته قسمة إجبار وتسليم كل شريك نصيبه من ثمنه ما لم يتفق الشركاء على خلاف ذلك، ويُقدَّم الحكم بالبيع بعد اكتسابه الصفة النهائية إلى دائرة التنفيذ المختصة وفق المادة (18) من لائحة قسمة الأموال المشتركة.': 'A partition claim may be filed with the competent court. If property cannot be divided by compulsory partition, the court may order its sale and distribute the proceeds among the co-owners unless they agree otherwise. Once final, the sale judgment is submitted to the competent enforcement department under Article 18 of the Joint Property Partition Regulations.',
+            'إعداد صحيفة الدعوى، وتمثيل الورثة في الجلسات، ومتابعة إجراءات التصفية والبيع والتنفيذ.': 'Preparing the claim, representing heirs at hearings, and following liquidation, sale, and enforcement procedures.',
+            'ملاحظة: قد تختلف بعض المتطلبات بحسب حجم التركة وتنوّع أصولها، ووجود قاصر أو غائب أو وقف أو وصية، ونحرص على مواءمة الإجراءات لكل حالة.': 'Note: Requirements may vary depending on the estate’s size and assets and whether a minor, absent heir, endowment, or will is involved. We tailor the process to each case.',
+            'قد ينشأ بين الورثة خلاف في قسمة التركة أو في إدارتها قبل القسمة. يبيّن الجدول الآتي أبرز صور هذه النزاعات ومسار معالجتها في الأنظمة، وتختلف معالجة كل حالة بحسب وقائعها ومستنداتها.': 'Heirs may disagree about distributing or managing an estate before partition. The table below outlines common disputes and their treatment under Saudi law; the appropriate process depends on the facts and documents in each case.',
+            'مرّر الجدول أفقياً للاطلاع على بقية الأعمدة.': 'Scroll horizontally to view the remaining columns.',
+            'امتناع أحد الورثة عن القسمة بالتراضي': 'An heir refuses an amicable distribution',
+            'يرفع أي من الشركاء دعوى قسمة بطلب فرز المال المشترك وقسمته عيناً، فإن تعذرت قسمة ما يقبل القسمة، حكمت المحكمة ببيع ما لا يمكن قسمته قسمة إجبار، وتسليم كل شريك نصيبه من ثمنه، ما لم يتفق الشركاء على خلاف ذلك.': 'Any co-owner may file a partition claim seeking division in kind. If property cannot be divided by compulsory partition, the court may order its sale and distribute the proceeds among the co-owners unless they agree otherwise.',
+            'لائحة قسمة الأموال المشتركة: المواد (16، 18).': 'Joint Property Partition Regulations: Articles 16 and 18.',
+            'الخلاف على ملكية بعض أموال التركة، أو على دين على المتوفى، أو وصية، أو وقف': 'Dispute over ownership of estate assets, a debt, a will, or an endowment',
+            'تُعد من «منازعات القسمة»، ولا توقف نظر دعوى القسمة؛ فتفصل المحكمة في المال غير المتنازع عليه المنتمي للقسمة، ولها وقف الدعوى إ��ى حين الفصل في المنازعات إذا تعذر ذلك، أو ظهر لها أنها قد تستغرق المال المشترك.': 'These are treated as partition disputes and do not automatically halt the partition claim. The court may partition undisputed property and may stay the case until related disputes are resolved if partition is not otherwise possible or the disputed matters may affect all jointly owned property.',
+            'لائحة قسمة الأموال المشتركة: المادتان (5، 12).': 'Joint Property Partition Regulations: Articles 5 and 12.',
+            'انفراد أحد الورثة بوضع يده على عقار من التركة بغير حق': 'An heir unlawfully takes possession of estate property',
+            'لأي شريك رفع دعوى بطلب إخلاء العقار المشترك. وعلى المصفي أو الحارس القضائي المحافظة على المال المشترك وإدارته لمصلحة الشركاء، ومن استولى بطريق غير مشروع على شيء من المال المشترك أو عطّل الانتفاع به، جاز طلب اتخاذ الإجراءات النظامية بحقه.': 'Any co-owner may seek an order to vacate jointly owned property. An estate administrator or judicial custodian must preserve and manage the property for the co-owners. Legal measures may be sought against anyone who unlawfully takes or interferes with the shared property.',
+            'لائحة قسمة الأموال المشتركة: المادتان (5، 37).': 'Joint Property Partition Regulations: Articles 5 and 37.',
+            'إخفاء بعض أعيان التركة أو وثائقها': 'Concealment of estate assets or documents',
+            'تنظر المحكمة دعوى الإفصاح عن أعيان المال المشترك ووثائقه، ولها أن تكتب إلى الجهات المختصة أو المشرفة على تسجيل الأموال للإفصاح عنها.': 'The court may hear a claim seeking disclosure of jointly owned assets and documents and may request information from the authorities responsible for registering or overseeing those assets.',
+            'لائحة قسمة الأموال المشتركة: المادتان (11/1، 13).': 'Joint Property Partition Regulations: Articles 11(1) and 13.',
+            'الخلاف على الانتفاع بأموال التركة قبل قسمتها': 'Dispute over use of estate assets before distribution',
+            'للورثة أثناء دعوى القسمة اقتسام منافع المال المشترك مهايأةً بالزمان أو المكان حتى تتم القسمة. فإن تعذر الاتفاق حكمت المحكمة بذلك عند الاقتضاء.': 'While a partition claim is pending, heirs may divide the use of jointly owned property by time or by area until partition is complete. If they cannot agree, the court may determine the arrangement where appropriate.',
+            'لائحة قسمة الأموال المشتركة: المادتان (6/1، 6).': 'Joint Property Partition Regulations: Articles 6(1) and 6.',
+            'الخلاف على إدارة التركة وتصفيتها': 'Dispute over estate administration and liquidation',
+            'للمحكمة عند الاقتضاء إقامة مصفٍّ تختاره باتفاق ذوي الشأن جميعاً، فإن لم يتفقوا اختارت مصفياً مرخصاً. ولها اتخاذ ما يلزم بصفة مستعجلة لحفظ الأموال المشتركة، ويمكن أن تعهد إلى الهيئة العامة للولاية على أموال القاصرين ومن في حكمهم بحفظ الأموال المتنازع عليها حتى يُفصل فيها.': 'Where appropriate, the court may appoint an administrator agreed upon by all interested parties; if they cannot agree, it may appoint a licensed administrator. The court may also take urgent measures to preserve jointly owned assets or entrust disputed assets to the General Authority for the Guardianship of the Funds of Minors and Those of Similar Status until the dispute is resolved.',
+            'لائحة قسمة الأموال المشتركة: المادتان (20، 21).': 'Joint Property Partition Regulations: Articles 20 and 21.',
+            'الاعتراض على قائمة الجرد التي يعدها المصفي': 'Objection to the administrator’s inventory',
+            'تُرفع المنازعة في صحة الجرد، بأدلتها، بصحيفة تودع لدى إدارة المحكمة التي تنظر دعوى القسمة خلال الثلاثين يوماً التالية للإبلاغ بإيداع قائمة الجرد.': 'A challenge to the inventory, with supporting evidence, must be filed with the court hearing the partition claim within 30 days after notice that the inventory has been submitted.',
+            'لائحة قسمة الأموال المشتركة: المادة (39/1).': 'Joint Property Partition Regulations: Article 39(1).',
+            'الخلاف على وصية لوارث أو بما يزيد على الثلث': 'Dispute over a will to an heir or exceeding one-third of the estate',
+            'لا وصية لوارث إلا إذا أجازها باقي الورثة بعد الوفاة، فإن أجازها بعضهم نُفذت في نصيبه. وتنفذ الوصية فيما لا يزيد على ثلث التركة، ويوقف ما زاد على إجازة الورثة، وينفذ منه بقدر نصيب من أجازه.': 'A bequest to an heir is valid only if the other heirs approve it after the testator’s death; if only some approve, it is effective only against their shares. A will may not exceed one-third of the estate without the heirs’ approval.',
+            'نظام الأحوال الشخصية: المادتان (179، 190).': 'Personal Status Law: Articles 179 and 190.',
+            'الطعن في استحقاق أحد الورثة للإرث': 'Challenge to an heir’s right to inherit',
+            'لا يرث من قتل مورثه عمداً عدواناً أو شبه عمد، ولا من أمر بقتله أو تسبب في قتله عدواناً أو شبه عمد، ومن قتل مورثه خطأً أو تسبب في قتله خطأً ورث من التركة دون الدية. ولا توارث مع اختلاف الدين، مع مراعاة أحكام الوصية، ولا يرث من ماتا في وقت واحد أو جهل أسبقهما وفاة.': 'A person who intentionally or quasi-intentionally kills the deceased, orders the killing, or causes it unlawfully is disqualified from inheritance. A person who causes the death accidentally may inherit from the estate but not the blood money. There is no inheritance between persons of different religions, subject to the rules on wills, and persons who die at the same time—or whose order of death is unknown—do not inherit from one another.',
+            'نظام الأحوال الشخصية: المواد (200، 202، 203).': 'Personal Status Law: Articles 200, 202, and 203.',
+            'الاستشارات الشرعية والنظامية في المواريث والوصايا.': 'Sharia and legal advice on inheritance and wills.',
+            'تمثيل الورثة أمام المحاكم المختصة ومحاكم التنفيذ للمطالبة بحقوقهم.': 'Representing heirs before the competent courts and enforcement courts to protect their rights.',
+            'إعداد اتفاقيات القسمة الرضائية ومحاضر الصلح.': 'Preparing consensual distribution agreements and settlement records.',
+            'متابعة توثيق القسمة ونقل الملكيات لدى الجهات المختصة.': 'Following the documentation of distributions and transfers of ownership with the competent authorities.',
+            'الدعم بعد القسمة: تسجيل الملكيات وتحديث السجلات العقارية والمصرفية، ومنها تسجيل القسمة والإرث في السجل العقاري للعقارات المسجلة عينياً.': 'Post-distribution support, including registering ownership and updating real estate and banking records, including registration of inheritance and partition in the real estate registry for properties subject to in-kind registration.',
+            'عرّفت المادة (الأولى) من لائحة قسمة الأموال المشتركة قسمة التراضي بأنها «ما لا تجوز إلا برضا الشركاء، لحصول ضرر فيها أو رد عوض من أحدهم على الآخر»، وقسمة الإجبار بأنها «ما لا ضرر فيها على الشركاء ولا على أحدهم ولا رد عوض».': 'Article 1 of the Joint Property Partition Regulations defines consensual partition as a division requiring the co-owners’ consent because it would otherwise cause harm or require compensation from one co-owner to another. Compulsory partition is a division that causes no such harm and requires no compensation.',
+            'تنص المادة (171) من نظام الأحوال الشخصية على أن الوصية تُنفَّذ من تركة الموصي بعد إخراج نفقات تجهيز الميت وأداء ديونه. وفي حال تصفية المال المشترك، يتولى المصفي قسمته بين الشركاء بعد تصفيته من الديون والوصايا ونحو ذلك، وفقاً للمادة (44) من لائحة قسمة الأموال المشتركة.': 'Article 171 of the Personal Status Law provides that a will is carried out after funeral expenses and debts are paid. When jointly owned property is liquidated, the administrator distributes it among the co-owners after settling debts, wills, and similar obligations under Article 44 of the Joint Property Partition Regulations.',
+            'تُنفَّذ الوصية إذا لم تزد على ثلث التركة، وما زاد على الثلث يوقف على إجازة الورثة ويُنفَّذ منه بقدر نصيب من أجازه منهم (المادة 190 من نظام الأحوال الشخصية). ولا وصية لوارث إلا إذا أجازها باقي الورثة بعد الوفاة، فإن أجازها بعضهم نُفِّذت في نصيبهم (المادة 179).': 'A will may be executed up to one-third of the estate. Any excess requires the heirs’ approval and is effective only against the share of each approving heir (Personal Status Law Article 190). A bequest to an heir is valid only if the other heirs approve it after the testator’s death; if only some approve, it applies only to their shares (Article 179).',
+            'تتيح وزارة العدل خدمة «إصدار حصر الورثة» إلكترونياً عبر منصة التركات بالدخول عن طريق النفاذ الوطني الموحد، ويتضمن الطلب بيانات مقدم الطلب والمتوفى والورثة والشهود، وتشتمل الوثيقة على بيانات المورث والورثة وأنصبتهم. أما صكوك حصر الورثة الورقية الصادرة من المحكمة فيجوز طلب رقمنتها عبر الخدمات الإلكترونية لوزارة العدل بعد التحقق والمطابقة من المحكمة المختصة.': 'The Ministry of Justice offers an online “Issue Heirship Certificate” service through the Estates Platform, accessed through the National Unified Access system. The application includes details of the applicant, deceased, heirs, and witnesses; the certificate lists the deceased, heirs, and their shares. Paper heirship certificates issued by a court may be submitted for digitization through the Ministry’s online services after verification by the competent court.',
+            'للشركاء كاملي الأهلية أن يقتسموا المال المشترك بالطريقة التي يتفقون عليها بما لا يخالف الشريعة والأنظمة، ثم يُقدَّم الاتفاق للجهة المختصة لتوثيقه (المادة 3 من لائحة قسمة الأموال المشتركة)، كما تتيح وزارة العدل خدمة «قسمة تركة اتفاقية» عبر منصة التركات. وإذا قُسم المال المشترك ثم ادعى أحد بدين عليه أو وصية فيه، نُظرت الدعوى وفقاً للأحكام العامة للاختصاص النوعي والمكاني (المادة 46 من اللائحة).': 'Co-owners with full legal capacity may agree on a division that complies with Sharia and applicable law and submit it for documentation (Article 3 of the Joint Property Partition Regulations). The Ministry of Justice also offers an “Agreement-Based Estate Distribution” service through the Estates Platform. If a debt or will is claimed after partition, the matter is heard under the general rules on subject-matter and territorial jurisdiction (Article 46).',
+            'تنص المادة (12) من نظام التوثيق، بعد تعديلها بالمرسوم الملكي رقم (م/21) وتاريخ 26/1/1447هـ، على أن كاتب العدل لا يختص بتوثيق أي إقرار أو عقد يكون أحد طرفيه عديم الأهلية أو ناقصها أو غائباً أو ناظر وقف أو وصية، إلا في حالات محددة ليس من بينها القسمة. ويُراعى في قسمة المال المشترك المتضمن لنصيب قاصر أو غائب أو مفقود أو وقف أو وصية الأحكامُ الخاصة المنصوص عليها في الأنظمة، وفق المادة (2) من لائحة قسمة الأموال المشتركة.': 'As amended by Royal Decree No. (M/21) dated 26/1/1447 AH, Article 12 of the Notarization Law limits a notary’s authority to document declarations or contracts involving a person lacking or having limited capacity, an absent person, or a guardian of an endowment or will, except in specified cases that do not include partition. Special statutory rules apply when jointly owned property includes the share of a minor, absent or missing person, endowment, or will (Article 2 of the Joint Property Partition Regulations).',
+            'تحكم الدائرة ببيع ما لا يمكن قسمته قسمة إجبار وتسليم كل شريك نصيبه من ثمنه، ما لم يتفق الشركاء على خلاف ذلك، ويُقدَّم الحكم بالبيع بعد اكتسابه الصفة النهائية إلى دائرة التنفيذ المختصة لتنفيذه، وفق المادة (18) من لائحة قسمة الأموال المشتركة.': 'The court may order the sale of property that cannot be divided by compulsory partition and distribute the proceeds among the co-owners unless they agree otherwise. Once final, the sale judgment is submitted to the competent enforcement department under Article 18 of the Joint Property Partition Regulations.',
+            'تكون الولاية على مال القاصر للأب، ثم وصي الأب، ثم من تعينه المحكمة (المادة 139 من نظام الأحوال الشخصية). وإذا لم يكن للقاصر وصي أو عُزل، عيّنت المحكمة ولياً على ماله بعد أخذ رأي أمه (المادة 152). ويلتزم الوصي أو الولي المعيّن من المحكمة بإيداع مال القاصر في حسابات مصرفية باسمه (المادة 156)، دون إخلال باختصاصات الهيئة العامة للولاية على أموال القاصرين ومن في حكمهم (المادة 144).': 'Guardianship over a minor’s assets belongs first to the father, then the father’s appointed guardian, then a guardian appointed by the court (Personal Status Law Article 139). If the minor has no guardian or the guardian is removed, the court appoints one after consulting the mother (Article 152). A court-appointed guardian must deposit the minor’s assets in bank accounts in the minor’s name (Article 156), without prejudice to the authority of the General Authority for the Guardianship of the Funds of Minors and Those of Similar Status (Article 144).',
+            'المعلومات الواردة في هذه الصفحة لأغراض تثقيفية عامة، ولا تُعد استشارة قانونية لحالة بعينها.': 'The information on this page is for general educational purposes only and is not legal advice for any particular matter.',
+            'نظام الأحوال الشخصية': 'Personal Status Law',
+            'لائحة نظام الأحوال الشخصية': 'Implementing Regulations of the Personal Status Law',
+            'لائحة قسمة الأموال المشتركة': 'Joint Property Partition Regulations',
+            'المرسوم الملكي (م/21) وتاريخ 26/1/1447هـ بتعديل نظام التوثيق': 'Royal Decree No. (M/21) dated 26/1/1447 AH amending the Notarization Law',
+            'إصدار حصر الورثة': 'Issue an heirship certificate',
+            'طلب رقمنة وثيقة حصر الورثة': 'Request digitization of an heirship certificate',
+            'قسمة تركة اتفاقية': 'Agreement-based estate distribution',
+            'آخر تحديث للمحتوى: 22 أكتوبر 2026م.': 'Content last updated: October 22, 2026.',
+            'تواصل الآن مع محامي تركات في جدة': 'Contact an estate lawyer in Jeddah',
+            'احجز استشارتك عبر الهاتف أو البريد الإلكتروني أو واتساب. فريقنا متاح للرد على استفساراتكم.': 'Book a consultation by phone, email, or WhatsApp. Our team is available to answer your questions.',
+            'إخلاء المسؤولية: المعلومات الواردة في هذه الصفحة لأغراض تثقيفية عامة، ولا تُعد استشارة قانونية. ولا يُنشئ التواصل معنا عبر الموقع أو الهاتف علاقة تعاقدية ما لم يُبرم عقد مكتوب، ونتعامل مع البيانات المرسلة إلينا بسرية وفق قواعد السلوك المهني للمحامين.': 'Disclaimer: This page is for general educational purposes only and is not legal advice. Contacting us through the website or by phone does not create an attorney-client relationship unless a written engagement is signed. Information submitted to us is handled confidentially in accordance with the professional rules governing lawyers.'
+        });
+        const originalTextNodes = new WeakMap();
+        const originalAttributes = new WeakMap();
+        const mobileMenuButton = document.getElementById('mobileMenuButton');
+        const mobileMenu = document.getElementById('mobileMenu');
+        const normalizeKey = (value) => value.replace(/\s+/g, ' ').trim();
+
+        function setLanguage(language) {
+            const isEnglish = language === 'en';
+            document.documentElement.lang = language;
+            document.documentElement.dir = isEnglish ? 'ltr': 'rtl';
+            document.title = isEnglish ? 'Estate Distribution | Estate and Inheritance Lawyer in Jeddah': 'قسمة التركات | محامي تركات ومواريث في جدة';
+            document.querySelector('meta[name="description"]').content = isEnglish
+                ? 'Estate and inheritance legal support in Jeddah, from heirship records and asset inventory to consensual or court-ordered distribution.'
+               : 'محامي تركات ومواريث في جدة لقسمة التركات وفق الأحكام الشرعية والأنظمة. متابعة حصر الورثة والأصول، والقسمة الرضائية أو القضائية، وتوثيق القسمة ونقل الملكيات.';
+            const walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT);
+            let node;
+            while ((node = walker.nextNode())) {
+                if (node.parentElement && ['SCRIPT', 'STYLE'].includes(node.parentElement.tagName)) continue;
+                if (!originalTextNodes.has(node)) originalTextNodes.set(node, node.nodeValue);
+                const original = originalTextNodes.get(node);
+                const translation = inheritanceTranslations[normalizeKey(original)] || window.ALHAKAMI_EN_TEXT[normalizeKey(original)];
+                node.nodeValue = isEnglish && translation ? original.match(/^\s*/)[0] + translation + original.match(/\s*$/)[0]: original;
+            }
+            document.querySelectorAll('.language-toggle').forEach((button) => {
+                button.textContent = isEnglish ? 'العربية': 'English';
+                button.setAttribute('aria-label', isEnglish ? 'Switch language to Arabic': 'Switch language to English');
+            });
+            const expanded = mobileMenuButton.getAttribute('aria-expanded') === 'true';
+            mobileMenuButton.setAttribute('aria-label', isEnglish ? (expanded ? 'Close menu': 'Open menu'): (expanded ? 'إغلاق القائمة': 'فتح القائمة'));
+        }
+        document.querySelectorAll('.language-toggle').forEach((button) => button.addEventListener('click', () => setLanguage(document.documentElement.lang === 'en' ? 'ar': 'en')));
+        mobileMenuButton.addEventListener('click', () => {
+            const expanded = mobileMenuButton.getAttribute('aria-expanded') === 'true';
+            mobileMenuButton.setAttribute('aria-expanded', String(!expanded));
+            mobileMenuButton.setAttribute('aria-label', expanded ? 'فتح القائمة': 'إغلاق القائمة');
+            mobileMenu.classList.toggle('hidden', expanded);
+        });
+        mobileMenu.querySelectorAll('a').forEach((link) => link.addEventListener('click', () => {
+            mobileMenu.classList.add('hidden');
+            mobileMenuButton.setAttribute('aria-expanded', 'false');
+        }));
+        if (new URLSearchParams(window.location.search).get('lang') === 'en') setLanguage('en');
+    </script>
+</body>
+</html>

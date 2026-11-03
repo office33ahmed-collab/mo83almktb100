@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>الشؤون القانونية للشركات | مكتب نواف بن حسن الحكمي للمحاماة والاستشارات القانونية وأعمال التوثيق</title>
+    <meta name="description" content="خدمات الشؤون القانونية للشركات في جدة: الحوكمة والامتثال والعقود وتسوية المنازعات، مع إجابات للأسئلة الشائعة عن نظام الشركات.">
+    <meta name="theme-color" content="#182338">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Readex+Pro:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <script>
+        tailwind.config = { theme: { extend: { colors: { navy: { DEFAULT: '#182338', dark: '#111929', light: '#23324f' }, gold: { DEFAULT: '#8B6528', light: '#C5A978', sand: '#EAE3D5' }, surface: { topbar: '#F3F1EC' } }, fontFamily: { readex: ['"Readex Pro"', 'sans-serif'], montserrat: ['Montserrat', 'sans-serif'] }, boxShadow: { nav: '0 10px 35px -5px rgba(24,35,56,.08)', card: '0 4px 20px -2px rgba(24,35,56,.05)' } } } };
+    </script>
+    <style>
+        :root { color-scheme: light; }
+        * { box-sizing: border-box; }
+        body { margin: 0; background: #fbfbfc; color: #182338; font-family: 'Readex Pro', sans-serif; -webkit-font-smoothing: antialiased; }
+        html[lang="en"] body { font-family: 'Montserrat', sans-serif; }
+        html[lang="en"] .font-readex { font-family: 'Montserrat', sans-serif; }
+        html[lang="en"] .text-right { text-align: left; }
+        html[lang="en"] [dir="rtl"] { direction: ltr !important; }
+        .hero-banner { background-image: linear-gradient(90deg,rgba(24,35,56,.83),rgba(24,35,56,.78)),url('/saudi-courtroom.png'); background-position: center 45%; background-size: cover; }
+        .faq-item { border-bottom: 1px solid #d9dce1; }
+        .faq-item summary { list-style: none; cursor: pointer; }
+        .faq-item summary::-webkit-details-marker { display: none; }
+        .faq-item summary:focus-visible, a:focus-visible, button:focus-visible { outline: 3px solid #c5a978; outline-offset: 3px; }
+        .faq-item summary { justify-content: flex-start; }
+        .faq-item summary > span:first-child { flex: 0 1 auto; text-align: right; }
+        .faq-item[open] summary { color: #8b6528; }
+        .faq-item[open] > div { margin: 0 0 14px; border-inline-start: 2px solid #c5a978; border-radius: 0 8px 8px 0; background: #f7f5f0; padding: 14px 18px; animation: faq-reveal .24s ease-out both; }
+        .faq-chevron { order: -1; transition: transform .2s ease; }
+        .faq-item[open] .faq-chevron { transform: rotate(180deg); }
+        @keyframes faq-reveal { from { opacity: 0; transform: translateY(-5px); } to { opacity: 1; transform: translateY(0); } }
+        @media (prefers-reduced-motion: reduce) { .faq-item[open] > div, .faq-chevron { animation: none; transition: none; } }
+        @media (max-width: 820px) {
+            .intro-layout { grid-template-columns: 1fr !important; }
+            .intro-aside { grid-column: 1 !important; grid-row: 1; }
+            .intro-copy { grid-column: 1 !important; grid-row: 2; }
+        }
+    </style>
+</head>
+<body>
+    <div class="bg-surface-topbar border-b border-stone-200/80 text-xs sm:text-sm py-2.5 px-4 lg:px-12">
+        <div class="max-w-7xl mx-auto flex flex-wrap items-center justify-between gap-3">
+            <div class="flex items-center gap-2 text-stone-600 font-medium">
+                <i class="fa-regular fa-clock text-gold text-base" aria-hidden="true"></i>
+                <span data-i18n="ساعات العمل: 09:00 - 17:00">ساعات العمل: 09:00 - 17:00</span>
+            </div>
+            <div class="flex flex-wrap items-center gap-4 sm:gap-6 text-stone-600 font-medium" dir="ltr">
+                <a href="tel:+966125118682" class="flex items-center gap-2 hover:text-gold transition-colors"><i class="fa-solid fa-phone-volume text-gold" aria-hidden="true"></i><span>+966 12 511 8682</span></a>
+                <a href="https://wa.me/966560047407" target="_blank" rel="noopener noreferrer" class="hidden md:flex items-center gap-1.5 hover:text-gold transition-colors"><i class="fa-solid fa-mobile-screen-button text-gold" aria-hidden="true"></i><span>+966 56 004 7407</span></a>
+                <a href="mailto:info@alhakamilaw.com" class="flex items-center gap-2 hover:text-gold transition-colors"><i class="fa-regular fa-envelope text-gold" aria-hidden="true"></i><span>info@alhakamilaw.com</span></a>
+            </div>
+        </div>
+    </div>
+
+    <header class="sticky top-0 z-40 bg-surface-topbar/60 backdrop-blur-md py-2.5 px-3 sm:px-6 lg:px-12 transition-all duration-300" id="mainHeader">
+        <nav class="max-w-7xl mx-auto bg-white rounded-xl shadow-nav px-4 sm:px-6 py-2 flex items-center justify-between border border-stone-100">
+            <a href="/law-firm.html#home" class="group shrink-0 flex items-center gap-3 select-none" aria-label="مكتب نواف بن حسن الحكمي للمحاماة والاستشارات القانونية وأعمال التوثيق">
+                <div class="w-[52px] h-[52px] sm:w-[58px] sm:h-[58px] shrink-0 rounded-lg border border-gold/35 bg-[#FAF8F3] p-1 flex items-center justify-center shadow-sm group-hover:border-gold transition-colors">
+                    <img src="/nawaf-emblem.svg" alt="" class="h-full w-full object-contain" aria-hidden="true">
+                </div>
+                <div class="flex flex-col justify-center text-right leading-none">
+                    <span class="text-navy font-bold text-[13.5px] sm:text-[15px] font-readex tracking-tight leading-tight" data-i18n="مكتب نواف بن حسن الحكمي">مكتب نواف بن حسن الحكمي</span>
+                    <span class="text-navy font-semibold text-[8px] sm:text-[9.5px] font-montserrat tracking-[0.14em] uppercase mt-0.5 leading-tight">NAWAF BIN HASSAN AL-HAKAMI LAW FIRM</span>
+                    <span class="text-gold font-medium text-[11px] sm:text-[12px] font-readex mt-0.5 leading-tight" data-i18n="للمحاماة والاستشارات القانونية وأعمال التوثيق">للمحاماة والاستشارات القانونية وأعمال التوثيق</span>
+                    <span class="text-gold font-medium text-[7.5px] sm:text-[8.5px] font-montserrat tracking-[0.06em] mt-0.5 leading-tight">Legal Services, Consultancy &amp; Notarial Services</span>
+                </div>
+            </a>
+
+            <ul class="hidden xl:flex items-center gap-1 text-[14px] font-semibold text-navy">
+                <li><a href="/law-firm.html#home" data-nav="home" class="nav-item px-4 py-2.5 rounded-md hover:bg-gold-sand/60 transition-all" data-i18n="الرئيسية">الرئيسية</a></li>
+                <li><a href="/law-firm.html#about" data-nav="about" class="nav-item px-3.5 py-2.5 rounded-md hover:bg-gold-sand/60 transition-all" data-i18n="من نحن">من نحن</a></li>
+                <li><a href="/law-firm.html#vision" data-nav="vision" class="nav-item px-3.5 py-2.5 rounded-md hover:bg-gold-sand/60 transition-all" data-i18n="الرؤية والرسالة">الرؤية والرسالة</a></li>
+                <li><a href="/law-firm.html#services" data-nav="services" class="nav-item nav-link-active px-3.5 py-2.5 rounded-md transition-all" data-i18n="خدماتنا">خدماتنا</a></li>
+                <li><a href="/law-firm.html#platform" data-nav="team" class="nav-item px-3.5 py-2.5 rounded-md hover:bg-gold-sand/60 transition-all" data-i18n="منصتنا الذكية">منصتنا الذكية</a></li>
+                <li><a href="/law-firm.html#partners" data-nav="partners" class="nav-item px-3.5 py-2.5 rounded-md hover:bg-gold-sand/60 transition-all" data-i18n="شركاء النجاح">شركاء النجاح</a></li>
+                <li><button class="language-toggle px-3 py-2 rounded-md text-navy hover:text-gold transition-colors font-semibold text-sm font-montserrat" type="button" aria-label="Switch language to English" dir="ltr">English</button></li>
+            </ul>
+
+            <div class="flex items-center gap-3">
+                <a href="https://wa.me/966560047407" target="_blank" rel="noopener noreferrer" class="hidden sm:inline-flex bg-navy hover:bg-navy-light text-white font-bold text-xs sm:text-sm px-5 sm:px-7 py-3 rounded-lg shadow-md hover:shadow-lg transition-all" data-i18n="تواصلوا معنا">تواصلوا معنا</a>
+                <button id="mobileMenuButton" type="button" class="xl:hidden w-10 h-10 rounded-lg bg-stone-100 text-navy flex items-center justify-center hover:bg-gold-sand transition-colors" aria-label="فتح القائمة" aria-expanded="false" aria-controls="mobileMenu">
+                    <i class="fa-solid fa-bars text-lg" aria-hidden="true"></i>
+                </button>
+            </div>
+        </nav>
+
+        <div id="mobileMenu" class="hidden xl:hidden max-w-7xl mx-auto mt-2 bg-white rounded-xl shadow-xl border border-stone-200 p-4 space-y-2">
+            <a href="/law-firm.html#home" data-i18n="الرئيسية" class="block px-4 py-2.5 rounded-lg hover:bg-stone-100 font-bold text-navy">الرئيسية</a>
+            <a href="/law-firm.html#about" data-i18n="من نحن" class="block px-4 py-2.5 rounded-lg hover:bg-stone-100 font-bold text-navy">من نحن</a>
+            <a href="/law-firm.html#vision" data-i18n="الرؤية والرسالة" class="block px-4 py-2.5 rounded-lg hover:bg-stone-100 font-bold text-navy">الرؤية والرسالة</a>
+            <a href="/law-firm.html#services" data-i18n="خدماتنا" class="block px-4 py-2.5 rounded-lg bg-gold-sand font-bold text-navy">خدماتنا</a>
+            <a href="/law-firm.html#platform" data-i18n="منصتنا الذكية" class="block px-4 py-2.5 rounded-lg hover:bg-stone-100 font-bold text-navy">منصتنا الذكية</a>
+            <a href="/law-firm.html#partners" data-i18n="شركاء النجاح" class="block px-4 py-2.5 rounded-lg hover:bg-stone-100 font-bold text-navy">شركاء النجاح</a>
+            <a href="https://wa.me/966560047407" target="_blank" rel="noopener noreferrer" class="block rounded-lg bg-navy px-4 py-2.5 text-center font-bold text-white" data-i18n="تواصلوا معنا">تواصلوا معنا</a>
+            <div class="pt-2 border-t border-stone-200 flex items-center justify-between px-4">
+                <a href="tel:+966125118682" class="text-sm font-bold text-gold" dir="ltr">+966 12 511 8682</a>
+                <button class="language-toggle text-sm font-bold text-navy font-montserrat" type="button" aria-label="Switch language to English">English</button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero-banner flex min-h-[190px] items-center justify-center px-5 py-12 text-center sm:min-h-[220px]" aria-labelledby="pageTitle">
+            <h1 id="pageTitle" class="font-readex text-3xl font-bold text-white sm:text-4xl">الشؤون القانونية للشركات</h1>
+        </section>
+
+        <section class="px-4 py-12 sm:px-7 sm:py-16 lg:px-8 lg:py-20" aria-labelledby="pageTitle">
+            <div class="intro-layout mx-auto grid max-w-6xl grid-cols-[280px_minmax(0,1fr)] items-start gap-8 lg:grid-cols-[300px_minmax(0,1fr)] lg:gap-12">
+                <aside class="intro-aside rounded-sm border border-stone-100 bg-white px-6 py-8 text-center shadow-card sm:px-8" aria-label="الشؤون القانونية للشركات">
+                    <span class="mx-auto mb-4 flex h-16 w-16 items-center justify-center rounded-full bg-[#faf8f3]" aria-hidden="true"><svg class="w-14 h-14" viewBox="0 0 64 64" fill="none" stroke="#8B6528" stroke-width="1.8"><rect x="20" y="8" width="24" height="18" rx="2"/><path d="M26 14h12M26 19h12M32 26v10M16 36h32M16 36v8M32 36v8M48 36v8"/><circle cx="16" cy="49" r="5"/><circle cx="32" cy="49" r="5"/><circle cx="48" cy="49" r="5"/></svg></span>
+                    <h2 class="font-readex text-xl font-bold text-navy">الشؤون القانونية للشركات</h2>
+                    <p class="mt-2 text-sm leading-7 text-stone-500">إدارة قانونية متكاملة تدعم امتثال الشركة واستقرار أعمالها.</p>
+                </aside>
+
+                <article class="intro-copy space-y-10 text-right">
+                    <section aria-labelledby="legalIntroHeading">
+                        <h2 id="legalIntroHeading" class="font-readex text-2xl font-bold text-navy sm:text-[27px]">حوكمةٌ قانونيةٌ بقيادة محامي شركات</h2>
+                        <p class="mt-2 font-readex text-lg font-semibold text-gold">تدعم امتثالك ونموّ أعمالك</p>
+                        <p class="mt-4 text-[15px] leading-9 text-stone-700 sm:text-base">في بيئة تنظيمية تواكب طموحات رؤية المملكة 2030، وتتجدد فيها أحكام نظام الشركات ولوائح هيئة السوق المالية، قد يصبح غياب المشورة القانونية من محامي شركات متخصص مدخلاً لنزاعات مكلفة وإجراءات رقابية تُربك خططك الاستثمارية.</p>
+                        <p class="mt-3 text-[15px] leading-9 text-stone-700 sm:text-base">لذلك يضع مكتب نواف بن حسن الحكمي للمحاماة والاستشارات القانونية وأعمال التوثيق في جدة خبرته في المنازعات القضائية والتجارية في خدمتك؛ نبدأ معك من اختيار الشكل النظامي الأنسب، ونُحكم عقود الشركاء والموردين، ثم نرسّخ إطار حوكمة يلبّي المتطلبات النظامية، مع متابعة دورية تعزز امتثالك واستمرار توسعك بثقة واستدامة.</p>
+                    </section>
+
+                    <section aria-labelledby="legalExperienceHeading">
+                        <h2 id="legalExperienceHeading" class="font-readex text-2xl font-bold text-navy sm:text-[27px]">خبرة قانونية تجمع بين الجانبين النظامي والتجاري</h2>
+                        <p class="mt-3 text-[15px] leading-9 text-stone-700 sm:text-base">تتشابك صفقات الشركات اليوم مع متطلبات نظامية متجددة وأسواق تنافسية سريعة الإيقاع، ما يفرض على المحامي أو المستشار القانوني الجمع بين الفطنة التجارية والدراية بالمنازعات القضائية.</p>
+                        <p class="mt-3 text-[15px] leading-9 text-stone-700 sm:text-base">في مكتب نواف بن حسن الحكمي للمحاماة والاستشارات القانونية وأعمال التوثيق في جدة نوظّف هذا المزيج: خبرة ممتدة في المنازعات القضائية والإلمام باللوائح والمبادئ القضائية المنشورة، ومعرفة عملية باحتياجات المستثمرين ومتطلبات الجهات الرقابية؛ فنعيد هيكلة كيانات العملاء، ونصوغ عقودهم، ونشارك في مفاوضاتهم، بما يدعم قدرتهم التنافسية منذ البداية.</p>
+                    </section>
+
+                    <section aria-labelledby="companyLawyerHeading">
+                        <h2 id="companyLawyerHeading" class="font-readex text-2xl font-bold text-navy sm:text-[27px]">محامي الشركات من مكتب نواف بن حسن الحكمي في جدة</h2>
+                        <h3 class="mt-2 font-readex text-lg font-semibold text-gold">شريكك الاستراتيجي لحلولٍ شاملة في قانون الشركات</h3>
+                        <p class="mt-3 text-[15px] leading-9 text-stone-700 sm:text-base">نجاح الشركة لا يُقاس بتأسيسها النظامي فحسب، بل بقدرتها على الاستمرار مع تغيّر القواعد التنظيمية واتساع المخاطر. ويعمل محامي الشركات في مكتب نواف بن حسن الحكمي بجدة ذراعاً قانونية لعملائنا: نرسم خريطة الهيكل الإداري وبنية الملكية، ونُحكم لوائح الحوكمة وسياسات الامتثال الداخلي، ونتولى الجوانب القانونية لعمليات الاندماج والاستحواذ وتسوية المنازعات، مع مراقبة دورية للمخاطر والالتزامات؛ ليتفرغ قادة الأعمال للتوسع بينما نتولى الجوانب القانونية لحماية مصالحهم.</p>
+                    </section>
+
+                    <section aria-labelledby="visionHeading">
+                        <h2 id="visionHeading" class="font-readex text-2xl font-bold text-navy sm:text-[27px]">شريكٌ قانونيٌّ يُواكب رؤية 2030 ويُترجم مؤشّراتها إلى امتثالٍ فعّال</h2>
+                        <p class="mt-3 text-[15px] leading-9 text-stone-700 sm:text-base">تُحفّز رؤية المملكة 2030 الشركات على تبنّي الحوكمة الرقمية، وتعظيم الشفافية، وتوطين الاستثمارات النوعية؛ الأمر الذي يستلزم التزاماً تشريعياً دقيقاً وخططَ امتثالٍ متجدّدة.</p>
+                        <p class="mt-3 text-[15px] leading-9 text-stone-700 sm:text-base">في مكتب نواف بن حسن الحكمي للمحاماة والاستشارات القانونية وأعمال التوثيق في جدة نواكب هذه الرؤية عبر تحديث عقود العملاء وسياساتهم بما ينسجم مع أحدث قواعد وزارة التجارة وهيئة السوق المالية، ونفعّل التكامل مع المنصّات الحكومية الإلكترونية لتعزيز الإفصاح وحوكمة البيانات. بذلك نمكّنك من الانطلاق في مشاريعٍ تتناغم مع مستهدفات الرؤية وتُعزّز ثقة الشركاء والمستثمرين على السواء.</p>
+                    </section>
+
+                    <section aria-labelledby="whyCompanyLawyerHeading">
+                        <h2 id="whyCompanyLawyerHeading" class="font-readex text-2xl font-bold text-navy sm:text-[27px]">لماذا تحتاج شركتك إلى محامي شركات؟</h2>
+                        <ul class="mt-4 space-y-3 text-[15px] leading-8 text-stone-700">
+                            <li><strong class="text-navy">اختيار الشكل النظامي الأنسب —</strong> تأسيس شركتك إلكترونياً عبر منصة المركز السعودي للأعمال، وتسجيل المستثمر الأجنبي لدى وزارة الاستثمار عبر بوابة «استثمر في السعودية».</li>
+                            <li><strong class="text-navy">صياغة العقود ومراجعتها —</strong> إعداد عقود البيع والتوريد والامتياز والوكالات بما يسدّ الثغرات ويقلّل المخاطر المستقبلية.</li>
+                            <li><strong class="text-navy">الحوكمة والامتثال التنظيمي —</strong> مواءمة سياسات الشركة مع نظام الشركات ولوائحه، ولوائح هيئة السوق المالية، ومتطلبات مكافحة غسل الأموال، ونظام المنافسة.</li>
+                            <li><strong class="text-navy">حل النزاعات —</strong> اعتماد التفاوض أو التحكيم أو التقاضي التجاري بحسب طبيعة النزاع، ثم متابعة تنفيذ الأحكام.</li>
+                            <li><strong class="text-navy">رصد التغييرات النظامية —</strong> إصدار تنبيهات دورية بالتعديلات النظامية التي تؤثر في نشاطك، لتمكينك من الاستجابة لها.</li>
+                        </ul>
+                    </section>
+
+                    <section aria-labelledby="specializedServicesHeading">
+                        <h2 id="specializedServicesHeading" class="font-readex text-2xl font-bold text-navy sm:text-[27px]">خدماتنا المتخصصة في الشركات</h2>
+                        <ul class="mt-4 space-y-3 text-[15px] leading-8 text-stone-700">
+                            <li><strong class="text-navy">اختيار الشكل النظامي الأنسب وتأسيسه إلكترونياً —</strong> متابعة التأسيس عبر منصة المركز السعودي للأعمال، وتسجيل المستثمر الأجنبي لدى وزارة الاستثمار، بما يُسهم في سرعة الانطلاق واستيفاء المتطلبات التنظيمية.</li>
+                            <li><strong class="text-navy">صياغة العقود ومراجعتها —</strong> إعداد عقود البيع والتوريد والتوزيع والوكالات والامتياز وفق الممارسات المهنية المعتمدة، مع سدّ الثغرات وتحديد مسؤوليات الأطراف بوضوح.</li>
+                            <li><strong class="text-navy">الحوكمة والامتثال التنظيمي —</strong> تطوير اللوائح الداخلية وسياسات مكافحة غسل الأموال، ومواءمة الإجراءات مع تعليمات هيئة السوق المالية ونظام المنافسة.</li>
+                            <li><strong class="text-navy">الاندماج والاستحواذ والعناية الواجبة —</strong> إعداد مذكرات العناية الواجبة، وتقييم المخاطر القانونية، والتفاوض على الصفقات لحماية الاستثمارات.</li>
+                            <li><strong class="text-navy">تسوية المنازعات وتنفيذ الأحكام —</strong> الوساطة والتحكيم التجاري والتقاضي أمام المحاكم المختصة، ثم متابعة طلبات التنفيذ عبر منصة «ناجز».</li>
+                        </ul>
+                    </section>
+
+                    <section aria-labelledby="companyCasesHeading">
+                        <h2 id="companyCasesHeading" class="font-readex text-2xl font-bold text-navy sm:text-[27px]">قضايا الشركات التي نتولاها</h2>
+                        <ul class="mt-4 space-y-3 text-[15px] leading-8 text-stone-700">
+                            <li><strong class="text-navy">منازعات البيع والتوريد —</strong> المطالبة بالحقوق التعاقدية، وطلب إصدار أمر أداء من المحكمة التجارية متى استوفى الدين الشروط النظامية.</li>
+                            <li><strong class="text-navy">نزاعات الشركاء والإدارة —</strong> الدعاوى الناشئة عن تطبيق نظام الشركات أمام المحاكم التجارية، وإعداد قرارات الشركاء بعزل مدير الشركة ذات المسؤولية المحدودة وفق النصاب المقرر لصحة قرارات الشركاء ومع مراعاة عقد التأسيس.</li>
+                            <li><strong class="text-navy">الإفلاس —</strong> تمثيل الدائنين أو المدينين في إجراءات الإفلاس أمام المحاكم التجارية.</li>
+                            <li><strong class="text-navy">مخالفات نظام المنافسة —</strong> تمثيل الشركات في الإجراءات المتعلقة بنظام المنافسة.</li>
+                            <li><strong class="text-navy">التعدي على العلامات التجارية —</strong> رفع دعاوى التعويض أمام المحكمة المختصة، وطلب ضبط السلع المشتبه في انطوائها على تعدٍّ وإتلاف ما يثبت أنه مقلّد، وفق المادة (41) من قانون (نظام) العلامات التجارية لدول مجلس التعاون.</li>
+                        </ul>
+                    </section>
+
+                    <section aria-labelledby="faqHeading">
+                        <h2 id="faqHeading" class="font-readex text-2xl font-bold text-navy sm:text-[27px]">الأسئلة الشائعة</h2>
+                        <div class="faq-list mt-2">
+                            <details class="faq-item group py-1">
+                                <summary class="flex items-start justify-between gap-4 py-3 text-right font-readex text-[14px] font-semibold leading-7 text-navy sm:text-[15px]"><span>ما المحكمة المختصة بمنازعات الشركات والشركاء؟</span><i class="faq-chevron fa-solid fa-chevron-down mt-2 shrink-0 text-xs text-gold" aria-hidden="true"></i></summary>
+                                <div class="pb-4 text-right text-sm leading-8 text-stone-600 sm:text-[15px] sm:leading-9"><p>تختص المحاكم التجارية بالدعاوى والمخالفات الناشئة عن تطبيق نظام الشركات وفق الفقرة (4) من المادة (السادسة عشرة) من نظام المحاكم التجارية، كما تختص -بموجب الفقرة (3) من المادة ذاتها بعد تعديلها بالمرسوم الملكي رقم (م/191) وتاريخ 29/11/1444هـ- بالمنازعات التي تنشأ عن عقود المشاركة المنصوص عليها في نظام المعاملات المدنية.</p></div>
+                            </details>
+                            <details class="faq-item group py-1">
+                                <summary class="flex items-start justify-between gap-4 py-3 text-right font-readex text-[14px] font-semibold leading-7 text-navy sm:text-[15px] sm:leading-7"><span>كيف يُعزل مدير الشركة ذات المسؤولية المحدودة؟</span><i class="faq-chevron fa-solid fa-chevron-down mt-2 shrink-0 text-xs text-gold" aria-hidden="true"></i></summary>
+                                <div class="pb-4 text-right text-sm leading-8 text-stone-600 sm:text-[15px] sm:leading-9"><p>نصّت المادة (الثالثة والستون) من اللائحة التنفيذية لنظام الشركات على أنه -مع مراعاة عقد تأسيس الشركة- يكون قرار عزل مدير الشركة ذات المسؤولية المحدودة، وإن كان شريكاً فيها معيّناً في عقد تأسيسها أو في عقد مستقل، وفقاً للنصاب المقرر لصحة صدور قرارات الشركاء المنصوص عليها في النظام.</p></div>
+                            </details>
+                            <details class="faq-item group py-1">
+                                <summary class="flex items-start justify-between gap-4 py-3 text-right font-readex text-[14px] font-semibold leading-7 text-navy sm:text-[15px]"><span>هل يجوز للشركة ذات المسؤولية المحدودة شراء حصصها؟</span><i class="faq-chevron fa-solid fa-chevron-down mt-2 shrink-0 text-xs text-gold" aria-hidden="true"></i></summary>
+                                <div class="pb-4 text-right text-sm leading-8 text-stone-600 sm:text-[15px] sm:leading-9"><p>أجازت المادة (السادسة والستون) من اللائحة التنفيذية لنظام الشركات للشركة ذات المسؤولية المحدودة شراء حصصها إذا كان عقد تأسيسها ينص على ذلك، وفق ضوابط منها تفويض مدير الشركة في إتمام الشراء خلال مدة أقصاها ثلاثون يوماً من تاريخ موافقة الشركاء.</p></div>
+                            </details>
+                            <details class="faq-item group py-1">
+                                <summary class="flex items-start justify-between gap-4 py-3 text-right font-readex text-[14px] font-semibold leading-7 text-navy sm:text-[15px]"><span>ما الواجبات المفروضة على مدير الشركة وأعضاء مجلس إدارتها؟</span><i class="faq-chevron fa-solid fa-chevron-down mt-2 shrink-0 text-xs text-gold" aria-hidden="true"></i></summary>
+                                <div class="pb-4 text-right text-sm leading-8 text-stone-600 sm:text-[15px] sm:leading-9"><p>أوجبت المادة (السادسة والعشرون) من نظام الشركات على مدير الشركة أو عضو مجلس إدارتها الالتزام بواجبات العناية والولاء، وعددت جملة من تطبيقاتها.</p></div>
+                            </details>
+                            <details class="faq-item group py-1">
+                                <summary class="flex items-start justify-between gap-4 py-3 text-right font-readex text-[14px] font-semibold leading-7 text-navy sm:text-[15px]"><span>هل يجوز للشريك رهن حصصه في الشركة؟</span><i class="faq-chevron fa-solid fa-chevron-down mt-2 shrink-0 text-xs text-gold" aria-hidden="true"></i></summary>
+                                <div class="pb-4 text-right text-sm leading-8 text-stone-600 sm:text-[15px] sm:leading-9"><p>نعم، أجازت المادة (الثامنة والستون) من اللائحة التنفيذية لنظام الشركات للشريك في الشركة رهن حصصه وفقاً للضوابط الواردة فيها.</p></div>
+                            </details>
+                            <details class="faq-item group py-1">
+                                <summary class="flex items-start justify-between gap-4 py-3 text-right font-readex text-[14px] font-semibold leading-7 text-navy sm:text-[15px]"><span>ما عقوبة تزوير العلامة التجارية المسجلة أو استعمال علامة الغير بسوء نية؟</span><i class="faq-chevron fa-solid fa-chevron-down mt-2 shrink-0 text-xs text-gold" aria-hidden="true"></i></summary>
+                                <div class="pb-4 text-right text-sm leading-8 text-stone-600 sm:text-[15px] sm:leading-9">
+                                    <p>قررت الفقرة (أ) من المادة (الثانية والأربعين) من قانون (نظام) العلامات التجارية لدول مجلس التعاون -الموافق عليه بالمرسوم الملكي رقم (م/51) وتاريخ 26/7/1435هـ وتعديلاته- عقوبة الحبس مدة لا تقل عن شهر ولا تزيد على ثلاث سنوات، وبغرامة لا تقل عن خمسة آلاف ريال ولا تزيد على مليون ريال، أو بإحدى هاتين العقوبتين، لمن زوّر علامة مسجلة، ولمن وضع وهو سيئ النية على سلعه أو استعمل فيما يتعلق بخدماته علامة مملوكة لغيره، وغير ذلك من الأفعال الواردة فيها.</p>
+                                    <p class="mt-3">وفي حالة العود أجازت المادة (الثالثة والأربعون) الحكم بعقوبة لا تزيد على ضعف الحد الأقصى، مع إغلاق المحل التجاري أو المشروع مدة لا تقل عن خمسة عشر يوماً ولا تزيد على ستة أشهر، ونشر الحكم على نفقة المخالف.</p>
+                                </div>
+                            </details>
+                        </div>
+                    </section>
+
+                    <section class="rounded-lg border border-gold/30 bg-[#faf8f3] p-5 sm:p-7" aria-labelledby="contactHeading">
+                        <h2 id="contactHeading" class="font-readex text-2xl font-bold text-navy sm:text-[27px]">تواصل الآن مع محامي الشركات من مكتب نواف بن حسن الحكمي في جدة</h2>
+                        <p class="mt-2 text-[15px] leading-8 text-stone-700">احجز استشارتك عبر الهاتف أو البريد الإلكتروني أو واتساب. فريقنا متاح للرد على استفساراتكم.</p>
+                        <div class="mt-5 flex flex-wrap gap-3">
+                            <a href="tel:+966125118682" class="inline-flex items-center gap-2 rounded-lg bg-navy px-5 py-3 text-sm font-bold text-white transition hover:bg-navy-light"><i class="fa-solid fa-phone" aria-hidden="true"></i><span>اتصل بنا</span></a>
+                            <a href="mailto:info@alhakamilaw.com" class="inline-flex items-center gap-2 rounded-lg border border-navy/20 bg-white px-5 py-3 text-sm font-bold text-navy transition hover:border-gold hover:text-gold"><i class="fa-regular fa-envelope" aria-hidden="true"></i><span>البريد الإلكتروني</span></a>
+                            <a href="https://wa.me/966560047407" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 rounded-lg border border-[#25D366]/30 bg-white px-5 py-3 text-sm font-bold text-navy transition hover:border-[#25D366]"><i class="fa-brands fa-whatsapp text-[#168c47]" aria-hidden="true"></i><span>واتساب</span></a>
+                        </div>
+                    </section>
+                    <p class="text-xs leading-7 text-stone-500">إخلاء المسؤولية: المعلومات الواردة في هذه الصفحة لأغراض تثقيفية عامة، ولا تُعد استشارة قانونية. ولا يُنشئ التواصل معنا عبر الموقع أو الهاتف علاقة تعاقدية ما لم يُبرم عقد مكتوب، ونتعامل مع البيانات المرسلة إلينا بسرية وفق قواعد السلوك المهني للمحامين.</p>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer class="mt-4 bg-navy px-4 py-7 text-stone-300 sm:px-8">
+        <div class="mx-auto flex max-w-6xl flex-col items-center justify-between gap-4 text-center sm:flex-row sm:text-right">
+            <p class="text-xs leading-6" data-i18n="مكتب نواف بن حسن الحكمي للمحاماة والاستشارات القانونية وأعمال التوثيق – جدة.">مكتب نواف بن حسن الحكمي للمحاماة والاستشارات القانونية وأعمال التوثيق – جدة.</p>
+            <div class="flex items-center gap-4 text-sm">
+                <a class="transition hover:text-gold-light" href="tel:+966125118682" aria-label="اتصل بنا"><i class="fa-solid fa-phone" aria-hidden="true"></i></a>
+                <a class="transition hover:text-gold-light" href="mailto:info@alhakamilaw.com" aria-label="البريد الإلكتروني"><i class="fa-regular fa-envelope" aria-hidden="true"></i></a>
+                <a class="transition hover:text-gold-light" href="https://wa.me/966560047407" target="_blank" rel="noopener noreferrer" aria-label="واتساب"><i class="fa-brands fa-whatsapp" aria-hidden="true"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="/law-firm-i18n.js"></script>
+    <script>
+        Object.assign(window.ALHAKAMI_EN_TEXT, {
+            'الشؤون القانونية للشركات': 'Corporate Legal Affairs',
+            'إدارة قانونية متكاملة تدعم امتثال الشركة واستقرار أعمالها.': 'Comprehensive legal support that strengthens compliance and business stability.',
+            'حوكمةٌ قانونيةٌ بقيادة محامي شركات': 'Corporate governance led by experienced company counsel',
+            'تدعم امتثالك ونموّ أعمالك': 'Supporting compliance and business growth',
+            'في بيئة تنظيمية تواكب طموحات رؤية المملكة 2030، وتتجدد فيها أحكام نظام الشركات ولوائح هيئة السوق المالية، قد يصبح غياب المشورة القانونية من محامي شركات متخصص مدخلاً لنزاعات مكلفة وإجراءات رقابية تُربك خططك الاستثمارية.': 'As Saudi Arabia advances the goals of Vision 2030 and updates its Companies Law and Capital Market Authority regulations, a lack of specialist corporate legal advice can lead to costly disputes and regulatory action that disrupts investment plans.',
+            'لذلك يضع مكتب نواف بن حسن الحكمي للمحاماة والاستشارات القانونية وأعمال التوثيق في جدة خبرته في المنازعات القضائية والتجارية في خدمتك؛ نبدأ معك من اختيار الشكل النظامي الأنسب، ونُحكم عقود الشركاء والموردين، ثم نرسّخ إطار حوكمة يلبّي المتطلبات النظامية، مع متابعة دورية تعزز امتثالك واستمرار توسعك بثقة واستدامة.': 'Nawaf bin Hassan Al-Hakami Law Firm in Jeddah brings its litigation and commercial dispute experience to your business. We help select an appropriate legal structure, strengthen partner and supplier agreements, and establish a compliant governance framework, with ongoing support that promotes confident, sustainable growth.',
+            'خبرة قانونية تجمع بين الجانبين النظامي والتجاري': 'Legal expertise across regulatory and commercial matters',
+            'تتشابك صفقات الشركات اليوم مع متطلبات نظامية متجددة وأسواق تنافسية سريعة الإيقاع، ما يفرض على المحامي أو المستشار القانوني الجمع بين الفطنة التجارية والدراية بالمنازعات القضائية.': 'Corporate transactions now involve evolving legal requirements and fast-moving markets. Effective company counsel must therefore combine commercial judgment with practical litigation experience.',
+            'في مكتب نواف بن حسن الحكمي للمحاماة والاستشارات القانونية وأعمال التوثيق في جدة نوظّف هذا المزيج: خبرة ممتدة في المنازعات القضائية والإلمام باللوائح والمبادئ القضائية المنشورة، ومعرفة عملية باحتياجات المستثمرين ومتطلبات الجهات الرقابية؛ فنعيد هيكلة كيانات العملاء، ونصوغ عقودهم، ونشارك في مفاوضاتهم، بما يدعم قدرتهم التنافسية منذ البداية.': 'At Nawaf bin Hassan Al-Hakami Law Firm in Jeddah, we combine litigation experience and knowledge of published regulations and judicial principles with a practical understanding of investor needs and regulatory requirements. We restructure entities, draft agreements, and support negotiations to strengthen clients’ competitiveness from the outset.',
+            'محامي الشركات من مكتب نواف بن حسن الحكمي في جدة': 'Company lawyers at Nawaf bin Hassan Al-Hakami Law Firm in Jeddah',
+            'شريكك الاستراتيجي لحلولٍ شاملة في قانون الشركات': 'Your strategic partner for comprehensive corporate legal solutions',
+            'نجاح الشركة لا يُقاس بتأسيسها النظامي فحسب، بل بقدرتها على الاستمرار مع تغيّر القواعد التنظيمية واتساع المخاطر. ويعمل محامي الشركات في مكتب نواف بن حسن الحكمي بجدة ذراعاً قانونية لعملائنا: نرسم خريطة الهيكل الإداري وبنية الملكية، ونُحكم لوائح الحوكمة وسياسات الامتثال الداخلي، ونتولى الجوانب القانونية لعمليات الاندماج والاستحواذ وتسوية المنازعات، مع مراقبة دورية للمخاطر والالتزامات؛ ليتفرغ قادة الأعمال للتوسع بينما نتولى الجوانب القانونية لحماية مصالحهم.': 'A company’s success depends not only on proper formation, but also on its ability to adapt as regulations change and risks grow. Our corporate lawyers act as an extension of your team: mapping management and ownership structures, strengthening governance and internal compliance policies, advising on mergers and acquisitions, resolving disputes, and monitoring legal risks so business leaders can focus on growth.',
+            'شريكٌ قانونيٌّ يُواكب رؤية 2030 ويُترجم مؤشّراتها إلى امتثالٍ فعّال': 'Legal counsel that turns Vision 2030 priorities into effective compliance',
+            'تُحفّز رؤية المملكة 2030 الشركات على تبنّي الحوكمة الرقمية، وتعظيم الشفافية، وتوطين الاستثمارات النوعية؛ الأمر الذي يستلزم التزاماً تشريعياً دقيقاً وخططَ امتثالٍ متجدّدة.': 'Saudi Vision 2030 encourages companies to adopt digital governance, increase transparency, and attract high-quality investment—priorities that call for careful regulatory compliance and continuously updated plans.',
+            'في مكتب نواف بن حسن الحكمي للمحاماة والاستشارات القانونية وأعمال التوثيق في جدة نواكب هذه الرؤية عبر تحديث عقود العملاء وسياساتهم بما ينسجم مع أحدث قواعد وزارة التجارة وهيئة السوق المالية، ونفعّل التكامل مع المنصّات الحكومية الإلكترونية لتعزيز الإفصاح وحوكمة البيانات. بذلك نمكّنك من الانطلاق في مشاريعٍ تتناغم مع مستهدفات الرؤية وتُعزّز ثقة الشركاء والمستثمرين على السواء.': 'We support these goals by updating client contracts and policies to reflect current Ministry of Commerce and Capital Market Authority requirements and by using government platforms to strengthen disclosure and data governance. This helps clients pursue projects aligned with the Vision and build confidence among partners and investors.',
+            'لماذا تحتاج شركتك إلى محامي شركات؟': 'Why does your company need a corporate lawyer?',
+            'اختيار الشكل النظامي الأنسب —': 'Choosing the right legal structure —',
+            'تأسيس شركتك إلكترونياً عبر منصة المركز السعودي للأعمال، وتسجيل المستثمر الأجنبي لدى وزارة الاستثمار عبر بوابة «استثمر في السعودية».': 'Forming your company online through the Saudi Business Center and registering foreign investors with the Ministry of Investment through the Invest in Saudi portal.',
+            'صياغة العقود ومراجعتها —': 'Drafting and reviewing contracts —',
+            'إعداد عقود البيع والتوريد والامتياز والوكالات بما يسدّ الثغرات ويقلّل المخاطر المستقبلية.': 'Preparing sales, supply, franchise, and agency agreements that address gaps and reduce future risks.',
+            'الحوكمة والامتثال التنظيمي —': 'Governance and regulatory compliance —',
+            'مواءمة سياسات الشركة مع نظام الشركات ولوائحه، ولوائح هيئة السوق المالية، ومتطلبات مكافحة غسل الأموال، ونظام المنافسة.': 'Aligning company policies with the Companies Law and its regulations, Capital Market Authority rules, anti-money-laundering requirements, and the Competition Law.',
+            'حل النزاعات —': 'Dispute resolution —',
+            'اعتماد التفاوض أو التحكيم أو التقاضي التجاري بحسب طبيعة النزاع، ثم متابعة تنفيذ الأحكام.': 'Selecting negotiation, arbitration, or commercial litigation based on the dispute, then following through on enforcement.',
+            'رصد التغييرات النظامية —': 'Monitoring regulatory changes —',
+            'إصدار تنبيهات دورية بالتعديلات النظامية التي تؤثر في نشاطك، لتمكينك من الاستجابة لها.': 'Providing regular alerts about legal changes affecting your business so you can respond promptly.',
+            'خدماتنا المتخصصة في الشركات': 'Our corporate legal services',
+            'اختيار الشكل النظامي الأنسب وتأسيسه إلكترونياً —': 'Selecting and forming the appropriate legal entity online —',
+            'متابعة التأسيس عبر منصة المركز السعودي للأعمال، وتسجيل المستثمر الأجنبي لدى وزارة الاستثمار، بما يُسهم في سرعة الانطلاق واستيفاء المتطلبات التنظيمية.': 'Managing formation through the Saudi Business Center and foreign-investor registration with the Ministry of Investment to support a timely launch and meet regulatory requirements.',
+            'إعداد عقود البيع والتوريد والتوزيع والوكالات والامتياز وفق الممارسات المهنية المعتمدة، مع سدّ الثغرات وتحديد مسؤوليات الأطراف بوضوح.': 'Preparing sales, supply, distribution, agency, and franchise agreements in line with professional practice, with clear responsibilities and carefully addressed risks.',
+            'تطوير اللوائح الداخلية وسياسات مكافحة غسل الأموال، ومواءمة الإجراءات مع تعليمات هيئة السوق المالية ونظام المنافسة.': 'Developing internal bylaws and anti-money-laundering policies and aligning procedures with Capital Market Authority rules and the Competition Law.',
+            'الاندماج والاستحواذ والعناية الواجبة —': 'Mergers, acquisitions, and due diligence —',
+            'إعداد مذكرات العناية الواجبة، وتقييم المخاطر القانونية، والتفاوض على الصفقات لحماية الاستثمارات.': 'Preparing due-diligence reports, assessing legal risks, and negotiating transactions to protect investments.',
+            'تسوية المنازعات وتنفيذ الأحكام —': 'Resolving disputes and enforcing judgments —',
+            'الوساطة والتحكيم التجاري والتقاضي أمام المحاكم المختصة، ثم متابعة طلبات التنفيذ عبر منصة «ناجز».': 'Providing mediation, commercial arbitration, and court representation, then following enforcement applications through the Najiz platform.',
+            'قضايا الشركات التي نتولاها': 'Corporate matters we handle',
+            'منازعات البيع والتوريد —': 'Sales and supply disputes —',
+            'المطالبة بالحقوق التعاقدية، وطلب إصدار أمر أداء من المحكمة التجارية متى استوفى الدين الشروط النظامية.': 'Pursuing contractual rights and seeking a payment order from the Commercial Court when the debt meets the statutory requirements.',
+            'نزاعات الشركاء والإدارة —': 'Partner and management disputes —',
+            'الدعاوى الناشئة عن تطبيق نظام الشركات أمام المحاكم التجارية، وإعداد قرارات الشركاء بعزل مدير الشركة ذات المسؤولية المحدودة وفق النصاب المقرر لصحة قرارات الشركاء ومع مراعاة عقد التأسيس.': 'Handling claims under the Companies Law before the Commercial Courts and preparing resolutions to remove a limited-liability company manager in accordance with the required voting threshold and articles of incorporation.',
+            'الإفلاس —': 'Bankruptcy —',
+            'تمثيل الدائنين أو المدينين في إجراءات الإفلاس أمام المحاكم التجارية.': 'Representing creditors or debtors in bankruptcy proceedings before the Commercial Courts.',
+            'مخالفات نظام المنافسة —': 'Competition Law violations —',
+            'تمثيل الشركات في الإجراءات المتعلقة بنظام المنافسة.': 'Representing companies in proceedings under the Competition Law.',
+            'التعدي على العلامات التجارية —': 'Trademark infringement —',
+            'رفع دعاوى التعويض أمام المحكمة المختصة، وطلب ضبط السلع المشتبه في انطوائها على تعدٍّ وإتلاف ما يثبت أنه مقلّد، وفق المادة (41) من قانون (نظام) العلامات التجارية لدول مجلس التعاون.': 'Bringing compensation claims before the competent court and seeking the seizure and destruction of goods found to be counterfeit, under Article 41 of the GCC Trademark Law.',
+            'ما المحكمة المختصة بمنازعات الشركات والشركاء؟': 'Which court hears company and partner disputes?',
+            'تختص المحاكم التجارية بالدعاوى والمخالفات الناشئة عن تطبيق نظام الشركات وفق الفقرة (4) من المادة (السادسة عشرة) من نظام المحاكم التجارية، كما تختص -بموجب الفقرة (3) من المادة ذاتها بعد تعديلها بالمرسوم الملكي رقم (م/191) وتاريخ 29/11/1444هـ- بالمنازعات التي تنشأ عن عقود المشاركة المنصوص عليها في نظام المعاملات المدنية.': 'The Commercial Courts hear claims and violations arising under the Companies Law pursuant to Article 16(4) of the Commercial Courts Law. Under Article 16(3), as amended by Royal Decree No. (M/191) dated 29/11/1444 AH, they also hear disputes arising from partnership contracts governed by the Civil Transactions Law.',
+            'كيف يُعزل مدير الشركة ذات المسؤولية المحدودة؟': 'How can a limited-liability company manager be removed?',
+            'نصّت المادة (الثالثة والستون) من اللائحة التنفيذية لنظام الشركات على أنه -مع مراعاة عقد تأسيس الشركة- يكون قرار عزل مدير الشركة ذات المسؤولية المحدودة، وإن كان شريكاً فيها معيّناً في عقد تأسيسها أو في عقد مستقل، وفقاً للنصاب المقرر لصحة صدور قرارات الشركاء المنصوص عليها في النظام.': 'Article 63 of the Implementing Regulations of the Companies Law provides that, subject to the company’s articles of incorporation, a resolution to remove a limited-liability company manager���including a manager who is a partner and was appointed in the articles or a separate agreement—must satisfy the voting threshold required for valid partner resolutions under the Law.',
+            'هل يجوز للشركة ذات المسؤولية المحدودة شراء حصصها؟': 'May a limited-liability company purchase its own interests?',
+            'أجازت المادة (السادسة والستون) من اللائحة التنفيذية لنظام الشركات للشركة ذات المسؤولية المحدودة شراء حصصها إذا كان عقد تأسيسها ينص على ذلك، وفق ضوابط منها تفويض مدير الشركة في إتمام الشراء خلال مدة أقصاها ثلاثون يوماً من تاريخ موافقة الشركاء.': 'Article 66 of the Implementing Regulations permits a limited-liability company to purchase its own interests if its articles of incorporation allow it, subject to conditions including authorizing the manager to complete the purchase within 30 days of partner approval.',
+            'ما الواجبات المفروضة على مدير الشركة وأعضاء مجلس إدارتها؟': 'What duties apply to company managers and board members?',
+            'أوجبت المادة (السادسة والعشرون) من نظام الشركات على مدير الشركة أو عضو مجلس إدارتها الالتزام بواجبات العناية والولاء، وعددت جملة من تطبيقاتها.': 'Article 26 of the Companies Law requires company managers and board members to observe duties of care and loyalty and sets out examples of how those duties apply.',
+            'هل يجوز للشريك رهن حصصه في الشركة؟': 'May a partner pledge their interests in a company?',
+            'نعم، أجازت المادة (الثامنة والستون) من اللائحة التنفيذية لنظام الشركات للشريك في الشركة رهن حصصه وفقاً للضوابط الواردة فيها.': 'Yes. Article 68 of the Implementing Regulations permits a company partner to pledge their interests, subject to the specified conditions.',
+            'ما عقوبة تزوير العلامة التجارية المسجلة أو استعمال علامة الغير بسوء نية؟': 'What are the penalties for counterfeiting a registered trademark or knowingly using another party’s mark?',
+            'قررت الفقرة (أ) من المادة (الثانية والأربعين) من قانون (نظام) العلامات التجارية لدول مجلس التعاون -الموافق عليه بالمرسوم الملكي رقم (م/51) وتاريخ 26/7/1435هـ وتعديلاته- عقوبة الحبس مدة لا تقل عن شهر ولا تزيد على ثلاث سنوات، وبغرامة لا تقل عن خمسة آلاف ريال ولا تزيد على مليون ريال، أو بإحدى هاتين العقوبتين، لمن زوّر علامة مسجلة، ولمن وضع وهو سيئ النية على سلعه أو استعمل فيما يتعلق بخدماته علامة مملوكة لغيره، وغير ذلك من الأفعال الواردة فيها.': 'Article 42(a) of the GCC Trademark Law, approved by Royal Decree No. (M/51) dated 26/7/1435 AH, as amended, provides for imprisonment from one month to three years and a fine from SAR 5,000 to SAR 1,000,000, or either penalty, for counterfeiting a registered mark or knowingly placing or using another party’s mark on goods or services, among other specified acts.',
+            'وفي حالة العود أجازت المادة (الثالثة والأربعون) الحكم بعقوبة لا تزيد على ضعف الحد الأقصى، مع إغلاق المحل التجاري أو المشروع مدة لا تقل عن خمسة عشر يوماً ولا تزيد على ستة أشهر، ونشر الحكم على نفقة المخالف.': 'For repeat offenses, Article 43 permits a penalty of up to twice the maximum, closure of the business for 15 days to six months, and publication of the judgment at the violator’s expense.',
+            'تواصل الآن مع محامي الشركات من مكتب نواف بن حسن الحكمي في جدة': 'Contact a corporate lawyer at Nawaf bin Hassan Al-Hakami Law Firm in Jeddah',
+            'احجز استشارتك عبر الهاتف أو البريد الإلكتروني أو واتساب. فريقنا متاح للرد على استفساراتكم.': 'Book a consultation by phone, email, or WhatsApp. Our team is available to answer your questions.',
+            'إخلاء المسؤولية: المعلومات الواردة في هذه الصفحة لأغراض تثقيفية عامة، ولا تُعد استشارة قانونية. ولا يُنشئ التواصل معنا عبر الموقع أو الهاتف علاقة تعاقدية ما لم يُبرم عقد مكتوب، ونتعامل مع البيانات المرسلة إلينا بسرية وفق قواعد السلوك المهني للمحامين.': 'Disclaimer: This page is for general educational purposes only and is not legal advice. Contacting us through the website or by phone does not create an attorney-client relationship unless a written engagement is signed. Information submitted to us is handled confidentially in accordance with the professional rules governing lawyers.'
+        });
+
+        const originalTextNodes = new WeakMap();
+        const originalAttributes = new WeakMap();
+        const normalizeKey = (value) => value.replace(/\s+/g, ' ').trim();
+
+        function setLanguage(language) {
+            const isEnglish = language === 'en';
+            document.documentElement.lang = language;
+            document.documentElement.dir = isEnglish ? 'ltr': 'rtl';
+            document.title = isEnglish ? 'Corporate Legal Affairs | Nawaf bin Hassan Al-Hakami Law Firm': 'الشؤون القانونية للشركات | مكتب نواف بن حسن الحكمي للمحاماة والاستشارات القانونية وأعمال التوثيق';
+            document.querySelector('meta[name="description"]').content = isEnglish
+                ? 'Corporate legal services in Jeddah covering governance, compliance, contracts, and dispute resolution.'
+               : 'خدمات الشؤون القانونية للشركات في جدة: الحوكمة والامتثال والعقود وتسوية المنازعات، مع إجابات للأسئلة الشائعة عن نظام الشركات.';
+            const walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT);
+            let node;
+            while ((node = walker.nextNode())) {
+                if (node.parentElement && ['SCRIPT', 'STYLE'].includes(node.parentElement.tagName)) continue;
+                if (!originalTextNodes.has(node)) originalTextNodes.set(node, node.nodeValue);
+                const original = originalTextNodes.get(node);
+                const translation = window.ALHAKAMI_EN_TEXT[normalizeKey(original)];
+                if (isEnglish && translation) {
+                    node.nodeValue = original.match(/^\s*/)[0] + translation + original.match(/\s*$/)[0];
+                } else {
+                    node.nodeValue = original;
+                }
+            }
+            document.querySelectorAll('[aria-label], [title], [alt], [placeholder]').forEach((element) => {
+                ['aria-label', 'title', 'alt', 'placeholder'].forEach((attribute) => {
+                    if (!element.hasAttribute(attribute)) return;
+                    let saved = originalAttributes.get(element);
+                    if (!saved) {
+                        saved = {};
+                        originalAttributes.set(element, saved);
+                    }
+                    if (saved[attribute] === undefined) saved[attribute] = element.getAttribute(attribute);
+                    const original = saved[attribute];
+                    const translated = window.ALHAKAMI_EN_TEXT[normalizeKey(original)];
+                    element.setAttribute(attribute, isEnglish && translated ? translated: original);
+                });
+            });
+            document.querySelectorAll('.language-toggle').forEach((button) => {
+                button.textContent = isEnglish ? 'العربية': 'English';
+                button.setAttribute('aria-label', isEnglish ? 'Switch language to Arabic': 'Switch language to English');
+            });
+            const menuIsExpanded = mobileMenuButton.getAttribute('aria-expanded') === 'true';
+            mobileMenuButton.setAttribute('aria-label', isEnglish
+                ? (menuIsExpanded ? 'Close menu': 'Open menu')
+               : (menuIsExpanded ? 'إغلاق القائمة': 'فتح القائمة'));
+        }
+
+        document.querySelectorAll('.language-toggle').forEach((button) => {
+            button.addEventListener('click', () => setLanguage(document.documentElement.lang === 'en' ? 'ar': 'en'));
+        });
+
+        const mobileMenuButton = document.getElementById('mobileMenuButton');
+        const mobileMenu = document.getElementById('mobileMenu');
+        mobileMenuButton.addEventListener('click', () => {
+            const expanded = mobileMenuButton.getAttribute('aria-expanded') === 'true';
+            mobileMenuButton.setAttribute('aria-expanded', String(!expanded));
+            mobileMenuButton.setAttribute('aria-label', expanded ? 'فتح القائمة': 'إغلاق القائمة');
+            mobileMenu.classList.toggle('hidden', expanded);
+        });
+        mobileMenu.querySelectorAll('a').forEach((link) => link.addEventListener('click', () => {
+            mobileMenu.classList.add('hidden');
+            mobileMenuButton.setAttribute('aria-expanded', 'false');
+        }));
+
+        if (new URLSearchParams(window.location.search).get('lang') === 'en') setLanguage('en');
+    </script>
+</body>
+</html>

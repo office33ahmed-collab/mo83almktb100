@@ -1,0 +1,1302 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>مكتب نواف بن حسن الحكمي للمحاماة والاستشارات القانونية وأعمال التوثيق | جدة</title>
+    <meta name="description" content="يقدم مكتب نواف بن حسن الحكمي في جدة حلولاً قانونية وتوثيقية متكاملة تتوافق مع الأنظمة السعودية، يقودها المحامي نواف الحكمي مع فريق من المحامين والمستشارين والمحكمين والموثقين.">
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Google Fonts: Readex Pro & Montserrat -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Readex+Pro:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        navy: {
+                            DEFAULT: '#182338',
+                            dark: '#111929',
+                            light: '#23324f'
+                        },
+                        gold: {
+                            DEFAULT: '#8B6528',
+                            light: '#C5A978',
+                            bright: '#D5B87A',
+                            dark: '#73511B',
+                            sand: '#EAE3D5',
+                            muted: '#C2A675'
+                        },
+                        surface: {
+                            topbar: '#F3F1EC',
+                            gray: '#ECECE9',
+                            card: '#FFFFFF'
+                        }
+                    },
+                    fontFamily: {
+                        readex: ['"Readex Pro"', 'sans-serif'],
+                        montserrat: ['Montserrat', 'sans-serif']
+                    },
+                    boxShadow: {
+                        'nav': '0 10px 35px -5px rgba(24, 35, 56, 0.08)',
+                        'card': '0 4px 20px -2px rgba(24, 35, 56, 0.05)',
+                        'card-hover': '0 18px 35px -5px rgba(139, 101, 40, 0.15)'
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        body {
+            font-family: 'Readex Pro', sans-serif;
+            background-color: #FFFFFF;
+            color: #182338;
+            overflow-x: hidden;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+
+        html[lang="en"] body,
+        html[lang="en"] .font-readex {
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        html[lang="en"] [dir="rtl"] {
+            direction: ltr !important;
+        }
+
+        html[lang="en"] .text-right {
+            text-align: left;
+        }
+
+        html[lang="en"] .language-toggle {
+            font-family: 'Readex Pro', sans-serif;
+        }
+
+
+        /* Custom Scrollbar */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #F3F1EC;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #8B6528;
+            border-radius: 4px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #73511B;
+        }
+
+        /* Hero Background with Deep Navy Overlay */
+        .hero-bg {
+            background-image: linear-gradient(to bottom, rgba(20, 30, 48, 0.82), rgba(24, 35, 56, 0.88)),
+                            url('/saudi-courtroom.png');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+        }
+
+        /* Service Card Hover Animation */
+        .service-card {
+            transition: all 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+            border-bottom: 3px solid transparent;
+        }
+        .service-card:hover {
+            transform: translateY(-6px);
+            border-bottom: 3px solid #8B6528;
+            box-shadow: 0 18px 35px -5px rgba(24, 35, 56, 0.1);
+        }
+        .service-card:hover .service-icon-wrap {
+            transform: scale(1.07);
+        }
+        .service-icon-wrap {
+            transition: transform 0.35s ease;
+        }
+
+        /* Active Nav Item Style */
+        .nav-link-active {
+            background-color: #EAE3D5;
+            color: #182338;
+            font-weight: 600;
+        }
+
+        /* Pulse animation for WhatsApp */
+        @keyframes pulse-green {
+            0% { box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.6); }
+            70% { box-shadow: 0 0 0 14px rgba(37, 211, 102, 0); }
+            100% { box-shadow: 0 0 0 0 rgba(37, 211, 102, 0); }
+        }
+        .whatsapp-pulse {
+            animation: pulse-green 2.2s infinite;
+        }
+    </style>
+</head>
+<body class="antialiased selection:bg-gold selection:text-white">
+
+    <!-- ==========================================
+         1. TOP UTILITY BAR (ساعات العمل بدون الأحد-الخميس وبدون مفتوح الآن)
+         ========================================== -->
+    <div class="bg-surface-topbar border-b border-stone-200/80 text-xs sm:text-sm py-2.5 px-4 lg:px-12">
+        <div class="max-w-7xl mx-auto flex flex-wrap items-center justify-between gap-3">
+            
+            <!-- Working Hours -->
+            <div class="flex items-center gap-2 text-stone-600 font-medium">
+                <i class="fa-regular fa-clock text-gold text-base"></i>
+                <span>ساعات العمل: 09:00 - 17:00</span>
+            </div>
+
+            <!-- Phone & Email -->
+            <div class="flex flex-wrap items-center gap-4 sm:gap-6 text-stone-600 font-medium" dir="ltr">
+                <a href="tel:+966125118682" class="flex items-center gap-2 hover:text-gold transition-colors">
+                    <i class="fa-solid fa-phone-volume text-gold"></i>
+                    <span>+966 12 511 8682</span>
+                </a>
+                <a href="https://wa.me/966560047407" target="_blank" rel="noopener noreferrer" class="hidden md:flex items-center gap-1.5 hover:text-gold transition-colors">
+                    <i class="fa-solid fa-mobile-screen-button text-gold"></i>
+                    <span>+966 56 004 7407</span>
+                </a>
+                <a href="mailto:info@alhakamilaw.com" class="flex items-center gap-2 hover:text-gold transition-colors">
+                    <i class="fa-regular fa-envelope text-gold"></i>
+                    <span>info@alhakamilaw.com</span>
+                </a>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- ==========================================
+         2. FLOATING WHITE NAVBAR
+         ========================================== -->
+    <header class="sticky top-0 z-40 bg-surface-topbar/60 backdrop-blur-md py-2.5 px-3 sm:px-6 lg:px-12 transition-all duration-300" id="mainHeader">
+        <nav class="max-w-7xl mx-auto bg-white rounded-xl shadow-nav px-4 sm:px-6 py-2 flex items-center justify-between gap-3 border border-stone-100">
+            
+            <!-- Sleek Re-aligned Logo Lockup -->
+            <a href="#home" class="group shrink-0 flex items-center gap-3 select-none" aria-label="مكتب نواف بن حسن الحكمي للمحاماة والاستشارات القانونية وأعمال التوثيق">
+                <!-- Golden Scale Emblem Box -->
+                <div class="w-[52px] h-[52px] sm:w-[58px] sm:h-[58px] shrink-0 rounded-lg border border-gold/35 bg-[#FAF8F3] p-1 flex items-center justify-center shadow-sm group-hover:border-gold transition-colors">
+                    <div class="nawaf-emblem-slot w-full h-full flex items-center justify-center"></div>
+                </div>
+                <!-- 4 Lines of Text Perfectly Balanced -->
+                <div class="flex flex-col justify-center text-right leading-none">
+                    <span class="text-navy font-bold text-[13.5px] sm:text-[15px] font-readex tracking-tight leading-tight">مكتب نواف بن حسن الحكمي</span>
+                    <span class="text-navy font-semibold text-[8px] sm:text-[9.5px] font-montserrat tracking-[0.14em] uppercase mt-0.5 leading-tight">NAWAF BIN HASSAN AL-HAKAMI LAW FIRM</span>
+                    <span class="text-gold font-medium text-[11px] sm:text-[12px] font-readex mt-0.5 leading-tight">للمحاماة والاستشارات القانونية وأعمال التوثيق</span>
+
+                </div>
+            </a>
+
+            <!-- Navigation Links -->
+            <ul class="hidden xl:flex items-center gap-0.5 2xl:gap-1 text-[13px] 2xl:text-[14px] font-semibold text-navy whitespace-nowrap">
+                <li><a href="#home" data-nav="home" class="nav-item nav-link-active px-2.5 2xl:px-4 py-2.5 rounded-md transition-all">الرئيسية</a></li>
+                <li><a href="#about" data-nav="about" class="nav-item px-2.5 2xl:px-3.5 py-2.5 rounded-md hover:bg-gold-sand/60 transition-all">من نحن</a></li>
+                <li><a href="#vision" data-nav="vision" class="nav-item px-2.5 2xl:px-3.5 py-2.5 rounded-md hover:bg-gold-sand/60 transition-all">الرؤية والرسالة</a></li>
+                <li><a href="#services" data-nav="services" class="nav-item px-2.5 2xl:px-3.5 py-2.5 rounded-md hover:bg-gold-sand/60 transition-all">خدماتنا</a></li>
+                <li><a href="#platform" data-nav="team" class="nav-item px-2.5 2xl:px-3.5 py-2.5 rounded-md hover:bg-gold-sand/60 transition-all">منصتنا الذكية</a></li>
+                <li><a href="#partners" data-nav="partners" class="nav-item px-2.5 2xl:px-3.5 py-2.5 rounded-md hover:bg-gold-sand/60 transition-all">شركاء النجاح</a></li>
+                <li>
+                    <button class="language-toggle px-2.5 2xl:px-3 py-2 rounded-md text-navy hover:text-gold transition-colors font-semibold text-sm font-montserrat" onclick="toggleLanguageModal()" dir="ltr">
+                        English
+                    </button>
+                </li>
+            </ul>
+
+            <!-- Action & Mobile Menu -->
+            <div class="flex shrink-0 items-center gap-3">
+<a href="https://almuhami-alkafo.vercel.app" target="_blank" rel="noopener noreferrer" class="group hidden md:inline-flex items-center gap-2 2xl:gap-2.5 rounded-xl border border-gold/40 bg-gradient-to-br from-[#fffdf8] via-white to-gold-sand/60 px-2.5 py-1.5 2xl:px-3.5 2xl:py-2 shadow-sm transition-all duration-300 hover:-translate-y-0.5 hover:border-gold hover:shadow-[0_10px_25px_-12px_rgba(139,101,40,0.45)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold focus-visible:ring-offset-2">
+                    <span class="flex h-8 w-8 2xl:h-10 2xl:w-10 shrink-0 items-center justify-center rounded-lg bg-navy text-gold-bright shadow-inner transition-colors group-hover:bg-gold group-hover:text-white">
+                        <i class="fa-solid fa-right-to-bracket text-sm 2xl:text-base" aria-hidden="true"></i>
+                    </span>
+                    <span class="whitespace-nowrap text-xs font-bold text-navy" dir="rtl">الدخول إلى المنصة الذكية</span>
+                </a>
+                <button id="mobileMenuBtn" onclick="toggleMobileMenu()" class="xl:hidden w-10 h-10 rounded-lg bg-stone-100 text-navy flex items-center justify-center hover:bg-gold-sand transition-colors" aria-label="القائمة">
+                    <i class="fa-solid fa-bars text-lg"></i>
+                </button>
+            </div>
+        </nav>
+
+        <!-- Mobile Drawer -->
+        <div id="mobileMenu" class="hidden xl:hidden max-w-7xl mx-auto mt-2 bg-white rounded-xl shadow-xl border border-stone-200 p-4 space-y-2">
+            <a href="#home" onclick="toggleMobileMenu()" class="block px-4 py-2.5 rounded-lg bg-gold-sand font-bold text-navy">الرئيسية</a>
+            <a href="#about" onclick="toggleMobileMenu()" class="block px-4 py-2.5 rounded-lg hover:bg-stone-100 font-bold text-navy">من نحن</a>
+            <a href="#vision" onclick="toggleMobileMenu()" class="block px-4 py-2.5 rounded-lg hover:bg-stone-100 font-bold text-navy">الرؤية والرسالة</a>
+            <a href="#services" onclick="toggleMobileMenu()" class="block px-4 py-2.5 rounded-lg hover:bg-stone-100 font-bold text-navy">خدماتنا</a>
+            <a href="#platform" onclick="toggleMobileMenu()" class="block px-4 py-2.5 rounded-lg hover:bg-stone-100 font-bold text-navy">منصتنا الذكية</a>
+            <a href="#partners" onclick="toggleMobileMenu()" class="block px-4 py-2.5 rounded-lg hover:bg-stone-100 font-bold text-navy">شركاء النجاح</a>
+            <a href="https://almuhami-alkafo.vercel.app" target="_blank" rel="noopener noreferrer" onclick="toggleMobileMenu()" class="group flex items-center gap-3 rounded-xl border border-gold/40 bg-gradient-to-l from-navy to-navy-light px-4 py-3 text-white shadow-md transition-all hover:border-gold hover:shadow-lg focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold focus-visible:ring-offset-2">
+                <span class="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-gold/15 text-gold-bright">
+                    <i class="fa-solid fa-right-to-bracket text-base" aria-hidden="true"></i>
+                </span>
+                <span class="whitespace-nowrap text-sm font-bold" dir="rtl">الدخول إلى المنصة الذكية</span>
+            </a>
+            <div class="pt-2 border-t border-stone-200 flex items-center justify-between px-4">
+                <a href="tel:+966125118682" class="text-sm font-bold text-gold" dir="ltr">+966 12 511 8682</a>
+                <button class="language-toggle text-sm font-bold text-navy font-montserrat" onclick="toggleLanguageModal()">English</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- ==========================================
+         3. HERO SECTION (الواجهة الرئيسية ��لفخمة)
+         ========================================== -->
+    <section id="home" class="relative hero-bg min-h-[600px] lg:min-h-[680px] flex items-center justify-center text-center px-4 py-20 overflow-hidden">
+        
+        <!-- Watermark Background -->
+        <div class="absolute inset-0 flex flex-col items-center justify-center pointer-events-none select-none opacity-[0.09]">
+            <div class="nawaf-emblem-slot w-64 h-64 sm:w-80 sm:h-80 mb-2"></div>
+            <div class="text-4xl sm:text-6xl font-extrabold text-white tracking-wider">مكتب نواف بن حسن الحكمي</div>
+            <div class="text-2xl sm:text-4xl font-bold text-gold-light mt-2">للمحاماة والاستشارات القانونية وأعمال التوثيق</div>
+        </div>
+
+        <div class="relative z-10 max-w-4xl mx-auto flex flex-col items-center">
+            <h1 class="text-4xl sm:text-5xl lg:text-[62px] font-bold text-gold-light tracking-tight mb-5 drop-shadow-md leading-tight">
+                مكتب نواف بن حسن الحكمي
+            </h1>
+            <p class="text-xl sm:text-2xl lg:text-[27px] font-semibold text-white mb-4">
+                للمحاماة والاستشارات القانونية وأعمال التوثيق
+            </p>
+            <p class="text-base sm:text-lg lg:text-xl text-stone-200 font-normal mb-10 tracking-normal">
+                «وجهتكم القانونية الموثوقة»
+            </p>
+            <div class="flex flex-wrap items-center justify-center gap-4">
+                <button onclick="openConsultationModal('طلب استشارة قانونية فورية')" class="bg-gold-light hover:bg-gold hover:text-white text-navy font-bold text-sm sm:text-base px-10 py-3.5 rounded shadow-xl hover:shadow-2xl transform hover:-translate-y-0.5 transition-all">
+                    تواصلوا معنا الآن
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==========================================
+         4. ABOUT SECTION (نبذة عن المكتب: الكلمات يمين والصورة يسار)
+         ========================================== -->
+    <section id="about" class="bg-white py-20 lg:py-28 px-4 sm:px-8 lg:px-16">
+        <div class="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-center">
+            
+            <!-- Text & Realigned Logo Lockup on RIGHT side in RTL -->
+            <div class="lg:col-span-6 space-y-6 order-2 lg:order-1">
+
+                <!-- Logo Lockup in About Section -->
+                <div class="flex items-center gap-4 select-none">
+                    <div class="w-16 h-16 sm:w-20 sm:h-20 shrink-0 rounded-xl border border-gold/40 bg-[#FAF8F3] p-1.5 flex items-center justify-center shadow-sm">
+                        <div class="nawaf-emblem-slot w-full h-full flex items-center justify-center"></div>
+                    </div>
+                    <div class="flex flex-col justify-center text-right leading-none">
+                        <span class="text-navy font-bold text-base sm:text-lg font-readex tracking-tight leading-tight">مكتب نواف بن حسن الحكمي</span>
+                        <span class="text-navy font-semibold text-[9px] sm:text-[11px] font-montserrat tracking-[0.14em] uppercase mt-1 leading-tight">NAWAF BIN HASSAN AL-HAKAMI LAW FIRM</span>
+                        <span class="text-gold font-medium text-xs sm:text-sm font-readex mt-1 leading-tight">للمحاماة والاستشارات القانونية وأعمال التوثيق</span>
+
+                    </div>
+                </div>
+
+                <!-- Office Paragraph -->
+                <p class="text-[#8E703F] text-sm sm:text-[15.5px] leading-[2.2] font-normal text-justify pt-2">
+                    يقدم مكتب نواف بن حسن الحكمي للمحاماة في جدة خدمات قانونية واستشارية متكاملة، تستند إلى فهم عميق للأنظمة السعودية وخبرة في التعامل مع القضايا والنزاعات. ويقود المكتب المحامي نواف بن حسن الحكمي، بمساندة فريق من المحامين والمستشارين والمحكمين، لتقديم خدمات قانونية تتسم بالدقة والاحترافية، وبناء حلول مدروسة تراعي طبيعة كل قضية وتخدم مصالح العملاء، مع الالتزام بأعلى معايير النزاهة والمهنية.
+                </p>
+            </div>
+
+            <!-- Gavel Image on LEFT side in RTL -->
+            <div class="lg:col-span-6 order-1 lg:order-2">
+                <div class="relative rounded-xl overflow-hidden shadow-[0_15px_45px_rgba(24,35,56,0.12)] bg-[#f4f1ea] border border-stone-200">
+<img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/%D9%84%D9%82%D8%B7%D8%A9%20%D8%A7%D9%84%D8%B4%D8%A7%D8%B4%D8%A9%202026-10-26%20101642-83eUdeL4MQDwVFmfRWXn4LKCLgWkTc.png" 
+                         alt="مطرقة قاضٍ على طاولة خشبية بجانب كتب قانونية" 
+                         class="w-full h-[320px] sm:h-[380px] object-cover transform scale-[1.18] hover:scale-[1.22] transition-transform duration-700"
+                         loading="lazy">
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ==========================================
+         5. ABOUT & VISION SECTION - PART 2
+         ========================================== -->
+    <section id="vision" class="bg-navy py-20 lg:py-24 px-4 sm:px-8 lg:px-16 relative overflow-hidden">
+        <div class="max-w-5xl mx-auto text-center relative z-10">
+            <h2 class="text-2xl sm:text-3xl lg:text-4xl font-extrabold text-[#C5A978] mb-8">
+                نبذة عن مكتب نواف بن حسن الحكمي للمحاماة والاستشارات القانونية وأعمال التوثيق
+            </h2>
+            
+            <p class="text-[#8E703F] text-sm sm:text-base leading-[2.2] font-normal max-w-4xl mx-auto mb-14 text-justify sm:text-center">
+                يُعد مكتب نواف بن حسن الحكمي للمحاماة والاستشارات القانونية وأعمال التوثيق في جدة جهةً مهنية متخصصة في تقديم الخدمات القانونية والتوثيقية المتكاملة، وفق الأنظمة المعمول بها في المملكة العربية السعودية، وبمنهج مهني يرتكز على الدقة والاحترافية والالتزام. ويقدم المكتب حلولًا قانونية مدروسة في مجالات الاستشارات القانونية، وإدارة القضايا والنزاعات، وصياغة العقود، وأعمال التوثيق، بما يسهم في حماية الحقوق والمصالح، والحد من المخاطر القانونية، وتعزيز الامتثال والحوكمة. ومن خلال فريق من المحامين والمستشارين والمتخصصين، يحرص المكتب على بناء علاقات مهنية قائمة على الثقة والشفافية، وتقديم خدمات قانونية تستجيب لاحتياجات العملاء وتدعم استقرار أعمالهم وتحقيق أهدافهم.
+            </p>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-7 text-right">
+                <div class="bg-white rounded-xl p-7 shadow-xl border-t-4 border-gold hover:-translate-y-1.5 transition-all">
+                    <div class="w-14 h-14 rounded-xl bg-[#FAF8F3] border border-gold/30 flex items-center justify-center text-gold text-2xl mb-5">
+                        <i class="fa-regular fa-eye"></i>
+                    </div>
+                    <h3 class="text-xl font-extrabold text-navy mb-3">رؤيتنا</h3>
+                    <p class="text-stone-600 text-sm leading-relaxed font-medium">
+                        الريادة والتميز في تقديم الحلول القانونية والشرعية وخدمات التوثيق في مدينة جدة وجميع أنحاء المملكة، بما يواكب مستهدفات رؤية المملكة 2030 ويعزز بيئة الأعمال والاستثمار.
+                    </p>
+                </div>
+
+                <div class="bg-white rounded-xl p-7 shadow-xl border-t-4 border-gold hover:-translate-y-1.5 transition-all">
+                    <div class="w-14 h-14 rounded-xl bg-[#FAF8F3] border border-gold/30 flex items-center justify-center text-gold text-2xl mb-5">
+                        <i class="fa-solid fa-bullseye"></i>
+                    </div>
+                    <h3 class="text-xl font-extrabold text-navy mb-3">رسالتنا</h3>
+                    <p class="text-stone-600 text-sm leading-relaxed font-medium">
+                        رعاية حقوق عملائنا ومصالحهم بأعلى درجات الدقة والاحتر��فية والأمانة، عبر كفاءات قانونية متمرسة في التقاضي والتحكيم وصياغة العقود والتوثيق النظامي السريع.
+                    </p>
+                </div>
+
+                <div class="bg-white rounded-xl p-7 shadow-xl border-t-4 border-gold hover:-translate-y-1.5 transition-all">
+                    <div class="w-14 h-14 rounded-xl bg-[#FAF8F3] border border-gold/30 flex items-center justify-center text-gold text-2xl mb-5">
+                        <i class="fa-solid fa-award"></i>
+                    </div>
+                    <h3 class="text-xl font-extrabold text-navy mb-3">قيمنا المهنية</h3>
+                    <p class="text-stone-600 text-sm leading-relaxed font-medium">
+                        الالتزام التام بالسرية والخصوصية، والنزاهة والشفافية مع الموكلين، والإلمام العميق بالأنظمة و��لتشريعات السعودية، والسرعة في إنجاز المعاملات القضائية والتوثيقية.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==========================================
+         6. SERVICES GRID SECTION (الخدمات القانونية الـ 13)
+         ========================================== -->
+    <section id="services" class="bg-surface-gray py-20 lg:py-24 px-4 sm:px-8 lg:px-16">
+        <div class="max-w-7xl mx-auto">
+            
+            <div class="text-center max-w-4xl mx-auto mb-14">
+                <h2 class="text-2xl sm:text-3xl lg:text-[32px] font-extrabold text-navy mb-4 leading-snug">
+                    الركائز القانونية لأعمالكم – خدمات المحاماة والتوثيق والاستشارات القانونية في جدة
+                </h2>
+                <p class="text-stone-600 text-sm sm:text-base font-medium">
+                    نوفّر في مكتب نواف بن حسن الحكمي في جدة باقة متكاملة من الخدمات المتخصصة المصممة لحماية حقوقكم وتعزيز امتثالكم بكل دقة واحترافية:
+                </p>
+            </div>
+
+            <!-- 12 Services Grid -->
+            <div id="servicesGridContainer" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-6"></div>
+
+            <!-- 13th Service Card + Sleek Logo Lockup on the Other Side -->
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-6 items-center pt-2">
+                <div class="lg:col-span-6 bg-white rounded-sm p-8 sm:p-10 shadow-card service-card text-center flex flex-col items-center justify-between cursor-pointer"
+                     onclick="openServiceDetail(12)">
+                    <div class="service-icon-wrap w-16 h-16 mb-5 text-gold flex items-center justify-center">
+                        <svg class="w-16 h-16" viewBox="0 0 64 64" fill="none" stroke="#8B6528" stroke-width="2">
+                            <path d="M32 10v30M18 18h28" stroke-linecap="round"/>
+                            <path d="M18 18l-6 14h12l-6-14zM46 18l-6 14h12l-6-14z" stroke-linejoin="round"/>
+                            <path d="M12 32c0 3.3 2.7 6 6 6s6-2.7 6-6M40 32c0 3.3 2.7 6 6 6s6-2.7 6-6"/>
+                            <path d="M14 50c6-4 14-4 22-2l14-4c2-.5 4 1 3.5 3-1 3.5-8 8-17.5 8H14v-5z" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-lg sm:text-xl font-bold text-navy mb-3">محامي قضايا تجارية</h3>
+                    <p class="text-stone-500 text-xs sm:text-[13.5px] leading-relaxed max-w-lg mb-6">
+                        صياغة ومراجعة العقود المحكمة – إعداد عقود البيع والتوريد والتوزيع وفق نظام التجارة وأفضل الممارسات، مع سدّ الثغرات وتحديد الالتزامات بوضوح.
+                    </p>
+                    <span class="inline-flex items-center gap-2 text-xs font-semibold text-gold hover:text-gold-dark transition-colors">
+                        <i class="fa-solid fa-arrow-left"></i>
+                        <span>تفاصيل أكثر</span>
+                    </span>
+                </div>
+
+                <!-- Realigned Logo Lockup next to Card 13 -->
+                <div class="lg:col-span-6 flex items-center justify-center py-6 px-4">
+                    <div class="flex items-center gap-4 select-none bg-white/80 backdrop-blur-sm p-6 sm:p-8 rounded-2xl border border-stone-200/80 shadow-sm">
+                        <div class="w-16 h-16 sm:w-20 sm:h-20 shrink-0 rounded-xl border border-gold/40 bg-[#FAF8F3] p-1.5 flex items-center justify-center shadow-sm">
+                            <div class="nawaf-emblem-slot w-full h-full flex items-center justify-center"></div>
+                        </div>
+                        <div class="flex flex-col justify-center text-right leading-none">
+                            <span class="text-navy font-bold text-base sm:text-lg font-readex tracking-tight leading-tight">مكتب نواف بن حسن الحكمي</span>
+                            <span class="text-navy font-semibold text-[9px] sm:text-[11px] font-montserrat tracking-[0.14em] uppercase mt-1 leading-tight">NAWAF BIN HASSAN AL-HAKAMI LAW FIRM</span>
+                            <span class="text-gold font-medium text-xs sm:text-sm font-readex mt-1 leading-tight">للمحاماة والاستشارات القانونية وأعمال التوثيق</span>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ==========================================
+         7. SMART LEGAL PLATFORM SECTION
+         ========================================== -->
+    <section id="platform" class="bg-white py-20 px-4 sm:px-8 lg:px-16 border-b border-stone-100">
+        <div dir="ltr" class="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center">
+            <div class="lg:col-span-6">
+                <figure class="group overflow-hidden rounded-2xl border border-gold/30 bg-[#FAF8F3] shadow-[0_15px_45px_rgba(24,35,56,0.14)] transition-shadow duration-300 hover:shadow-[0_22px_55px_rgba(24,35,56,0.2)]">
+                    <img
+                        src="/premium-arabic-legal-dashboard.png"
+                        alt="واجهة المنصة القانونية الذكية لمتابعة القضايا والمستندات والتحديثات"
+                        width="1536"
+                        height="1024"
+                        class="block aspect-[3/2] h-auto w-full object-cover contrast-[1.04] saturate-[1.04] transition-transform duration-500 ease-out group-hover:scale-[1.035] group-active:scale-[1.015] motion-reduce:transition-none"
+                        loading="lazy"
+                        decoding="async"
+                        sizes="(min-width: 1280px) 640px, (min-width: 1024px) 50vw, 100vw"
+                    >
+                </figure>
+            </div>
+            <div dir="rtl" class="lg:col-span-6 space-y-6 text-right">
+                <span class="inline-flex items-center rounded-full border border-gold/30 bg-[#FAF8F3] px-4 py-1.5 text-xs font-bold text-gold">خدمات قانونية رق��ية</span>
+                <h2 class="text-3xl sm:text-4xl font-extrabold leading-tight text-navy">منصتنا القانونية الذكية</h2>
+                <p class="text-base sm:text-lg leading-[2] text-slate-700">
+                    منصة قانونية ذكية تتيح لكم متابعة القضايا، والا��لاع على الأحكام والمستندات�� واستقبال الإشعارات عبر الجوال والبريد الإلكتروني، من خلال حسابكم الخاص وفي مكان واحد.
+                </p>
+                <a href="#contact" class="inline-flex items-center justify-center gap-2 rounded-lg border border-gold/50 bg-navy px-7 py-3.5 text-sm font-bold text-gold-light shadow-md transition-all hover:-translate-y-0.5 hover:bg-navy-light hover:shadow-lg focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold focus-visible:ring-offset-2">
+                    اكتشفوا منصتنا الذكية
+                    <i class="fa-solid fa-arrow-left" aria-hidden="true"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==========================================
+         8. SECTORS & PARTNERS OF SUCCESS
+         ========================================== -->
+    <section id="partners" class="bg-[#F9F8F5] py-16 px-4 sm:px-8 lg:px-16 border-b border-stone-200/60">
+        <div class="max-w-7xl mx-auto text-center">
+            <h2 class="text-2xl sm:text-3xl font-extrabold text-navy mb-3">شركاء النجاح والقطاعات التي نخدمها</h2>
+            <p class="text-stone-500 text-sm sm:text-base max-w-2xl mx-auto mb-10">
+                نعتز بثقة عملائنا من الشركات والمؤسسات التجارية ورجال الأعمال والأفراد في مدينة جدة ومختلف مناطق المملكة.
+            </p>
+
+            <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-4">
+                <div class="bg-white rounded-xl p-5 shadow-sm border border-stone-100 flex flex-col items-center justify-center gap-2.5 hover:border-gold transition-all">
+                    <i class="fa-solid fa-city text-2xl text-gold"></i>
+                    <span class="text-xs sm:text-sm font-bold text-navy">القطاع العقاري والتطوير</span>
+                </div>
+                <div class="bg-white rounded-xl p-5 shadow-sm border border-stone-100 flex flex-col items-center justify-center gap-2.5 hover:border-gold transition-all">
+                    <i class="fa-solid fa-briefcase text-2xl text-gold"></i>
+                    <span class="text-xs sm:text-sm font-bold text-navy">الشركات والمجموعات</span>
+                </div>
+                <div class="bg-white rounded-xl p-5 shadow-sm border border-stone-100 flex flex-col items-center justify-center gap-2.5 hover:border-gold transition-all">
+                    <i class="fa-solid fa-ship text-2xl text-gold"></i>
+                    <span class="text-xs sm:text-sm font-bold text-navy">اللوجستيات والاستيراد</span>
+                </div>
+                <div class="bg-white rounded-xl p-5 shadow-sm border border-stone-100 flex flex-col items-center justify-center gap-2.5 hover:border-gold transition-all">
+                    <i class="fa-solid fa-hospital-user text-2xl text-gold"></i>
+                    <span class="text-xs sm:text-sm font-bold text-navy">المنشآت الطبية والصحية</span>
+                </div>
+                <div class="bg-white rounded-xl p-5 shadow-sm border border-stone-100 flex flex-col items-center justify-center gap-2.5 hover:border-gold transition-all">
+                    <i class="fa-solid fa-helmet-safety text-2xl text-gold"></i>
+                    <span class="text-xs sm:text-sm font-bold text-navy">المقاولات والهندسة</span>
+                </div>
+                <div class="bg-white rounded-xl p-5 shadow-sm border border-stone-100 flex flex-col items-center justify-center gap-2.5 hover:border-gold transition-all">
+                    <i class="fa-solid fa-users-line text-2xl text-gold"></i>
+                    <span class="text-xs sm:text-sm font-bold text-navy">الأوقاف والشركات العائلية</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==========================================
+         9. PRE-MAP CALL TO ACTION
+         ========================================== -->
+    <section class="bg-white py-16 lg:py-20 px-4 text-center">
+        <div class="max-w-4xl mx-auto space-y-6">
+            <h2 class="text-2xl sm:text-3xl lg:text-4xl font-extrabold text-navy">
+                تواصلوا الآن مع فريق المحامين في جدة
+            </h2>
+            <p class="text-gold text-base sm:text-lg leading-relaxed font-medium max-w-3xl mx-auto">
+                للاستفادة من استشاراتنا القانونية المتخصصة وحلولنا الاحترافية في التقاضي والتحكيم والتوثيق وغيرها من خدماتنا المتكاملة، تواصلوا مع فريقنا من المحامين والموثقين المرخّصين وذوي الخبرة العالية الآن:
+            </p>
+            <div class="pt-2 space-y-3">
+                <p class="text-lg sm:text-xl font-extrabold text-navy">
+                    مكتب نواف بن حسن الحكمي - للمحاماة والاستشارات القانونية وأعمال التوثيق
+                </p>
+                <p class="text-base sm:text-lg font-bold text-gold">
+                    «ذراعكم القانونية التي يعتمد عليها»
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==========================================
+         10. DARK NAVY CONTACT BAR + INTERACTIVE MAP
+         ========================================== -->
+    <section id="contact" class="w-full">
+        <div class="bg-navy py-7 px-4 border-b border-white/10">
+            <div class="max-w-5xl mx-auto flex flex-wrap items-center justify-center gap-6 sm:gap-12 text-white font-bold text-sm sm:text-base" dir="ltr">
+                <a href="tel:+966125118682" class="flex items-center gap-2.5 hover:text-gold-light transition-colors">
+                    <i class="fa-solid fa-phone-volume text-gold-light text-lg"></i>
+                    <span>+966 12 511 8682</span>
+                </a>
+                <a href="https://wa.me/966560047407" target="_blank" rel="noopener noreferrer" class="flex items-center gap-2.5 hover:text-gold-light transition-colors">
+                    <i class="fa-solid fa-mobile-screen-button text-gold-light text-lg"></i>
+                    <span>+966 56 004 7407</span>
+                </a>
+                <a href="mailto:info@alhakamilaw.com" class="flex items-center gap-2.5 hover:text-gold-light transition-colors">
+                    <i class="fa-regular fa-envelope-open text-gold-light text-lg"></i>
+                    <span>info@alhakamilaw.com</span>
+                </a>
+            </div>
+        </div>
+
+        <div class="relative w-full h-[360px] sm:h-[420px] bg-[#E8E5DC] overflow-hidden">
+            <iframe 
+                title="موقع مكتب نواف بن حسن الحكمي للمحاماة والاستشارات القانونية وأعمال التوثيق - جدة حي النزهة شارع حراء"
+                src="https://maps.google.com/maps?q=Jeddah%20Al%20Nuzhah%20Hira%20Street%206439&t=&z=15&ie=UTF8&iwloc=&output=embed"
+                class="w-full h-full border-0 filter contrast-[0.98]"
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+
+            <a href="https://maps.app.goo.gl/AHXvy2dTz7iQ72Li7" 
+               target="_blank" 
+               rel="noopener noreferrer"
+               class="absolute top-4 left-4 z-20 bg-white hover:bg-stone-50 text-blue-600 font-bold text-xs sm:text-sm px-4 py-2.5 rounded shadow-md border border-stone-200 flex items-center gap-2 transition-all">
+                <span>الفتح في "خرائط Google"</span>
+                <i class="fa-solid fa-arrow-up-right-from-square text-xs"></i>
+            </a>
+
+            <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-12 z-10 pointer-events-none flex flex-col items-center">
+                <div class="bg-white/95 backdrop-blur-sm px-4 py-2 rounded-lg shadow-lg border border-gold/50 flex items-center gap-2.5 mb-1">
+                    <span class="w-2.5 h-2.5 rounded-full bg-red-600 animate-ping"></span>
+                    <div class="text-right">
+                        <div class="text-xs sm:text-sm font-extrabold text-navy">مكتب نواف بن حسن الحكمي للمحاماة والاستشارات القانو��ية وأعمال التوثيق</div>
+                        <div class="text-[11px] font-bold text-stone-500">جدة - حي النزهة - شارع حراء - 6439</div>
+                    </div>
+                </div>
+                <i class="fa-solid fa-location-dot text-red-600 text-4xl drop-shadow-md"></i>
+            </div>
+
+            <div class="absolute bottom-5 left-1/2 -translate-x-1/2 z-20">
+                <a href="https://maps.app.goo.gl/AHXvy2dTz7iQ72Li7" 
+                   target="_blank" 
+                   rel="noopener noreferrer"
+                   class="bg-gold hover:bg-gold-dark text-white font-bold text-sm sm:text-base px-8 py-3 rounded shadow-xl flex items-center gap-2.5 transition-all transform hover:-translate-y-0.5">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <span>الوصول إلينا</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==========================================
+         11. MAIN LUXURY 4-COLUMN FOOTER
+         ========================================== -->
+    <footer class="bg-navy text-stone-300 pt-16 pb-12 px-4 sm:px-8 lg:px-16 border-t border-white/5">
+        <div class="max-w-7xl mx-auto">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 lg:gap-12 pb-14 border-b border-white/10">
+                
+                <!-- About Column -->
+                <div class="space-y-5">
+                    <div class="flex items-center gap-2.5 text-white font-extrabold text-lg">
+                        <i class="fa-regular fa-file-lines text-gold-light"></i>
+                        <h3>عن المكتب</h3>
+                    </div>
+                    <p class="text-xs sm:text-[13.5px] leading-[2] text-stone-300/90 text-justify">
+                        مكتب نواف بن حسن الحكمي للمحاماة والاستشارات القانونية وأعمال التوثيق في جدة.
+                    </p>
+                    <p class="text-xs sm:text-[13.5px] leading-[2] text-stone-300/90 text-justify">
+                        تأسس المكتب بقيادة مؤسسه المحامي نواف بن حسن الحكمي، صاحب الخبرة في العمل القانوني والنزاعات القضائية، مع فريق من المحامين والمستشارين والمحكمين، لتقديم منظومة قانونية وتوثيقية متكاملة وفق أعلى معايير الدقة والاحترافية في رعاية حقوق عملائنا ومصالحهم.
+                    </p>
+                </div>
+
+                <!-- Contact Column -->
+                <div class="space-y-5">
+                    <div class="flex items-center gap-2.5 text-white font-extrabold text-lg">
+                        <i class="fa-regular fa-envelope-open text-gold-light"></i>
+                        <h3>تواصلوا معنا</h3>
+                    </div>
+                    <ul class="space-y-4 text-xs sm:text-sm">
+                        <li>
+                            <a href="tel:+966125118682" class="flex items-center justify-end gap-3 hover:text-gold-light transition-colors" dir="ltr">
+                                <span>+966 12 511 8682</span>
+                                <i class="fa-solid fa-phone-volume text-gold-light"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://wa.me/966560047407" target="_blank" rel="noopener noreferrer" class="flex items-center justify-end gap-3 hover:text-gold-light transition-colors" dir="ltr">
+                                <span>+966 56 004 7407</span>
+                                <i class="fa-solid fa-mobile-screen-button text-gold-light"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="mailto:info@alhakamilaw.com" class="flex items-center justify-end gap-3 hover:text-gold-light transition-colors" dir="ltr">
+                                <span>info@alhakamilaw.com</span>
+                                <i class="fa-regular fa-envelope text-gold-light"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://maps.app.goo.gl/AHXvy2dTz7iQ72Li7" target="_blank" rel="noopener noreferrer" class="flex items-start gap-3 hover:text-gold-light transition-colors leading-relaxed">
+                                <i class="fa-solid fa-location-dot text-gold-light mt-1"></i>
+                                <span>المملكة العربية السعودية - جدة - حي النزهة - شارع حراء - 6439</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Links Column -->
+                <div class="space-y-5">
+                    <div class="flex items-center gap-2.5 text-white font-extrabold text-lg">
+                        <i class="fa-solid fa-link text-gold-light"></i>
+                        <h3>روابط مهمة</h3>
+                    </div>
+                    <ul class="space-y-3 text-xs sm:text-sm font-medium">
+                        <li><a href="#home" class="text-gold-light font-bold hover:underline">الرئيسية</a></li>
+                        <li><a href="#about" class="hover:text-gold-light transition-colors">من نحن</a></li>
+                        <li><a href="#vision" class="hover:text-gold-light transition-colors">الرؤية والرسالة</a></li>
+                        <li><a href="#services" class="hover:text-gold-light transition-colors">خدماتنا</a></li>
+                        <li><a href="#platform" class="hover:text-gold-light transition-colors">منصتنا الذكية</a></li>
+                        <li><a href="#partners" class="hover:text-gold-light transition-colors">شركاء النجاح</a></li>
+                        <li><button class="language-toggle hover:text-gold-light transition-colors font-montserrat" onclick="toggleLanguageModal()">English</button></li>
+                    </ul>
+                </div>
+
+                <!-- Hours Column -->
+                <div class="space-y-5">
+                    <div class="flex items-center gap-2.5 text-white font-extrabold text-lg">
+                        <i class="fa-regular fa-clock text-gold-light"></i>
+                        <h3>ساعات ا��عمل</h3>
+                    </div>
+                    <ul class="space-y-3 text-xs sm:text-[13.5px]">
+                        <li class="flex items-center gap-2">
+                            <span class="text-gold-light font-bold">•</span>
+                            <span>الأحد: 09:00 - 17:00</span>
+                        </li>
+                        <li class="flex items-center gap-2">
+                            <span class="text-gold-light font-bold">•</span>
+                            <span>الاثنين: 09:00 - 17:00</span>
+                        </li>
+                        <li class="flex items-center gap-2">
+                            <span class="text-gold-light font-bold">•</span>
+                            <span>الثلاثاء: 09:00 - 17:00</span>
+                        </li>
+                        <li class="flex items-center gap-2">
+                            <span class="text-gold-light font-bold">•</span>
+                            <span>الأربعاء: 09:00 - 17:00</span>
+                        </li>
+                        <li class="flex items-center gap-2">
+                            <span class="text-gold-light font-bold">•</span>
+                            <span>الخميس: 09:00 - 17:00</span>
+                        </li>
+                        <li class="flex items-center gap-2 text-stone-400">
+                            <span class="text-gold-light font-bold">•</span>
+                            <span>الجمعة: مغلق</span>
+                        </li>
+                        <li class="flex items-center gap-2 text-stone-400">
+                            <span class="text-gold-light font-bold">•</span>
+                            <span>السبت: مغلق</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Bottom Copyright Row -->
+            <div class="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-stone-400">
+                <p>جميع الحقوق محفوظة © <span id="currentYear">2026</span> مكتب نواف بن حسن الحكمي للمحاماة والاستشارات القانونية وأعمال التوثيق – جدة.</p>
+                <div class="flex items-center gap-4 text-gold-light text-sm">
+                    <a href="https://wa.me/966560047407" target="_blank" rel="noopener noreferrer" class="hover:text-white transition-colors"><i class="fa-brands fa-whatsapp"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ==========================================
+         12. FLOATING BUTTONS
+         ========================================== -->
+    <a href="https://wa.me/966560047407?text=%D8%A7%D9%84%D8%B3%D9%84%D8%A7%D9%85%20%D8%B9%D9%84%D9%8A%D9%83%D9%85%D8%8C%20%D8%A3%D8%B1%D8%BA%D8%A8%20%D9%81%D9%8A%20%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D9%81%D8%B3%D8%A7%D8%B1%20%D8%B9%D9%86%20%D8%AE%D8%AF%D9%85%D8%A9%20%D9%82%D8%A7%D9%86%D9%88%D9%86%D9%8A%D8%A9%20%D9%84%D8%AF%D9%89%20%D9%85%D9%83%D8%AA%D8%A8%20%D8%A7%D9%84%D9%85%D8%AD%D8%A7%D9%85%D9%8A%20%D9%86%D9%88%D8%A7%D9%81%20%D8%A8%D9%86%20%D8%AD%D8%B3%D9%86%20%D8%A7%D9%84%D8%AD%D9%83%D9%85%D9%8A"
+       target="_blank"
+       rel="noopener noreferrer"
+       title="تواصلوا مباشرة عبر واتساب"
+       class="fixed bottom-5 left-5 z-50 w-13 h-13 sm:w-14 sm:h-14 rounded-full bg-[#25D366] text-white flex items-center justify-center text-2xl sm:text-3xl shadow-xl whatsapp-pulse hover:scale-110 transition-transform">
+        <i class="fa-brands fa-whatsapp"></i>
+    </a>
+
+    <button id="scrollTopBtn"
+            onclick="window.scrollTo({top: 0, behavior: 'smooth'})"
+            title="العودة للأعلى"
+            class="fixed bottom-5 right-5 z-50 w-10 h-10 rounded bg-gold hover:bg-gold-dark text-white flex items-center justify-center text-sm shadow-lg transition-all opacity-90 hover:opacity-100">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+    <!-- ==========================================
+         13. MODALS
+         ========================================== -->
+    <!-- Consultation Form Modal -->
+    <div id="consultationModal" class="fixed inset-0 z-50 hidden bg-navy/75 backdrop-blur-sm flex items-center justify-center p-4">
+        <div class="bg-white rounded-2xl max-w-lg w-full overflow-hidden shadow-2xl border border-gold/30">
+            <div class="bg-navy px-6 py-5 flex items-center justify-between text-white">
+                <div class="flex items-center gap-3">
+                    <div class="nawaf-emblem-slot w-10 h-10 rounded bg-white p-1 flex items-center justify-center shrink-0"></div>
+                    <div>
+                        <h3 class="text-base sm:text-lg font-extrabold text-gold-light">طلب استشارة أو موعد قانوني</h3>
+                        <p class="text-xs text-stone-300">مكتب نواف بن حسن الحكمي للمحاماة والاستشارات القانونية وأعمال التوثيق</p>
+                    </div>
+                </div>
+                <button onclick="closeConsultationModal()" class="text-stone-400 hover:text-white text-xl">
+                    <i class="fa-solid fa-xmark"></i>
+                </button>
+            </div>
+
+            <form onsubmit="submitWhatsAppConsultation(event)" class="p-6 space-y-4">
+                <div>
+                    <label class="block text-xs font-bold text-navy mb-1.5">الاسم الكريم / اسم المنشأة *</label>
+                    <input type="text" id="clientName" required placeholder="أدخل اسمك الكامل" 
+                           class="w-full px-4 py-2.5 rounded-lg border border-stone-300 focus:border-gold focus:outline-none text-sm font-readex">
+                </div>
+
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                    <div>
+                        <label class="block text-xs font-bold text-navy mb-1.5">رقم الجوال *</label>
+                        <input type="tel" id="clientPhone" required placeholder="05XXXXXXXX" dir="ltr"
+                               class="w-full px-4 py-2.5 rounded-lg border border-stone-300 focus:border-gold focus:outline-none text-sm text-right font-montserrat">
+                    </div>
+                    <div>
+                        <label class="block text-xs font-bold text-navy mb-1.5">نوع الخدمة المطلوبة *</label>
+                        <select id="serviceTypeSelect" required class="w-full px-3 py-2.5 rounded-lg border border-stone-300 focus:border-gold focus:outline-none text-sm bg-white font-readex">
+                            <option value="استشارة عامة أو تواصل مباشر">استشارة قانونية شاملة</option>
+                            <option value="التوثيق القانوني والعقاري">التوثيق القانوني والعقاري (ناجز / إفراغ)</option>
+                            <option value="الترافع أمام المحاكم">الترافع والتمثيل أمام المحاكم</option>
+                            <option value="تأسيس وحوكمة الشركات">تأسيس وحوكمة الشركات</option>
+                            <option value="قسمة التركات">حصر وقسمة التركات</option>
+                            <option value="صياغة ومراجعة العقود">صياغة ومراجعة العقود</option>
+                            <option value="قضايا عقارية أو عمالية أو تج��رية">قضايا عقارية / عمالية / تجارية</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div>
+                    <label class="block text-xs font-bold text-navy mb-1.5">ملخص الموضوع أو الاستفسار</label>
+                    <textarea id="clientMessage" rows="3" placeholder="اكتب نبذة مختصرة عن طلبك لنقوم بخدمتك بأسرع وقت..."
+                              class="w-full px-4 py-2.5 rounded-lg border border-stone-300 focus:border-gold focus:outline-none text-sm font-readex"></textarea>
+                </div>
+
+                <div class="pt-2 grid grid-cols-1 sm:grid-cols-3 gap-3">
+                    <button type="submit" class="w-full bg-navy hover:bg-navy-light text-white font-bold text-sm py-3.5 px-4 rounded-lg shadow-md flex items-center justify-center gap-2 transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold focus-visible:ring-offset-2">
+                        <i class="fa-brands fa-whatsapp text-lg text-[#25D366]" aria-hidden="true"></i>
+                        <span>إرسال الطلب مباشرة عبر واتساب المكتب</span>
+                    </button>
+                    <button type="button" onclick="sendEmailConsultation()" class="w-full bg-gold-sand hover:bg-gold-light text-navy font-bold text-sm py-3.5 px-4 rounded-lg flex items-center justify-center gap-2 transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold focus-visible:ring-offset-2">
+                        <i class="fa-solid fa-envelope" aria-hidden="true"></i>
+                        <span>إرسال الطلب عبر البريد الإلكتروني</span>
+                    </button>
+                    <a href="tel:+966125118682" class="w-full text-center bg-white hover:bg-stone-50 border border-stone-300 text-navy font-bold text-sm py-3.5 px-4 rounded-lg transition-all whitespace-nowrap focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold focus-visible:ring-offset-2">
+                        <i class="fa-solid fa-phone ml-1" aria-hidden="true"></i> اتصال مباشر
+                    </a>
+                </div>
+                <p class="text-center text-xs leading-relaxed text-stone-500">سيتم فتح تطبيق البريد الإلكتروني لإتمام إرسال الطلب.</p>
+            </form>
+        </div>
+    </div>
+
+    <!-- Service Detail Modal -->
+    <div id="serviceDetailModal" class="fixed inset-0 z-50 hidden bg-navy/75 backdrop-blur-sm flex items-center justify-center p-4">
+        <div class="bg-white rounded-2xl max-w-lg w-full overflow-hidden shadow-2xl border border-gold/30">
+            <div class="bg-navy px-6 py-5 flex items-center justify-between gap-4 text-white">
+                <div class="flex items-center gap-3">
+                    <div id="modalServiceIcon" class="flex h-14 w-14 shrink-0 items-center justify-center rounded-full bg-[#faf8f3]" aria-hidden="true"></div>
+                    <h3 id="modalServiceTitle" class="text-lg font-extrabold text-gold-light">تفاصيل الخدمة</h3>
+                </div>
+                <button type="button" onclick="closeServiceDetail()" class="flex h-10 w-10 shrink-0 items-center justify-center rounded-full text-stone-400 transition hover:bg-white/10 hover:text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold" aria-label="إغلاق">
+                    <i class="fa-solid fa-xmark" aria-hidden="true"></i>
+                </button>
+            </div>
+            <div class="p-6 space-y-4">
+                <p id="modalServiceDesc" class="text-navy text-sm sm:text-base leading-relaxed font-semibold"></p>
+                <div class="bg-[#FAF8F3] border border-gold/30 rounded-xl p-4">
+                    <div class="text-xs font-extrabold text-gold-dark mb-2">ماذا يشمل نطاق العمل في مكتب نواف بن حسن الحكمي؟</div>
+                    <ul id="modalServicePoints" class="space-y-2 text-xs sm:text-sm text-stone-700 list-disc list-inside"></ul>
+                </div>
+                <div class="pt-3 flex items-center justify-end gap-3">
+                    <button onclick="closeServiceDetail()" class="px-4 py-2.5 rounded-lg border border-stone-300 text-stone-600 text-xs font-bold hover:bg-stone-100">إغلاق</button>
+                    <button id="modalServiceBookBtn" class="bg-navy hover:bg-navy-light text-white text-xs sm:text-sm font-bold px-6 py-2.5 rounded-lg shadow">
+                        طلب هذه الخدمة الآن
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Toast Notification -->
+    <div id="toastNotification" class="fixed top-20 left-1/2 -translate-x-1/2 z-50 hidden bg-navy text-white px-6 py-3 rounded-xl shadow-2xl border border-gold text-xs sm:text-sm font-bold flex items-center gap-2.5">
+        <i class="fa-solid fa-circle-info text-gold-light"></i>
+        <span id="toastText"></span>
+    </div>
+
+    <!-- ==========================================
+         JAVASCRIPT LOGIC
+         ========================================== -->
+    <script src="/law-firm-i18n.js"></script>
+    <script>
+
+        // High Precision Vector Emblem (Scale of Justice + Classical Column with "نواف")
+        function getNawafEmblemSVG() {
+            return '<svg viewBox="0 0 240 240" class="w-full h-full block" xmlns="http://www.w3.org/2000/svg">' +
+                '<g fill="#8B6528">' +
+                    // Top finial
+                    '<circle cx="120" cy="23" r="11" />' +
+                    '<rect x="115.5" y="32" width="9" height="7" rx="1.5" />' +
+                    // Scale beam with classical scroll curves
+                    '<path d="M 120 38 C 98 38, 74 26, 46 35 C 35 38, 29 31, 35 23 C 38 19, 44 20, 45 23 C 46 25, 42 27, 40 25 C 31 19, 21 28, 25 40 C 29 50, 44 52, 62 46 C 84 39, 103 45, 112 55 L 128 55 C 137 45, 156 39, 178 46 C 196 52, 211 50, 215 40 C 219 28, 209 19, 200 25 C 198 27, 194 25, 195 23 C 196 20, 202 19, 205 23 C 211 31, 205 38, 194 35 C 166 26, 142 38, 120 38 Z" />' +
+                    // Top Column Architrave
+                    '<rect x="66" y="52" width="108" height="13" rx="5" />' +
+                    // Chains
+                    '<line x1="38" y1="46" x2="38" y2="100" stroke="#8B6528" stroke-width="2.8" stroke-dasharray="4,2.5" />' +
+                    '<line x1="202" y1="46" x2="202" y2="100" stroke="#8B6528" stroke-width="2.8" stroke-dasharray="4,2.5" />' +
+                    // Left Scale
+                    '<circle cx="38" cy="102" r="5" />' +
+                    '<path d="M 38 104 L 13 147 M 38 104 L 38 147 M 38 104 L 63 147" stroke="#8B6528" stroke-width="3.2" stroke-linecap="round" />' +
+                    '<path d="M 7 143 Q 12 147 18 147 L 58 147 Q 64 147 69 143 C 66 167, 52 173, 38 173 C 24 173, 10 167, 7 143 Z" />' +
+                    // Right Scale
+                    '<circle cx="202" cy="102" r="5" />' +
+                    '<path d="M 202 104 L 177 147 M 202 104 L 202 147 M 202 104 L 227 147" stroke="#8B6528" stroke-width="3.2" stroke-linecap="round" />' +
+                    '<path d="M 171 143 Q 176 147 182 147 L 222 147 Q 228 147 233 143 C 230 167, 216 173, 202 173 C 188 173, 174 167, 171 143 Z" />' +
+                    // Upper column capital bars
+                    '<rect x="82" y="70" width="76" height="11" rx="4" />' +
+                    '<rect x="88" y="79" width="13" height="31" />' +
+                    '<rect x="113.5" y="79" width="13" height="31" />' +
+                    '<rect x="139" y="79" width="13" height="31" />' +
+                    // Middle Calligraphy (نواف)
+                    '<path d="M 110 105 C 113 119, 130 131, 130 142 C 130 150, 118 154, 100 154 C 86 154, 79 148, 81 138 C 82 131, 88 125, 93 123 C 87 128, 85 135, 87 140 C 89 145, 97 146, 108 146 C 117 146, 122 143, 121 139 C 120 132, 110 123, 108 111 Z" />' +
+                    '<path d="M 109 104 L 115 167 L 110 171 L 105 111 Z" />' +
+                    '<path d="M 118 122 C 125 119, 130 124, 127 130 C 123 135, 116 131, 118 122 Z" />' +
+                    '<polygon points="121,112 126,117 121,122 116,117" />' +
+                    '<polygon points="143,126 148,131 143,136 138,131" />' +
+                    '<path d="M 148 140 C 153 146, 151 156, 142 159 C 133 161, 124 159, 122 151 C 120 144, 126 139, 132 141 C 138 143, 139 150, 136 157 C 131 169, 116 181, 97 182 C 85 182, 80 175, 85 163 C 87 158, 91 154, 94 153 C 89 160, 87 167, 93 172 C 100 176, 119 170, 129 158 C 125 157, 123 153, 124 149 C 126 145, 132 145, 134 149 C 138 151, 143 150, 145 144 Z" />' +
+                    '<path d="M 85 115 C 83 122, 84 126, 89 123 C 87 128, 81 126, 82 117 Z" />' +
+                    '<path d="M 102 158 C 100 165, 101 169, 106 166 C 103 170, 98 169, 99 160 Z" />' +
+                    '<path d="M 133 131 C 132 137, 134 139, 138 136 Z" />' +
+                    // Lower Column Flutes and Base
+                    '<rect x="88" y="184" width="13" height="33" />' +
+                    '<rect x="113.5" y="184" width="13" height="33" />' +
+                    '<rect x="139" y="184" width="13" height="33" />' +
+                    '<rect x="82" y="214" width="76" height="12" rx="4" />' +
+                '</g>' +
+            '</svg>';
+        }
+
+        function renderAllLogoSlots() {
+            try {
+                const slots = document.querySelectorAll('.nawaf-emblem-slot');
+                const svgMarkup = getNawafEmblemSVG();
+                slots.forEach(function(slot) {
+                    slot.innerHTML = svgMarkup;
+                });
+            } catch (e) {
+                console.error(e);
+            }
+        }
+
+        // Services Data
+        const servicesData = [
+            {
+                title: 'حوكمة الشركات',
+                desc: 'صياغة لوائح داخلية وتنظيم العلاقة بين المساهمين والإدارة لرفع كفاءة مؤسستكم وضمان شفافية العمليات.',
+                points: [
+                    'إعداد لوائح الحوكمة الداخلية وميثاق مجلس الإدارة واللجان المنبثقة.',
+                    'تنظيم صلاحيات الإدارة التنفيذية وضبط آليات اتخاذ القرار والرقابة.',
+                    'ضمان توافق الشركاء مع نظام الشركات السعودي الجديد ولوائحه التنفيذية.'
+                ],
+                svg: '<svg class="w-14 h-14" viewBox="0 0 64 64" fill="none" stroke="#8B6528" stroke-width="1.8"><rect x="20" y="8" width="24" height="18" rx="2"/><path d="M26 14h12M26 19h12M32 26v10M16 36h32M16 36v8M32 36v8M48 36v8"/><circle cx="16" cy="49" r="5"/><circle cx="32" cy="49" r="5"/><circle cx="48" cy="49" r="5"/></svg>'
+            },
+            {
+                title: 'حماية الملكية الفكرية',
+                desc: 'تسجيل العلامات التجارية وبراءات الاختراع وملاحقة أي تعدٍّ قانوني لحماية مكانتكم التجارية.',
+                points: [
+                    'تسجيل العلامات التجارية والنماذج الصناعية وحقوق المؤلف لدى الهيئة السعودية للملكية الفكرية.',
+                    'تمثيل العملاء في دعاوى التعدي على العلامات التجارية والمنافسة غير المشروعة.',
+                    'صياغة عقود الترخيص والفرنشايز وحماية الأسرار التجارية.'
+                ],
+                svg: '<svg class="w-14 h-14" viewBox="0 0 64 64" fill="none" stroke="#8B6528" stroke-width="1.8"><path d="M32 8L12 16v16c0 14 20 22 20 22s20-8 20-22V16L32 8z"/><circle cx="32" cy="28" r="7"/><path d="M29 35h6v5h-6zM32 17v3M21 28h3M40 28h3"/></svg>'
+            },
+            {
+                title: 'الترافع أمام المحاكم',
+                desc: 'تمثيل العملاء أمام المحاكم بجميع درجاتها، وإعداد المذكرات القانونية.',
+                points: [
+                    'الترافع والتمثيل القضائي أمام المحاكم العامة والتجارية والعمالية والإدارية.',
+                    'إعداد صحائف الدعوى والمذكرات الجوابية واللوائح الاعتراضية أمام محاكم الاستئناف والمحكمة العليا.',
+                    'متابعة تنفيذ الأحكام والسندات التنفيذية عبر محاكم التنفيذ.'
+                ],
+                svg: '<svg class="w-14 h-14" viewBox="0 0 64 64" fill="none" stroke="#8B6528" stroke-width="1.8"><rect x="12" y="20" width="40" height="30" rx="3"/><path d="M24 20v-5a3 3 0 013-3h10a3 3 0 013 3v5M12 32h40"/><path d="M36 38l10 10M33 41l6-6 4 4-6 6-4-4z"/></svg>'
+            },
+            {
+                title: 'التحكيم',
+                desc: 'إعداد اتفاقيات التحكيم وتشكيل هيئات التحكيم لتسوية النزاعات بسرعة وفاعلية وفق الأنظمة المحلية والدولية.',
+                points: [
+                    'صياغة مشارطات وشروط التحكيم في العقود التجارية والإنشائية والاستثمارية.',
+                    'تمثيل الأطراف أمام هيئات ومراكز التحكيم المعتمدة محلياً ودولياً.',
+                    'تقديم خدمات المحكم المعتمد والوساطة لتسوية النزاعات التجارية بسرعة وسرية.'
+                ],
+                svg: '<svg class="w-14 h-14" viewBox="0 0 64 64" fill="none" stroke="#8B6528" stroke-width="1.8"><rect x="14" y="10" width="28" height="40" rx="2"/><path d="M20 18h16M20 25h12M20 32h10"/><path d="M42 22v24M32 28h20M32 28l-4 9h8l-4-9zM52 28l-4 9h8l-4-9z"/></svg>'
+            },
+            {
+title: 'التوثيق',
+                desc: 'نقدّم عبر موثقين مرخصين خدمات توثيق الوكالات والإقرارات والرهون والإفراغات العقارية والعقود وفق نظام التوثيق.',
+                points: [
+                    'توثيق الوكالات والإقرارات والرهون والإفراغات العقارية.',
+                    'توثيق العقود وفق نظام التوثيق ولائحته التنفيذية.',
+                    'إنجاز أعمال التوثيق عبر موثقين مرخصين وفي حدود اختصاصهم.'
+                ],
+                svg: '<svg class="w-14 h-14" viewBox="0 0 64 64" fill="none" stroke="#8B6528" stroke-width="1.8"><rect x="14" y="10" width="32" height="44" rx="2"/><path d="M20 20h20M20 27h16M20 34h12"/><circle cx="42" cy="40" r="7"/><path d="M38 46l-2 8 6-3 6 3-2-8"/></svg>'
+            },
+            {
+                title: 'قسمة التركات',
+                desc: 'إدارة عملية القسمة كاملةً من حصر الأصول حتى إصدار الصكوك الشرعية، مع تمثيل الورثة وتقديم حلول الوساطة للحفاظ على الروابط الأسرية.',
+                points: [
+                    'استخراج صكوك حصر الورثة وحصر أموال التركة العقارية والنقدية والأسهم والمنقولات.',
+                    'إعداد عقود القسمة الرضائية وتوثيقها رسمياً أو مباشرة دعاوى القسمة القضائية.',
+                    'تصفية التركات وسداد الديون وتنفيذ الوصايا والأوقاف الشرعية.'
+                ],
+                svg: '<svg class="w-14 h-14" viewBox="0 0 64 64" fill="none" stroke="#8B6528" stroke-width="1.8"><rect x="16" y="10" width="32" height="44" rx="2"/><path d="M22 18h20M22 25h14M32 32v10M24 42h16M26 42v6h12v-6"/></svg>'
+            },
+            {
+                title: 'الاستشارات الشرعية والقانونية',
+                desc: 'إبداء الرأي الشرعي وتقديم الاستشارات الدقيقة التي تراعي الجوانب الشرعية والنظامية لتقديم حلول قانونية متكاملة.',
+                points: [
+                    'تقديم الاستشارات القانونية والشرعية المكتوبة والشفهية للأفراد والشركات.',
+                    'دراسة الموقف النظا��ي للقضايا والنزاعات قبل رفع الدعوى وتقييم الفرص والمخاطر.',
+                    'عقود استشارات سنوية مستمرة لمواكبة أعمال المنشآت التجارية.'
+                ],
+                svg: '<svg class="w-14 h-14" viewBox="0 0 64 64" fill="none" stroke="#8B6528" stroke-width="1.8"><rect x="16" y="12" width="28" height="38" rx="2"/><path d="M22 12V8h26v38h-4M22 22h16M22 29h16M22 36h10"/></svg>'
+            },
+            {
+                title: 'صياغة ودراسة الأنظمة والعقود',
+                desc: 'نصوغ وندرس العقود واللوائح والأنظمة الداخلية بدقة ووضوح، بما يوافق الشريعة والأنظمة المرعية ويحفظ حقوق الأطراف ويحد من الخلاف.',
+                points: [
+                    'صياغة وتدقيق العقود التجارية والمدنية وعقود المقاولات والتشغيل والتوريد.',
+                    'مراجعة الاتفاقيات ومذكرات التفاهم باللغتين العربية والإنجليزية.',
+                    'تحليل المخاطر التعاقدية ووضع البنود الجزائية وآليات فض النزاعات.'
+                ],
+                svg: '<svg class="w-14 h-14" viewBox="0 0 64 64" fill="none" stroke="#8B6528" stroke-width="1.8"><path d="M18 12a4 4 0 014-4h24a4 4 0 014 4v40a4 4 0 01-4 4H22a4 4 0 01-4-4V12z"/><path d="M24 22h16M24 30h16M24 38h10"/><path d="M34 14l6 3v5c0 4-6 7-6 7s-6-3-6-7v-5l6-3z"/></svg>'
+            },
+            {
+                title: 'تأسيس الشركات',
+                desc: 'اختيار الشكل النظامي المناسب، وصياغة عقد التأسيس، ومتابعة التسجيل والتراخيص للشركات والمستثمرين.',
+                points: [
+                    'تأسيس الشركات بالأشكال الخمسة المنصوص عليها في نظام الشركات، وفق متطلبات كل شكل.',
+                    'تحويل المؤسسات إلى شركات، وعمليات الاندماج والاستحواذ، وتعديل عقود التأسيس.',
+                    'إصدار السجلات التجارية والتراخيص الاستثمارية وتوثيق العقود إلكترونياً.'
+                ],
+                svg: '<svg class="w-14 h-14" viewBox="0 0 64 64" fill="none" stroke="#8B6528" stroke-width="1.8"><path d="M12 54h40M18 54V22l14-8v40M32 54V26l14 6v22"/><path d="M23 26h4M23 33h4M23 40h4M37 35h4M37 42h4"/></svg>'
+            },
+            {
+                title: 'الشؤون القانونية للشركات',
+                desc: 'إدارة ملفاتكم القانونية بشكل احترافي، من تحديث السياسات الداخلية إلى تمثيلكم في دعاوى التقاضي والتحكيم.',
+                points: [
+                    'القيام بمهام الإدارة القانونية الخارجية المتكاملة للشركات والمؤسسات.',
+                    'إعداد لوائح تنظيم العمل المعتمدة ومباشرة التحقيقات الإدارية والمالية.',
+                    'متابعة تحصيل الديون التجارية وحماية حقوق المنشأة لدى الغير.'
+                ],
+                svg: '<svg class="w-14 h-14" viewBox="0 0 64 64" fill="none" stroke="#8B6528" stroke-width="1.8"><path d="M32 10v16M16 16h32M16 16l-5 11h10l-5-11zM48 16l-5 11h10l-5-11z"/><path d="M20 42l8-6 8 6 8-6M16 46l16 8 16-8"/></svg>'
+            },
+            {
+                title: 'القضايا العقارية',
+                desc: 'يدير المحامي المختص في العقار جميع مراحل قضايا الملكية والتوثيق بالتنسيق مع الجهات المعنية.',
+                points: [
+                    'الترافع في منازعات الملكية العقارية وتداخل الصكوك وإثبات التملك.',
+                    'قضايا المساهمات العقارية، وعقود الإيجار والإخلاء، ومنازعات التطوير العقاري.',
+                    'إدارة وصياغة عقود البيع على الخارطة والرهن والتمويل العقاري.'
+                ],
+                svg: '<svg class="w-14 h-14" viewBox="0 0 64 64" fill="none" stroke="#8B6528" stroke-width="1.8"><rect x="14" y="12" width="28" height="38" rx="2"/><path d="M20 20h16M20 27h10"/><path d="M34 42l10-9 10 9v10H34V42z"/></svg>'
+            },
+            {
+                title: 'القضايا العمالية',
+                desc: 'تمثيل أصحاب العمل والعاملين أمام المحاكم واللجان العمالية في جدة وسائر مدن المملكة.',
+                points: [
+                    'تمثيل أصحاب العمل أو العاملين في التسوية الودية وأمام المحاكم العمالية.',
+                    'صياغة وتدقيق عقود العمل واتفاقيات عدم المنافسة والحفاظ على السرية.',
+                    'معالجة قضايا الفصل ومستحقات نهاية الخدمة والتعويضات العمالية.'
+                ],
+                svg: '<svg class="w-14 h-14" viewBox="0 0 64 64" fill="none" stroke="#8B6528" stroke-width="1.8"><circle cx="32" cy="32" r="20" stroke-dasharray="4 2"/><path d="M32 16v12M22 20h20"/><circle cx="24" cy="40" r="3"/><circle cx="32" cy="38" r="3"/><circle cx="40" cy="40" r="3"/></svg>'
+            },
+            {
+                title: 'محامي قضايا تجارية',
+                desc: 'صياغة ومراجعة العقود المحكمة – إعداد عقود البيع والتوريد والتوزيع وفق نظام التجارة وأفضل الممارسات، مع سدّ الثغرات وتحديد الالتزامات بوضوح.',
+                points: [
+                    'الترافع في المنازعات التجارية بين التجار والشركات ومنازعات الشركاء.',
+                    'قضايا الأوراق التجارية (الشيكات، السندات لأمر، الكمبيالات) والإفلاس التجاري.',
+                    'ع��ود الوكالات التجارية والتوزيع والامتياز التجاري (الفرنشايز).'
+                ],
+                svg: '<svg class="w-16 h-16" viewBox="0 0 64 64" fill="none" stroke="#8B6528" stroke-width="2"><path d="M32 10v30M18 18h28" stroke-linecap="round"/><path d="M18 18l-6 14h12l-6-14zM46 18l-6 14h12l-6-14z" stroke-linejoin="round"/><path d="M12 32c0 3.3 2.7 6 6 6s6-2.7 6-6M40 32c0 3.3 2.7 6 6 6s6-2.7 6-6"/><path d="M14 50c6-4 14-4 22-2l14-4c2-.5 4 1 3.5 3-1 3.5-8 8-17.5 8H14v-5z" stroke-linejoin="round"/></svg>'
+            }
+        ];
+
+        function renderServiceCards() {
+            const container = document.getElementById('servicesGridContainer');
+            if (!container) return;
+
+            const mainServices = servicesData.slice(0, 12);
+            container.innerHTML = mainServices.map(function(srv, idx) {
+                const service = document.documentElement.lang === 'en' ? window.ALHAKAMI_EN_SERVICES[idx]: srv;
+                return '<div class="bg-white rounded-sm p-7 shadow-card service-card text-center flex flex-col items-center justify-between cursor-pointer" role="' + (idx <= 12 ? 'link': 'button') + '" tabindex="0" onclick="handleServiceCardClick(' + idx + ')" onkeydown="if(event.key===\'Enter\'||event.key===\' \'){event.preventDefault();handleServiceCardClick(' + idx + ')}">' +
+                    '<div class="flex flex-col items-center">' +
+                        '<div class="service-icon-wrap w-16 h-16 mb-4 flex items-center justify-center">' + srv.svg + '</div>' +
+                        '<h3 class="text-base sm:text-[17px] font-bold text-navy mb-3 font-readex">' + service.title + '</h3>' +
+                        '<p class="text-stone-500 text-xs sm:text-[13px] leading-[1.9] font-normal mb-6 font-readex">' + service.desc + '</p>' +
+                    '</div>' +
+                    '<span class="inline-flex items-center gap-2 text-xs font-semibold text-gold hover:text-gold-dark transition-colors mt-auto font-readex">' +
+                        '<i class="fa-solid fa-arrow-left"></i>' +
+                        '<span>' + (document.documentElement.lang === 'en' ? 'Learn more': 'تفاصيل أكثر') + '</span>' +
+                    '</span>' +
+                '</div>';
+            }).join('');
+            document.querySelectorAll('.service-card[onclick="openServiceDetail(12)"]').forEach(function(card) {
+                card.remove();
+            });
+        }
+
+        function handleServiceCardClick(index) {
+            if (index === 0 || index === 1 || index === 2 || index === 3 || index === 4 || index === 5 || index === 6 || index === 7 || index === 8 || index === 9 || index === 10 || index === 11 || index === 12) {
+                const language = document.documentElement.lang === 'en' ? '?lang=en': '';
+                const page = index === 0
+                    ? '/law-firm-governance.html'
+                   : index === 1
+                        ? '/law-firm-intellectual-property.html'
+                       : index === 2
+                            ? '/law-firm-litigation.html'
+                           : index === 3
+                                ? '/law-firm-arbitration.html'
+                               : index === 4
+                                    ? '/law-firm-notarization.html'
+                                   : index === 5
+                                        ? '/law-firm-inheritance.html'
+                                       : index === 6
+                                            ? '/law-firm-consultations.html'
+                                           : index === 7
+                                                ? '/law-firm-contracts.html'
+                                               : index === 8
+                                                    ? '/law-firm-company-formation.html'
+                                                   : index === 9
+                                                        ? '/law-firm-company-legal-affairs.html'
+                                                       : index === 10
+                                                            ? '/law-firm-real-estate-cases.html'
+                                                           : index === 11
+                                                                ? '/law-firm-labor-cases.html'
+                                                               : '/law-firm-commercial-cases.html';
+                window.location.href = page + language;
+                return;
+            }
+            openServiceDetail(index);
+        }
+
+        function openServiceDetail(index) {
+            const srv = servicesData[index];
+            if (!srv) return;
+            const service = document.documentElement.lang === 'en' ? window.ALHAKAMI_EN_SERVICES[index]: srv;
+
+            document.getElementById('modalServiceTitle').textContent = service.title;
+            document.getElementById('modalServiceDesc').textContent = service.desc;
+            const pointsList = document.getElementById('modalServicePoints');
+            pointsList.innerHTML = service.points.map(function(pt) {
+                const item = document.createElement('li');
+                item.textContent = pt;
+                return item.outerHTML;
+            }).join('');
+
+            document.getElementById('modalServiceIcon').innerHTML = srv.svg;
+
+            const bookBtn = document.getElementById('modalServiceBookBtn');
+            bookBtn.onclick = function() {
+                closeServiceDetail();
+                openConsultationModal(service.title);
+            };
+
+            document.getElementById('serviceDetailModal').classList.remove('hidden');
+        }
+
+        function closeServiceDetail() {
+            document.getElementById('serviceDetailModal').classList.add('hidden');
+        }
+
+        function openConsultationModal(defaultService) {
+            const selectEl = document.getElementById('serviceTypeSelect');
+            const isEnglish = document.documentElement.lang === 'en';
+            if (isEnglish && defaultService) {
+                const englishServiceIndex = window.ALHAKAMI_EN_SERVICES.findIndex(function(service) {
+                    return service.title === defaultService;
+                });
+                if (englishServiceIndex >= 0) defaultService = servicesData[englishServiceIndex].title;
+            }
+            if (selectEl && defaultService) {
+                let matched = false;
+                for (let i = 0; i < selectEl.options.length; i++) {
+                    if (selectEl.options[i].value.includes(defaultService) || defaultService.includes(selectEl.options[i].value)) {
+                        selectEl.selectedIndex = i;
+                        matched = true;
+                        break;
+                    }
+                }
+                if (!matched) {
+                    const customOpt = document.createElement('option');
+                    customOpt.value = defaultService;
+                    const serviceIndex = servicesData.findIndex(function(service) {
+                        return service.title === defaultService;
+                    });
+                    customOpt.textContent = isEnglish && serviceIndex >= 0
+                        ? window.ALHAKAMI_EN_SERVICES[serviceIndex].title
+                       : (isEnglish ? window.ALHAKAMI_EN_TEXT[defaultService] || defaultService: defaultService);
+                    selectEl.appendChild(customOpt);
+                    selectEl.value = defaultService;
+                }
+            }
+            document.getElementById('consultationModal').classList.remove('hidden');
+        }
+
+        function closeConsultationModal() {
+            document.getElementById('consultationModal').classList.add('hidden');
+        }
+
+        function getConsultationRequest() {
+            const name = document.getElementById('clientName').value.trim();
+            const phone = document.getElementById('clientPhone').value.trim();
+            const service = document.getElementById('serviceTypeSelect').value;
+            const message = document.getElementById('clientMessage').value.trim();
+            const isEnglish = document.documentElement.lang === 'en';
+            const serviceIndex = servicesData.findIndex(function(item) {
+                return item.title === service;
+            });
+            const serviceName = isEnglish && serviceIndex >= 0
+                ? window.ALHAKAMI_EN_SERVICES[serviceIndex].title
+               : (isEnglish ? window.ALHAKAMI_EN_TEXT[service] || service: service);
+            const body = isEnglish ? [
+                'Hello,',
+                'I would like to request a legal consultation or service through your website:',
+                '• Name: ' + name,
+                '• Mobile: ' + phone,
+                '• Service: ' + serviceName,
+                message ? ('• Details: ' + message): ''
+            ].filter(Boolean).join('\n'): [
+                'السلام عليكم ورحمة الله وبركاته،',
+                'طلب استشارة / خدمة قانونية عبر الموقع الإلكتروني:',
+                '• الاسم: ' + name,
+                '• رقم الجوال: ' + phone,
+                '��� الخدمة المطلوبة: ' + serviceName,
+                message ? ('• التفاصيل: ' + message): ''
+            ].filter(Boolean).join('\n');
+
+            return {
+                subject: (isEnglish ? 'Legal consultation request - ': 'طلب استشارة قانونية - ') + name,
+                body: body
+            };
+        }
+
+        function submitWhatsAppConsultation(event) {
+            event.preventDefault();
+            const request = getConsultationRequest();
+            const whatsappUrl = 'https://wa.me/966560047407?text=' + encodeURIComponent(request.body);
+            window.open(whatsappUrl, '_blank', 'noopener,noreferrer');
+            closeConsultationModal();
+        }
+
+        function sendEmailConsultation() {
+            const form = document.querySelector('#consultationModal form');
+            if (!form.reportValidity()) return;
+
+            const request = getConsultationRequest();
+            const mailtoUrl = 'mailto:info@alhakamilaw.com?subject=' + encodeURIComponent(request.subject) + '&body=' + encodeURIComponent(request.body);
+            window.location.href = mailtoUrl;
+        }
+
+        function toggleMobileMenu() {
+            const menu = document.getElementById('mobileMenu');
+            menu.classList.toggle('hidden');
+        }
+
+        const originalTextNodes = new WeakMap();
+        const originalAttributes = new WeakMap();
+
+        function normalizeTranslationKey(value) {
+            return value.replace(/\s+/g, ' ').trim();
+        }
+
+        function toggleLanguageModal() {
+            const language = document.documentElement.lang === 'en' ? 'ar': 'en';
+            const isEnglish = language === 'en';
+            const translations = window.ALHAKAMI_EN_TEXT;
+            document.documentElement.lang = language;
+            document.documentElement.dir = isEnglish ? 'ltr': 'rtl';
+            document.title = isEnglish
+                ? 'Nawaf bin Hassan Al-Hakami Law Firm, Legal Consultancy & Notarial Services | Jeddah'
+               : 'مكتب نواف بن حسن الحكمي للمحاماة والاستشارات القانونية وأعمال التوثيق | جدة';
+            document.querySelector('meta[name="description"]').content = isEnglish
+                ? 'Legal advice, litigation, arbitration, contract drafting, and notarial services in Jeddah, Saudi Arabia. Led by attorney Nawaf bin Hassan Al-Hakami.'
+               : 'يقدم مكتب نواف بن حسن الحكمي في جدة حلولاً قانونية وتوثيقية متكاملة تتوافق مع الأنظمة السعودية، يقودها المحامي نواف الحكمي مع فريق من المحامين والمستشارين والمحكمين والموثقين.';
+
+            const walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT);
+            let textNode;
+            while ((textNode = walker.nextNode())) {
+                const parentTag = textNode.parentElement && textNode.parentElement.tagName;
+                if (parentTag === 'SCRIPT' || parentTag === 'STYLE') continue;
+                if (!originalTextNodes.has(textNode)) originalTextNodes.set(textNode, textNode.nodeValue);
+                const original = originalTextNodes.get(textNode);
+                const key = normalizeTranslationKey(original);
+                if (isEnglish && translations[key]) {
+                    const leading = original.match(/^\s*/)[0];
+                    const trailing = original.match(/\s*$/)[0];
+                    textNode.nodeValue = leading + translations[key] + trailing;
+                } else {
+                    textNode.nodeValue = original;
+                }
+            }
+
+            document.querySelectorAll('[title], [alt], [aria-label], [placeholder]').forEach(function(element) {
+                ['title', 'alt', 'aria-label', 'placeholder'].forEach(function(attribute) {
+                    if (!element.hasAttribute(attribute)) return;
+                    let saved = originalAttributes.get(element);
+                    if (!saved) {
+                        saved = {};
+                        originalAttributes.set(element, saved);
+                    }
+                    if (saved[attribute] === undefined) saved[attribute] = element.getAttribute(attribute);
+                    const original = saved[attribute];
+                    const translation = translations[normalizeTranslationKey(original)];
+                    element.setAttribute(attribute, isEnglish && translation ? translation: original);
+                });
+            });
+
+            document.querySelectorAll('.language-toggle').forEach(function(button) {
+                button.textContent = isEnglish ? 'العربية': 'English';
+                button.setAttribute('aria-label', isEnglish ? 'Switch language to Arabic': 'Switch language to English');
+            });
+            renderServiceCards();
+        }
+
+        let toastTimer = null;
+        function showSocialToast(platformName) {
+            const toast = document.getElementById('toastNotification');
+            const text = document.getElementById('toastText');
+            text.textContent = document.documentElement.lang === 'en'
+                ? 'Our official ' + (window.ALHAKAMI_EN_TEXT[platformName] || platformName) + ' account will be available soon. In the meantime, contact us by WhatsApp or phone.'
+               : 'سيتم ربط الحساب الرسمي للمكتب على ' + platformName + ' قريباً – يمكنك التواصل معنا مباشرة عبر واتساب أو الهاتف.';
+            toast.classList.remove('hidden');
+            if (toastTimer) clearTimeout(toastTimer);
+            toastTimer = setTimeout(function() {
+                toast.classList.add('hidden');
+            }, 3800);
+        }
+
+        function initNavHighlighting() {
+            const navLinks = document.querySelectorAll('.nav-item');
+            navLinks.forEach(function(link) {
+                link.addEventListener('click', function() {
+                    navLinks.forEach(function(l) {
+                        l.classList.remove('nav-link-active');
+                    });
+                    this.classList.add('nav-link-active');
+                });
+            });
+        }
+
+        renderAllLogoSlots();
+        renderServiceCards();
+        initNavHighlighting();
+
+        window.onload = function() {
+            renderAllLogoSlots();
+            renderServiceCards();
+            initNavHighlighting();
+            const yearEl = document.getElementById('currentYear');
+            if (yearEl) yearEl.textContent = new Date().getFullYear();
+        };
+    </script>
+</body>
+</html>
