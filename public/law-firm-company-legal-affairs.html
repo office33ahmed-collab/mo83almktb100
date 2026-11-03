@@ -368,7 +368,11 @@
             mobileMenuButton.setAttribute('aria-expanded', 'false');
         }));
 
-        if (new URLSearchParams(window.location.search).get('lang') === 'en') setLanguage('en');
+        setLanguage(window.ALHAKAMI_LOCALE.initialLanguage());
+        window.addEventListener('pageshow', () => {
+            const language = window.ALHAKAMI_LOCALE.initialLanguage();
+            if (document.documentElement.lang !== language) setLanguage(language);
+        });
     </script>
 </body>
 </html>

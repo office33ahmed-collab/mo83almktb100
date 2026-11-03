@@ -11,6 +11,24 @@ localeLayoutStyles.textContent = `
 `;
 document.head.append(localeLayoutStyles);
 
+window.ALHAKAMI_LOCALE = {
+  initialLanguage() {
+    const requestedLanguage = new URLSearchParams(window.location.search).get('lang');
+    if (requestedLanguage === 'en' || requestedLanguage === 'ar') return requestedLanguage;
+
+    return window.localStorage.getItem('alhakami-locale') === 'en' ? 'en' : 'ar';
+  },
+  persist(language) {
+    if (language === 'en' || language === 'ar') {
+      window.localStorage.setItem('alhakami-locale', language);
+    }
+  },
+};
+
+new MutationObserver(() => {
+  window.ALHAKAMI_LOCALE.persist(document.documentElement.lang);
+}).observe(document.documentElement, { attributes: true, attributeFilter: ['lang'] });
+
 window.ALHAKAMI_EN_TEXT = {
   'ساعات العمل: 09:00 - 17:00': 'Office hours: 9:00 AM–5:00 PM',
   'خدمات التحكيم': 'Arbitration services',

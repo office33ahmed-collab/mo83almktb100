@@ -328,7 +328,11 @@
                 const expanded = mobileMenuButton.getAttribute('aria-expanded') === 'true';
                 mobileMenuButton.setAttribute('aria-label', document.documentElement.lang === 'en' ? (expanded ? 'Open menu': 'Close menu'): (expanded ? 'فتح القائمة': 'إغلاق القائمة'));
             });
-            if (new URLSearchParams(window.location.search).get('lang') === 'en') setLanguage('en');
+            setLanguage(window.ALHAKAMI_LOCALE.initialLanguage());
+            window.addEventListener('pageshow', () => {
+                const language = window.ALHAKAMI_LOCALE.initialLanguage();
+                if (document.documentElement.lang !== language) setLanguage(language);
+            });
         })();
     </script>
 </body>

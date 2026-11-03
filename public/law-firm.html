@@ -82,6 +82,43 @@
             font-family: 'Readex Pro', sans-serif;
         }
 
+        html[lang="en"] .platform-login-cta {
+            align-self: center;
+            gap: 0.375rem;
+            max-width: 100%;
+            padding: 0.25rem 0.5rem;
+        }
+
+        html[lang="en"] .platform-login-cta-icon {
+            width: 1.75rem;
+            height: 1.75rem;
+        }
+
+        html[lang="en"] .platform-login-cta-label {
+            max-width: 7rem;
+            font-size: 0.6875rem;
+            line-height: 1.25;
+            text-align: center;
+            white-space: normal;
+        }
+
+        @media (min-width: 768px) and (max-width: 1279px) {
+            html[lang="en"] #mainHeader nav {
+                gap: 0.5rem;
+                padding-inline: 0.75rem;
+            }
+
+            html[lang="en"] .platform-login-cta {
+                gap: 0.25rem;
+                padding-inline: 0.375rem;
+            }
+
+            html[lang="en"] .platform-login-cta-label {
+                max-width: 6rem;
+                font-size: 0.625rem;
+            }
+        }
+
 
         /* Custom Scrollbar */
         ::-webkit-scrollbar {
@@ -213,11 +250,11 @@
 
             <!-- Action & Mobile Menu -->
             <div class="flex shrink-0 items-center gap-3">
-<a href="https://almuhami-alkafo.vercel.app" target="_blank" rel="noopener noreferrer" class="group hidden md:inline-flex items-center gap-1.5 2xl:gap-2 rounded-lg border border-gold/40 bg-gradient-to-br from-[#fffdf8] via-white to-gold-sand/60 px-2 py-1 2xl:px-2.5 2xl:py-1.5 shadow-sm transition-all duration-300 hover:-translate-y-0.5 hover:border-gold hover:shadow-[0_10px_25px_-12px_rgba(139,101,40,0.45)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold focus-visible:ring-offset-2">
-                    <span class="flex h-7 w-7 2xl:h-8 2xl:w-8 shrink-0 items-center justify-center rounded-md bg-navy text-gold-bright shadow-inner transition-colors group-hover:bg-gold group-hover:text-white">
+<a href="https://almuhami-alkafo.vercel.app" target="_blank" rel="noopener noreferrer" class="platform-login-cta group hidden md:inline-flex items-center gap-1.5 2xl:gap-2 rounded-lg border border-gold/40 bg-gradient-to-br from-[#fffdf8] via-white to-gold-sand/60 px-2 py-1 2xl:px-2.5 2xl:py-1.5 shadow-sm transition-all duration-300 hover:-translate-y-0.5 hover:border-gold hover:shadow-[0_10px_25px_-12px_rgba(139,101,40,0.45)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold focus-visible:ring-offset-2">
+                    <span class="platform-login-cta-icon flex h-7 w-7 2xl:h-8 2xl:w-8 shrink-0 items-center justify-center rounded-md bg-navy text-gold-bright shadow-inner transition-colors group-hover:bg-gold group-hover:text-white">
                         <i class="fa-solid fa-right-to-bracket text-xs 2xl:text-sm" aria-hidden="true"></i>
                     </span>
-                    <span class="whitespace-nowrap text-[11px] 2xl:text-xs font-bold text-navy" dir="rtl">الدخول إلى المنصة الذكية</span>
+                    <span class="platform-login-cta-label text-[11px] 2xl:text-xs font-bold text-navy" dir="rtl">الدخول إلى المنصة الذكية</span>
                 </a>
                 <button id="mobileMenuBtn" onclick="toggleMobileMenu()" class="xl:hidden w-10 h-10 rounded-lg bg-stone-100 text-navy flex items-center justify-center hover:bg-gold-sand transition-colors" aria-label="القائمة">
                     <i class="fa-solid fa-bars text-lg"></i>
@@ -1213,6 +1250,7 @@ title: 'التوثيق',
             const isEnglish = language === 'en';
             const translations = window.ALHAKAMI_EN_TEXT;
             document.documentElement.lang = language;
+            window.ALHAKAMI_LOCALE.persist(language);
             document.documentElement.dir = isEnglish ? 'ltr': 'rtl';
             document.title = isEnglish
                 ? 'Nawaf bin Hassan Al-Hakami Law Firm, Legal Consultancy & Notarial Services | Jeddah'
@@ -1289,6 +1327,12 @@ title: 'التوثيق',
         renderAllLogoSlots();
         renderServiceCards();
         initNavHighlighting();
+        if (window.ALHAKAMI_LOCALE.initialLanguage() === 'en') toggleLanguageModal();
+        window.addEventListener('pageshow', function() {
+            if (document.documentElement.lang !== window.ALHAKAMI_LOCALE.initialLanguage()) {
+                toggleLanguageModal();
+            }
+        });
 
         window.onload = function() {
             renderAllLogoSlots();
