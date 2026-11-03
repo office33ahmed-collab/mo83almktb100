@@ -13,6 +13,15 @@ document.head.append(localeLayoutStyles);
 
 window.ALHAKAMI_EN_TEXT = {
   'ساعات العمل: 09:00 - 17:00': 'Office hours: 9:00 AM–5:00 PM',
+  'خدمات التحكيم': 'Arbitration services',
+  'جدول أشكال الشركات في النظام السعودي': 'Table of company forms under Saudi law',
+  'جدول أحكام تأسيس الشركات وحوكمتها': 'Table of company formation and governance provisions',
+  'جدول نزاعات الورثة ومعالجتها النظامية': 'Table of inheritance disputes and their legal resolution',
+  'خدمات القضايا العمالية': 'Labor dispute services',
+  'جدول أحكام انتهاء عقد العمل والحقوق العمالية': 'Table of employment termination provisions and labor rights',
+  'معلومات خدمة الترافع أمام المحاكم': 'Information about court representation services',
+  'جدول طرق الاعتراض على الأحكام ومددها': 'Table of remedies against judgments and applicable deadlines',
+  'خدمات القضايا العقارية': 'Real estate dispute services',
   'نواف بن حسن الحكمي': 'Nawaf bin Hassan Al-Hakami',
   'مكتب نواف بن حسن الحكمي': 'Nawaf bin Hassan Al-Hakami',
   'للمحاماة والاستشارات القانونية وأعمال التوثيق': 'Legal Services, Consultancy & Notarial Services',
